@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colorTheme ect-id="10257d9f-bb01-40c2-ba7e-e3c74e60c675" name="Catppuccin Mocha" author="Eclipse Themes" website="" type="dark" modified="2025-10-12T23:16:29.448Z">
+
+    <!-- Core Editor UI -->
+    <background color="#1e1e2e"/>
+    <currentLine color="#28283d"/>
+    <foreground color="#cdd6f4"/>
+    <lineNumber color="#7f849c"/>
+    <selectionBackground color="#181825"/>
+    <selectionForeground color="#cdd6f4"/>
+
+    <!-- Editor Highlights & Features -->
+    <filteredSearchResult color="#3e5767"/>
+    <findScope color="#181825"/>
+    <occurrence color="#37394c"/>
+    <searchResult color="#5e3f53"/>
+    <writeOccurrence color="#36415a"/>
+
+    <!-- Source Control (Diff) -->
+    <removedLine color="#f38ba8"/>
+
+    <!-- Diagnostics & Status -->
+    <deprecated color="#cdd6f4" strikethrough="true"/>
+
+    <!-- Comments & Documentation -->
+    <comment color="#9399b2"/>
+    <doc color="#9399b2" italic="true"/>
+    <docLink color="#89b4fa"/>
+    <docTag color="#cba6f7"/>
+    <docXmlTag color="#cba6f7" bold="true"/>
+    <multiLineComment color="#9399b2" italic="true"/>
+    <taskTag color="#cba6f7" bold="true"/>
+
+    <!-- Syntax: Keywords & Operators -->
+    <bracket color="#9399b2"/>
+    <keyword color="#cba6f7"/>
+    <operator color="#94e2d5"/>
+
+    <!-- Syntax: Literals (Strings, Numbers) -->
+    <number color="#fab387"/>
+    <string color="#a6e3a1"/>
+
+    <!-- Syntax: Variables & Identifiers -->
+    <argument color="#eba0ac" italic="true"/>
+    <constant color="#fab387"/>
+    <field color="#94e2d5"/>
+    <localVariable color="#cdd6f4"/>
+    <localVariableDeclaration color="#cdd6f4"/>
+    <staticField color="#94e2d5" italic="true"/>
+
+    <!-- Syntax: Functions & Methods -->
+    <abstractMethod color="#89b4fa" italic="true"/>
+    <inheritedMethod color="#89b4fa" italic="true"/>
+    <method color="#89b4fa" italic="true"/>
+    <methodDeclaration color="#89b4fa" italic="true"/>
+    <staticMethod color="#89b4fa" italic="true"/>
+
+    <!-- Syntax: Types & Structures -->
+    <abstractClass color="#f9e2af" italic="true"/>
+    <class color="#f9e2af" italic="true"/>
+    <enum color="#f9e2af" italic="true"/>
+    <interface color="#f9e2af" italic="true"/>
+
+    <!-- Syntax: Meta & Advanced Constructs -->
+    <annotation color="#fab387"/>
+    <templateArgument color="#89dceb"/>
+    <templateParameter color="#89dceb"/>
+
+    <!-- Markup (XML/HTML) -->
+    <xmlAttribute color="#f9e2af"/>
+    <xmlTag color="#89b4fa"/>
+</colorTheme>
