@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccuybHdC.s 			page 1
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
   29:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** /** @addtogroup STM32F0xx_LL_Driver
   30:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @{
   31:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   */
-ARM GAS  /tmp/ccuybHdC.s 			page 2
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 2
 
 
   32:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
   86:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** typedef struct
   87:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
   88:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   uint32_t SYSCLK_Frequency;        /*!< SYSCLK clock frequency */
-ARM GAS  /tmp/ccuybHdC.s 			page 3
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 3
 
 
   89:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   uint32_t HCLK_Frequency;          /*!< HCLK clock frequency */
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  143:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** #define LL_RCC_CIR_LSERDYC                RCC_CIR_LSERDYC     /*!< LSE Ready Interrupt Clear */
  144:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** #define LL_RCC_CIR_HSIRDYC                RCC_CIR_HSIRDYC     /*!< HSI Ready Interrupt Clear */
  145:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** #define LL_RCC_CIR_HSERDYC                RCC_CIR_HSERDYC     /*!< HSE Ready Interrupt Clear */
-ARM GAS  /tmp/ccuybHdC.s 			page 4
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 4
 
 
  146:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** #define LL_RCC_CIR_PLLRDYC                RCC_CIR_PLLRDYC     /*!< PLL Ready Interrupt Clear */
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  200:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** 
  201:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** /** @defgroup RCC_LL_EC_LSEDRIVE  LSE oscillator drive capability
  202:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @{
-ARM GAS  /tmp/ccuybHdC.s 			page 5
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 5
 
 
  203:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   */
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  257:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** #define LL_RCC_APB1_DIV_1                  RCC_CFGR_PPRE_DIV1  /*!< HCLK not divided */
  258:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** #define LL_RCC_APB1_DIV_2                  RCC_CFGR_PPRE_DIV2  /*!< HCLK divided by 2 */
  259:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** #define LL_RCC_APB1_DIV_4                  RCC_CFGR_PPRE_DIV4  /*!< HCLK divided by 4 */
-ARM GAS  /tmp/ccuybHdC.s 			page 6
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 6
 
 
  260:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** #define LL_RCC_APB1_DIV_8                  RCC_CFGR_PPRE_DIV8  /*!< HCLK divided by 8 */
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  314:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** 
  315:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** /** @defgroup RCC_LL_EC_USART1_CLKSOURCE Peripheral USART clock source selection
  316:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @{
-ARM GAS  /tmp/ccuybHdC.s 			page 7
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 7
 
 
  317:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   */
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  371:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   */
  372:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** 
  373:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** #endif /* USB */
-ARM GAS  /tmp/ccuybHdC.s 			page 8
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 8
 
 
  374:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  428:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** /** @defgroup RCC_LL_EC_PLL_MUL PLL Multiplicator factor
  429:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @{
  430:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   */
-ARM GAS  /tmp/ccuybHdC.s 			page 9
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 9
 
 
  431:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** #define LL_RCC_PLL_MUL_2                   RCC_CFGR_PLLMUL2  /*!< PLL input clock*2 */
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  485:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   */
  486:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** #define LL_RCC_PREDIV_DIV_1                RCC_CFGR2_PREDIV_DIV1   /*!< PREDIV input clock not divi
  487:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** #define LL_RCC_PREDIV_DIV_2                RCC_CFGR2_PREDIV_DIV2   /*!< PREDIV input clock divided 
-ARM GAS  /tmp/ccuybHdC.s 			page 10
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 10
 
 
  488:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** #define LL_RCC_PREDIV_DIV_3                RCC_CFGR2_PREDIV_DIV3   /*!< PREDIV input clock divided 
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  542:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** /**
  543:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @brief  Helper macro to calculate the PLLCLK frequency
  544:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @note ex: @ref __LL_RCC_CALC_PLLCLK_FREQ (HSE_VALUE, @ref LL_RCC_PLL_GetMultiplicator()
-ARM GAS  /tmp/ccuybHdC.s 			page 11
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 11
 
 
  545:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   *             , @ref LL_RCC_PLL_GetPrediv());
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  599:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLL_MUL_10
  600:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLL_MUL_11
  601:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLL_MUL_12
-ARM GAS  /tmp/ccuybHdC.s 			page 12
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 12
 
 
  602:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLL_MUL_13
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  656:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   */
  657:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** 
  658:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** /** @defgroup RCC_LL_EF_HSE HSE
-ARM GAS  /tmp/ccuybHdC.s 			page 13
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 13
 
 
  659:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @{
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  713:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** /**
  714:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @brief  Disable HSE crystal oscillator (HSE ON)
  715:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @rmtoll CR           HSEON         LL_RCC_HSE_Disable
-ARM GAS  /tmp/ccuybHdC.s 			page 14
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 14
 
 
  716:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @retval None
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  770:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** 
  771:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** /**
  772:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @brief  Get HSI Calibration value
-ARM GAS  /tmp/ccuybHdC.s 			page 15
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 15
 
 
  773:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @note When HSITRIM is written, HSICAL is updated with the sum of
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  827:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @brief  Disable HSI48
  828:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @rmtoll CR2          HSI48ON       LL_RCC_HSI48_Disable
  829:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @retval None
-ARM GAS  /tmp/ccuybHdC.s 			page 16
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 16
 
 
  830:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   */
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  884:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
  885:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** 
  886:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** /**
-ARM GAS  /tmp/ccuybHdC.s 			page 17
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 17
 
 
  887:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @brief  Check if HSI14 oscillator Ready
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  941:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** 
  942:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** /**
  943:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @brief  Get HSI14 Calibration trimming
-ARM GAS  /tmp/ccuybHdC.s 			page 18
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 18
 
 
  944:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @rmtoll CR2          HSI14CAL      LL_RCC_HSI14_GetCalibration
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  998:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
  999:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** 
 1000:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** /**
-ARM GAS  /tmp/ccuybHdC.s 			page 19
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 19
 
 
 1001:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @brief  Set LSE oscillator drive capability
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1055:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   SET_BIT(RCC->CSR, RCC_CSR_LSION);
 1056:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
 1057:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** 
-ARM GAS  /tmp/ccuybHdC.s 			page 20
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 20
 
 
 1058:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** /**
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1112:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   *         (*) value not defined in all devices
 1113:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   */
 1114:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** __STATIC_INLINE uint32_t LL_RCC_GetSysClkSource(void)
-ARM GAS  /tmp/ccuybHdC.s 			page 21
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 21
 
 
 1115:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1169:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** __STATIC_INLINE uint32_t LL_RCC_GetAHBPrescaler(void)
 1170:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
 1171:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   return (uint32_t)(READ_BIT(RCC->CFGR, RCC_CFGR_HPRE));
-ARM GAS  /tmp/ccuybHdC.s 			page 22
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 22
 
 
 1172:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1226:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @retval None
 1227:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   */
 1228:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** __STATIC_INLINE void LL_RCC_ConfigMCO(uint32_t MCOxSource, uint32_t MCOxPrescaler)
-ARM GAS  /tmp/ccuybHdC.s 			page 23
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 23
 
 
 1229:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1283:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   */
 1284:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** __STATIC_INLINE void LL_RCC_SetI2CClockSource(uint32_t I2CxSource)
 1285:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
-ARM GAS  /tmp/ccuybHdC.s 			page 24
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 24
 
 
 1286:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   MODIFY_REG(RCC->CFGR3, RCC_CFGR3_I2C1SW, I2CxSource);
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1340:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   *         @arg @ref LL_RCC_USART2_CLKSOURCE_LSE (*)
 1341:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   *         @arg @ref LL_RCC_USART2_CLKSOURCE_HSI (*)
 1342:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   *         @arg @ref LL_RCC_USART3_CLKSOURCE_PCLK1 (*)
-ARM GAS  /tmp/ccuybHdC.s 			page 25
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 25
 
 
 1343:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   *         @arg @ref LL_RCC_USART3_CLKSOURCE_SYSCLK (*)
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1397:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** __STATIC_INLINE uint32_t LL_RCC_GetUSBClockSource(uint32_t USBx)
 1398:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
 1399:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   return (uint32_t)(READ_BIT(RCC->CFGR3, USBx));
-ARM GAS  /tmp/ccuybHdC.s 			page 26
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 26
 
 
 1400:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1454:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @rmtoll BDCR         RTCEN         LL_RCC_DisableRTC
 1455:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @retval None
 1456:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   */
-ARM GAS  /tmp/ccuybHdC.s 			page 27
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 27
 
 
 1457:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** __STATIC_INLINE void LL_RCC_DisableRTC(void)
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1511:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @brief  Disable PLL
 1512:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @note Cannot be disabled if the PLL clock is used as the system clock
 1513:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @rmtoll CR           PLLON         LL_RCC_PLL_Disable
-ARM GAS  /tmp/ccuybHdC.s 			page 28
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 28
 
 
 1514:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @retval None
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1568:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PREDIV_DIV_9
 1569:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PREDIV_DIV_10
 1570:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PREDIV_DIV_11
-ARM GAS  /tmp/ccuybHdC.s 			page 29
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 29
 
 
 1571:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PREDIV_DIV_12
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1625:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   * @retval None
 1626:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   */
 1627:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** __STATIC_INLINE void LL_RCC_PLL_ConfigDomain_SYS(uint32_t Source, uint32_t PLLMul)
-ARM GAS  /tmp/ccuybHdC.s 			page 30
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 30
 
 
 1628:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
@@ -1789,19 +1789,18 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
   69 002c FFFFC2FF 		.word	-3997697
   70              		.cfi_endproc
   71              	.LFE94:
-  73              		.global	__aeabi_uidiv
-  74              		.section	.text.UTILS_GetPLLOutputFrequency,"ax",%progbits
-  75              		.align	1
-  76              		.syntax unified
-  77              		.code	16
-  78              		.thumb_func
-  80              	UTILS_GetPLLOutputFrequency:
-  81              	.LVL3:
-  82              	.LFB179:
-ARM GAS  /tmp/ccuybHdC.s 			page 31
-
-
+  73              		.section	.text.UTILS_GetPLLOutputFrequency,"ax",%progbits
+  74              		.align	1
+  75              		.syntax unified
+  76              		.code	16
+  77              		.thumb_func
+  79              	UTILS_GetPLLOutputFrequency:
+  80              	.LVL3:
+  81              	.LFB179:
    1:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** /**
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 31
+
+
    2:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   ******************************************************************************
    3:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   * @file    stm32f0xx_ll_utils.c
    4:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   * @author  MCD Application Team
@@ -1858,10 +1857,10 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
   55:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   * @}
   56:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   */
   57:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** /* Private macros ------------------------------------------------------------*/
-ARM GAS  /tmp/ccuybHdC.s 			page 32
-
-
   58:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** /** @addtogroup UTILS_LL_Private_Macros
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 32
+
+
   59:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   * @{
   60:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   */
   61:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** #define IS_LL_UTILS_SYSCLK_DIV(__VALUE__) (((__VALUE__) == LL_RCC_SYSCLK_DIV_1)   \
@@ -1918,10 +1917,10 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  112:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** /* Private function prototypes -----------------------------------------------*/
  113:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** /** @defgroup UTILS_LL_Private_Functions UTILS Private functions
  114:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   * @{
-ARM GAS  /tmp/ccuybHdC.s 			page 33
-
-
  115:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   */
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 33
+
+
  116:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** static uint32_t    UTILS_GetPLLOutputFrequency(uint32_t PLL_InputFrequency,
  117:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****                                                LL_UTILS_PLLInitTypeDef *UTILS_PLLInitStruct);
  118:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** static ErrorStatus UTILS_EnablePLLAndSwitchSystem(uint32_t SYSCLK_Frequency, LL_UTILS_ClkInitTypeDe
@@ -1978,10 +1977,10 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  169:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   while (Delay)
  170:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   {
  171:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     if ((SysTick->CTRL & SysTick_CTRL_COUNTFLAG_Msk) != 0U)
-ARM GAS  /tmp/ccuybHdC.s 			page 34
-
-
  172:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     {
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 34
+
+
  173:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       Delay--;
  174:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     }
  175:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
@@ -2038,10 +2037,10 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  226:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   */
  227:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** #if defined(FLASH_ACR_LATENCY)
  228:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** ErrorStatus LL_SetFlashLatency(uint32_t Frequency)
-ARM GAS  /tmp/ccuybHdC.s 			page 35
-
-
  229:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** {
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 35
+
+
  230:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   uint32_t timeout;
  231:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   uint32_t getlatency;
  232:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   uint32_t latency;
@@ -2098,10 +2097,10 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  283:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   *         - PREDIV: Set to 2 for few devices
  284:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   *         - PLLMUL: The application software must set correctly the PLL multiplication factor to 
  285:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   *                   be in the range 16-48MHz
-ARM GAS  /tmp/ccuybHdC.s 			page 36
-
-
  286:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   * @note   FLASH latency can be modified through this function. 
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 36
+
+
  287:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   * @param  UTILS_PLLInitStruct pointer to a @ref LL_UTILS_PLLInitTypeDef structure that contains
  288:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   *                             the configuration information for the PLL.
  289:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   * @param  UTILS_ClkInitStruct pointer to a @ref LL_UTILS_ClkInitTypeDef structure that contains
@@ -2158,10 +2157,10 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  340:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   return status;
  341:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** }
  342:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
-ARM GAS  /tmp/ccuybHdC.s 			page 37
-
-
  343:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** #if defined(RCC_CFGR_SW_HSI48)
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 37
+
+
  344:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** /**
  345:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   * @brief  This function configures system clock with HSI48 as clock source of the PLL
  346:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   * @note   The application need to ensure that PLL is disabled.
@@ -2218,10 +2217,10 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  397:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** }
  398:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
  399:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** #endif /*RCC_CFGR_SW_HSI48*/
-ARM GAS  /tmp/ccuybHdC.s 			page 38
-
-
  400:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** /**
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 38
+
+
  401:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   * @brief  This function configures system clock with HSE as clock source of the PLL
  402:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   * @note   The application need to ensure that PLL is disabled.
  403:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   * @note   Function is based on the following formula:
@@ -2278,10 +2277,10 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  454:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       }
  455:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
  456:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       /* Enable HSE */
-ARM GAS  /tmp/ccuybHdC.s 			page 39
-
-
  457:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       LL_RCC_HSE_Enable();
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 39
+
+
  458:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       while (LL_RCC_HSE_IsReady() != 1U)
  459:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       {
  460:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****         /* Wait for HSE ready */
@@ -2327,27 +2326,27 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  500:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   */
  501:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** static uint32_t UTILS_GetPLLOutputFrequency(uint32_t PLL_InputFrequency, LL_UTILS_PLLInitTypeDef *U
  502:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** {
-  83              		.loc 1 502 1 is_stmt 1 view -0
-  84              		.cfi_startproc
-  85              		@ args = 0, pretend = 0, frame = 0
-  86              		@ frame_needed = 0, uses_anonymous_args = 0
-  87              		.loc 1 502 1 is_stmt 0 view .LVU8
-  88 0000 10B5     		push	{r4, lr}
-  89              	.LCFI1:
-  90              		.cfi_def_cfa_offset 8
-  91              		.cfi_offset 4, -8
-  92              		.cfi_offset 14, -4
-  93 0002 0C00     		movs	r4, r1
-ARM GAS  /tmp/ccuybHdC.s 			page 40
-
-
+  82              		.loc 1 502 1 is_stmt 1 view -0
+  83              		.cfi_startproc
+  84              		@ args = 0, pretend = 0, frame = 0
+  85              		@ frame_needed = 0, uses_anonymous_args = 0
+  86              		.loc 1 502 1 is_stmt 0 view .LVU8
+  87 0000 10B5     		push	{r4, lr}
+  88              	.LCFI1:
+  89              		.cfi_def_cfa_offset 8
+  90              		.cfi_offset 4, -8
+  91              		.cfi_offset 14, -4
+  92 0002 0C00     		movs	r4, r1
  503:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   uint32_t pllfreq = 0U;
-  94              		.loc 1 503 3 is_stmt 1 view .LVU9
-  95              	.LVL4:
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 40
+
+
+  93              		.loc 1 503 3 is_stmt 1 view .LVU9
+  94              	.LVL4:
  504:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
  505:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   /* Check the parameters */
  506:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   assert_param(IS_LL_UTILS_PLLMUL_VALUE(UTILS_PLLInitStruct->PLLMul));
-  96              		.loc 1 506 3 view .LVU10
+  95              		.loc 1 506 3 view .LVU10
  507:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
  508:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   /* Check different PLL parameters according to RM                          */
  509:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   /* The application software must set correctly the PLL multiplication factor to 
@@ -2356,142 +2355,142 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  512:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   pllfreq = __LL_RCC_CALC_PLLCLK_FREQ(PLL_InputFrequency, UTILS_PLLInitStruct->PLLMul, UTILS_PLLIni
  513:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** #else
  514:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   pllfreq = __LL_RCC_CALC_PLLCLK_FREQ(PLL_InputFrequency / (UTILS_PLLInitStruct->Prediv + 1U), UTIL
-  97              		.loc 1 514 3 view .LVU11
-  98              		.loc 1 514 13 is_stmt 0 view .LVU12
-  99 0004 4968     		ldr	r1, [r1, #4]
- 100              	.LVL5:
- 101              		.loc 1 514 13 view .LVU13
- 102 0006 0131     		adds	r1, r1, #1
- 103 0008 FFF7FEFF 		bl	__aeabi_uidiv
- 104              	.LVL6:
- 105              		.loc 1 514 13 view .LVU14
- 106 000c 2268     		ldr	r2, [r4]
- 107 000e 920C     		lsrs	r2, r2, #18
- 108 0010 0F23     		movs	r3, #15
- 109 0012 1340     		ands	r3, r2
- 110 0014 0233     		adds	r3, r3, #2
- 111              		.loc 1 514 11 view .LVU15
- 112 0016 5843     		muls	r0, r3
- 113              	.LVL7:
+  96              		.loc 1 514 3 view .LVU11
+  97              		.loc 1 514 13 is_stmt 0 view .LVU12
+  98 0004 4968     		ldr	r1, [r1, #4]
+  99              	.LVL5:
+ 100              		.loc 1 514 13 view .LVU13
+ 101 0006 0131     		adds	r1, r1, #1
+ 102 0008 FFF7FEFF 		bl	__aeabi_uidiv
+ 103              	.LVL6:
+ 104              		.loc 1 514 13 view .LVU14
+ 105 000c 2268     		ldr	r2, [r4]
+ 106 000e 920C     		lsrs	r2, r2, #18
+ 107 0010 0F23     		movs	r3, #15
+ 108 0012 1340     		ands	r3, r2
+ 109 0014 0233     		adds	r3, r3, #2
+ 110              		.loc 1 514 11 view .LVU15
+ 111 0016 5843     		muls	r0, r3
+ 112              	.LVL7:
  515:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** #endif /*RCC_PLLSRC_PREDIV1_SUPPORT*/
  516:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   assert_param(IS_LL_UTILS_PLL_FREQUENCY(pllfreq));
- 114              		.loc 1 516 3 is_stmt 1 view .LVU16
+ 113              		.loc 1 516 3 is_stmt 1 view .LVU16
  517:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
  518:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   return pllfreq;
- 115              		.loc 1 518 3 view .LVU17
+ 114              		.loc 1 518 3 view .LVU17
  519:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** }
- 116              		.loc 1 519 1 is_stmt 0 view .LVU18
- 117              		@ sp needed
- 118              	.LVL8:
- 119              		.loc 1 519 1 view .LVU19
- 120 0018 10BD     		pop	{r4, pc}
- 121              		.cfi_endproc
- 122              	.LFE179:
- 124              		.section	.text.UTILS_PLL_IsBusy,"ax",%progbits
- 125              		.align	1
- 126              		.syntax unified
- 127              		.code	16
- 128              		.thumb_func
- 130              	UTILS_PLL_IsBusy:
- 131              	.LFB180:
+ 115              		.loc 1 519 1 is_stmt 0 view .LVU18
+ 116              		@ sp needed
+ 117              	.LVL8:
+ 118              		.loc 1 519 1 view .LVU19
+ 119 0018 10BD     		pop	{r4, pc}
+ 120              		.cfi_endproc
+ 121              	.LFE179:
+ 123              		.section	.text.UTILS_PLL_IsBusy,"ax",%progbits
+ 124              		.align	1
+ 125              		.syntax unified
+ 126              		.code	16
+ 127              		.thumb_func
+ 129              	UTILS_PLL_IsBusy:
+ 130              	.LFB180:
  520:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
  521:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** /**
  522:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   * @brief  Function to check that PLL can be modified
  523:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   * @retval An ErrorStatus enumeration value:
-ARM GAS  /tmp/ccuybHdC.s 			page 41
-
-
  524:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   *          - SUCCESS: PLL modification can be done
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 41
+
+
  525:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   *          - ERROR: PLL is busy
  526:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   */
  527:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** static ErrorStatus UTILS_PLL_IsBusy(void)
  528:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** {
- 132              		.loc 1 528 1 is_stmt 1 view -0
- 133              		.cfi_startproc
- 134              		@ args = 0, pretend = 0, frame = 0
- 135              		@ frame_needed = 0, uses_anonymous_args = 0
- 136              		@ link register save eliminated.
+ 131              		.loc 1 528 1 is_stmt 1 view -0
+ 132              		.cfi_startproc
+ 133              		@ args = 0, pretend = 0, frame = 0
+ 134              		@ frame_needed = 0, uses_anonymous_args = 0
+ 135              		@ link register save eliminated.
  529:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   ErrorStatus status = SUCCESS;
- 137              		.loc 1 529 3 view .LVU21
- 138              	.LVL9:
+ 136              		.loc 1 529 3 view .LVU21
+ 137              	.LVL9:
  530:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
  531:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   /* Check if PLL is busy*/
  532:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   if (LL_RCC_PLL_IsReady() != 0U)
- 139              		.loc 1 532 3 view .LVU22
- 140              	.LBB42:
- 141              	.LBI42:
+ 138              		.loc 1 532 3 view .LVU22
+ 139              	.LBB42:
+ 140              	.LBI42:
 1526:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
- 142              		.loc 2 1526 26 view .LVU23
- 143              	.LBB43:
+ 141              		.loc 2 1526 26 view .LVU23
+ 142              	.LBB43:
 1528:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
- 144              		.loc 2 1528 3 view .LVU24
+ 143              		.loc 2 1528 3 view .LVU24
 1528:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
- 145              		.loc 2 1528 11 is_stmt 0 view .LVU25
- 146 0000 034B     		ldr	r3, .L8
- 147 0002 1B68     		ldr	r3, [r3]
- 148              	.LBE43:
- 149              	.LBE42:
- 150              		.loc 1 532 6 discriminator 1 view .LVU26
- 151 0004 9B01     		lsls	r3, r3, #6
- 152 0006 01D4     		bmi	.L7
+ 144              		.loc 2 1528 11 is_stmt 0 view .LVU25
+ 145 0000 034B     		ldr	r3, .L8
+ 146 0002 1B68     		ldr	r3, [r3]
+ 147              	.LBE43:
+ 148              	.LBE42:
+ 149              		.loc 1 532 6 discriminator 1 view .LVU26
+ 150 0004 9B01     		lsls	r3, r3, #6
+ 151 0006 01D4     		bmi	.L7
  529:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
- 153              		.loc 1 529 15 view .LVU27
- 154 0008 0020     		movs	r0, #0
- 155              	.L6:
- 156              	.LVL10:
+ 152              		.loc 1 529 15 view .LVU27
+ 153 0008 0020     		movs	r0, #0
+ 154              	.L6:
+ 155              	.LVL10:
  533:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   {
  534:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     /* PLL configuration cannot be modified */
  535:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     status = ERROR;
  536:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
  537:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
  538:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   return status;
- 157              		.loc 1 538 3 is_stmt 1 view .LVU28
+ 156              		.loc 1 538 3 is_stmt 1 view .LVU28
  539:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** }
- 158              		.loc 1 539 1 is_stmt 0 view .LVU29
- 159              		@ sp needed
- 160 000a 7047     		bx	lr
- 161              	.LVL11:
- 162              	.L7:
+ 157              		.loc 1 539 1 is_stmt 0 view .LVU29
+ 158              		@ sp needed
+ 159 000a 7047     		bx	lr
+ 160              	.LVL11:
+ 161              	.L7:
  535:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
- 163              		.loc 1 535 12 view .LVU30
- 164 000c 0120     		movs	r0, #1
- 165 000e FCE7     		b	.L6
- 166              	.L9:
- 167              		.align	2
-ARM GAS  /tmp/ccuybHdC.s 			page 42
+ 162              		.loc 1 535 12 view .LVU30
+ 163 000c 0120     		movs	r0, #1
+ 164 000e FCE7     		b	.L6
+ 165              	.L9:
+ 166              		.align	2
+ 167              	.L8:
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 42
 
 
- 168              	.L8:
- 169 0010 00100240 		.word	1073876992
- 170              		.cfi_endproc
- 171              	.LFE180:
- 173              		.section	.text.LL_Init1msTick,"ax",%progbits
- 174              		.align	1
- 175              		.global	LL_Init1msTick
- 176              		.syntax unified
- 177              		.code	16
- 178              		.thumb_func
- 180              	LL_Init1msTick:
- 181              	.LVL12:
- 182              	.LFB173:
+ 168 0010 00100240 		.word	1073876992
+ 169              		.cfi_endproc
+ 170              	.LFE180:
+ 172              		.section	.text.LL_Init1msTick,"ax",%progbits
+ 173              		.align	1
+ 174              		.global	LL_Init1msTick
+ 175              		.syntax unified
+ 176              		.code	16
+ 177              		.thumb_func
+ 179              	LL_Init1msTick:
+ 180              	.LVL12:
+ 181              	.LFB173:
  142:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   /* Use frequency provided in argument */
- 183              		.loc 1 142 1 is_stmt 1 view -0
- 184              		.cfi_startproc
- 185              		@ args = 0, pretend = 0, frame = 0
- 186              		@ frame_needed = 0, uses_anonymous_args = 0
+ 182              		.loc 1 142 1 is_stmt 1 view -0
+ 183              		.cfi_startproc
+ 184              		@ args = 0, pretend = 0, frame = 0
+ 185              		@ frame_needed = 0, uses_anonymous_args = 0
  142:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   /* Use frequency provided in argument */
- 187              		.loc 1 142 1 is_stmt 0 view .LVU32
- 188 0000 10B5     		push	{r4, lr}
- 189              	.LCFI2:
- 190              		.cfi_def_cfa_offset 8
- 191              		.cfi_offset 4, -8
- 192              		.cfi_offset 14, -4
+ 186              		.loc 1 142 1 is_stmt 0 view .LVU32
+ 187 0000 10B5     		push	{r4, lr}
+ 188              	.LCFI2:
+ 189              		.cfi_def_cfa_offset 8
+ 190              		.cfi_offset 4, -8
+ 191              		.cfi_offset 14, -4
  144:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** }
- 193              		.loc 1 144 3 is_stmt 1 view .LVU33
- 194              	.LVL13:
- 195              	.LBB44:
- 196              	.LBI44:
- 197              		.file 3 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h"
+ 192              		.loc 1 144 3 is_stmt 1 view .LVU33
+ 193              	.LVL13:
+ 194              	.LBB44:
+ 195              	.LBI44:
+ 196              		.file 3 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h"
    1:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h **** /**
    2:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   ******************************************************************************
    3:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   * @file    stm32f0xx_ll_utils.h
@@ -2518,10 +2517,10 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
   24:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****       (+) Device electronic signature
   25:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****       (+) Timing functions
   26:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****       (+) PLL configuration functions
-ARM GAS  /tmp/ccuybHdC.s 			page 43
-
-
   27:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h **** 
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 43
+
+
   28:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   @endverbatim
   29:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   ******************************************************************************
   30:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   */
@@ -2578,10 +2577,10 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
   81:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   * @}
   82:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   */
   83:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h **** /* Exported types ------------------------------------------------------------*/
-ARM GAS  /tmp/ccuybHdC.s 			page 44
-
-
   84:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h **** /** @defgroup UTILS_LL_ES_INIT UTILS Exported structures
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 44
+
+
   85:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   * @{
   86:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   */
   87:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h **** /**
@@ -2638,10 +2637,10 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  138:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   */
  139:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h **** 
  140:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h **** /** @defgroup UTILS_EC_HSE_BYPASS HSE Bypass activation
-ARM GAS  /tmp/ccuybHdC.s 			page 45
-
-
  141:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   * @{
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 45
+
+
  142:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   */
  143:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h **** #define LL_UTILS_HSEBYPASS_OFF        0x00000000U       /*!< HSE Bypass is not enabled             
  144:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h **** #define LL_UTILS_HSEBYPASS_ON         0x00000001U       /*!< HSE Bypass is enabled                 
@@ -2698,10 +2697,10 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  195:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   * @retval FLASH_SIZE[15:0]: Flash memory size
  196:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   */
  197:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h **** __STATIC_INLINE uint32_t LL_GetFlashSize(void)
-ARM GAS  /tmp/ccuybHdC.s 			page 46
-
-
  198:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h **** {
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 46
+
+
  199:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   return (uint16_t)(READ_REG(*((uint32_t *)FLASHSIZE_BASE_ADDRESS)));
  200:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h **** }
  201:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h **** 
@@ -2723,122 +2722,123 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  217:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   * @retval None
  218:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   */
  219:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h **** __STATIC_INLINE void LL_InitTick(uint32_t HCLKFrequency, uint32_t Ticks)
- 198              		.loc 3 219 22 view .LVU34
- 199              	.LBB45:
+ 197              		.loc 3 219 22 view .LVU34
+ 198              	.LBB45:
  220:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h **** {
  221:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   /* Configure the SysTick to have interrupt in 1ms time base */
  222:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   SysTick->LOAD  = (uint32_t)((HCLKFrequency / Ticks) - 1UL);  /* set reload register */
- 200              		.loc 3 222 3 view .LVU35
- 201              		.loc 3 222 46 is_stmt 0 view .LVU36
- 202 0002 FA21     		movs	r1, #250
- 203 0004 8900     		lsls	r1, r1, #2
- 204 0006 FFF7FEFF 		bl	__aeabi_uidiv
- 205              	.LVL14:
- 206              		.loc 3 222 20 view .LVU37
- 207 000a 0138     		subs	r0, r0, #1
- 208              		.loc 3 222 18 view .LVU38
- 209 000c 034B     		ldr	r3, .L11
- 210 000e 5860     		str	r0, [r3, #4]
+ 199              		.loc 3 222 3 view .LVU35
+ 200              		.loc 3 222 46 is_stmt 0 view .LVU36
+ 201 0002 FA21     		movs	r1, #250
+ 202 0004 8900     		lsls	r1, r1, #2
+ 203 0006 FFF7FEFF 		bl	__aeabi_uidiv
+ 204              	.LVL14:
+ 205              		.loc 3 222 20 view .LVU37
+ 206 000a 0138     		subs	r0, r0, #1
+ 207              		.loc 3 222 18 view .LVU38
+ 208 000c 034B     		ldr	r3, .L11
+ 209 000e 5860     		str	r0, [r3, #4]
  223:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   SysTick->VAL   = 0UL;                                       /* Load the SysTick Counter Value */
- 211              		.loc 3 223 3 is_stmt 1 view .LVU39
- 212              		.loc 3 223 18 is_stmt 0 view .LVU40
- 213 0010 0022     		movs	r2, #0
- 214 0012 9A60     		str	r2, [r3, #8]
+ 210              		.loc 3 223 3 is_stmt 1 view .LVU39
+ 211              		.loc 3 223 18 is_stmt 0 view .LVU40
+ 212 0010 0022     		movs	r2, #0
+ 213 0012 9A60     		str	r2, [r3, #8]
  224:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_utils.h ****   SysTick->CTRL  = SysTick_CTRL_CLKSOURCE_Msk |
- 215              		.loc 3 224 3 is_stmt 1 view .LVU41
- 216              		.loc 3 224 18 is_stmt 0 view .LVU42
- 217 0014 0532     		adds	r2, r2, #5
- 218 0016 1A60     		str	r2, [r3]
- 219              	.LVL15:
- 220              		.loc 3 224 18 view .LVU43
- 221              	.LBE45:
- 222              	.LBE44:
+ 214              		.loc 3 224 3 is_stmt 1 view .LVU41
+ 215              		.loc 3 224 18 is_stmt 0 view .LVU42
+ 216 0014 0532     		adds	r2, r2, #5
+ 217 0016 1A60     		str	r2, [r3]
+ 218              	.LVL15:
+ 219              		.loc 3 224 18 view .LVU43
+ 220              	.LBE45:
+ 221              	.LBE44:
  145:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
- 223              		.loc 1 145 1 view .LVU44
- 224              		@ sp needed
- 225 0018 10BD     		pop	{r4, pc}
- 226              	.L12:
-ARM GAS  /tmp/ccuybHdC.s 			page 47
+ 222              		.loc 1 145 1 view .LVU44
+ 223              		@ sp needed
+ 224 0018 10BD     		pop	{r4, pc}
+ 225              	.L12:
+ 226 001a C046     		.align	2
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 47
 
 
- 227 001a C046     		.align	2
- 228              	.L11:
- 229 001c 10E000E0 		.word	-536813552
- 230              		.cfi_endproc
- 231              	.LFE173:
- 233              		.section	.text.LL_mDelay,"ax",%progbits
- 234              		.align	1
- 235              		.global	LL_mDelay
- 236              		.syntax unified
- 237              		.code	16
- 238              		.thumb_func
- 240              	LL_mDelay:
- 241              	.LVL16:
- 242              	.LFB174:
+ 227              	.L11:
+ 228 001c 10E000E0 		.word	-536813552
+ 229              		.cfi_endproc
+ 230              	.LFE173:
+ 232              		.section	.text.LL_mDelay,"ax",%progbits
+ 233              		.align	1
+ 234              		.global	LL_mDelay
+ 235              		.syntax unified
+ 236              		.code	16
+ 237              		.thumb_func
+ 239              	LL_mDelay:
+ 240              	.LVL16:
+ 241              	.LFB174:
  158:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   __IO uint32_t  tmp = SysTick->CTRL;  /* Clear the COUNTFLAG first */
- 243              		.loc 1 158 1 is_stmt 1 view -0
- 244              		.cfi_startproc
- 245              		@ args = 0, pretend = 0, frame = 8
- 246              		@ frame_needed = 0, uses_anonymous_args = 0
- 247              		@ link register save eliminated.
+ 242              		.loc 1 158 1 is_stmt 1 view -0
+ 243              		.cfi_startproc
+ 244              		@ args = 0, pretend = 0, frame = 8
+ 245              		@ frame_needed = 0, uses_anonymous_args = 0
+ 246              		@ link register save eliminated.
  158:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   __IO uint32_t  tmp = SysTick->CTRL;  /* Clear the COUNTFLAG first */
- 248              		.loc 1 158 1 is_stmt 0 view .LVU46
- 249 0000 82B0     		sub	sp, sp, #8
- 250              	.LCFI3:
- 251              		.cfi_def_cfa_offset 8
+ 247              		.loc 1 158 1 is_stmt 0 view .LVU46
+ 248 0000 82B0     		sub	sp, sp, #8
+ 249              	.LCFI3:
+ 250              		.cfi_def_cfa_offset 8
  159:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   /* Add this code to indicate that local variable is not used */
- 252              		.loc 1 159 3 is_stmt 1 view .LVU47
+ 251              		.loc 1 159 3 is_stmt 1 view .LVU47
  159:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   /* Add this code to indicate that local variable is not used */
- 253              		.loc 1 159 31 is_stmt 0 view .LVU48
- 254 0002 084B     		ldr	r3, .L21
- 255 0004 1B68     		ldr	r3, [r3]
+ 252              		.loc 1 159 31 is_stmt 0 view .LVU48
+ 253 0002 084B     		ldr	r3, .L21
+ 254 0004 1B68     		ldr	r3, [r3]
  159:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   /* Add this code to indicate that local variable is not used */
- 256              		.loc 1 159 18 view .LVU49
- 257 0006 0193     		str	r3, [sp, #4]
+ 255              		.loc 1 159 18 view .LVU49
+ 256 0006 0193     		str	r3, [sp, #4]
  161:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
- 258              		.loc 1 161 3 is_stmt 1 view .LVU50
+ 257              		.loc 1 161 3 is_stmt 1 view .LVU50
  161:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
- 259              		.loc 1 161 4 is_stmt 0 view .LVU51
- 260 0008 019B     		ldr	r3, [sp, #4]
+ 258              		.loc 1 161 4 is_stmt 0 view .LVU51
+ 259 0008 019B     		ldr	r3, [sp, #4]
  164:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   {
- 261              		.loc 1 164 3 is_stmt 1 view .LVU52
+ 260              		.loc 1 164 3 is_stmt 1 view .LVU52
  164:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   {
- 262              		.loc 1 164 6 is_stmt 0 view .LVU53
- 263 000a 431C     		adds	r3, r0, #1
- 264 000c 00D0     		beq	.L16
+ 261              		.loc 1 164 6 is_stmt 0 view .LVU53
+ 262 000a 431C     		adds	r3, r0, #1
+ 263 000c 00D0     		beq	.L15
  166:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
- 265              		.loc 1 166 5 is_stmt 1 view .LVU54
+ 264              		.loc 1 166 5 is_stmt 1 view .LVU54
  166:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
- 266              		.loc 1 166 10 is_stmt 0 view .LVU55
- 267 000e 0130     		adds	r0, r0, #1
- 268              	.LVL17:
- 269              	.L16:
+ 265              		.loc 1 166 10 is_stmt 0 view .LVU55
+ 266 000e 0130     		adds	r0, r0, #1
+ 267              	.LVL17:
+ 268              	.L15:
  169:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   {
- 270              		.loc 1 169 10 is_stmt 1 view .LVU56
- 271 0010 0028     		cmp	r0, #0
- 272 0012 05D0     		beq	.L20
+ 269              		.loc 1 169 10 is_stmt 1 view .LVU56
+ 270 0010 0028     		cmp	r0, #0
+ 271 0012 05D0     		beq	.L20
  171:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     {
-ARM GAS  /tmp/ccuybHdC.s 			page 48
+ 272              		.loc 1 171 5 view .LVU57
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 48
 
 
- 273              		.loc 1 171 5 view .LVU57
  171:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     {
- 274              		.loc 1 171 17 is_stmt 0 view .LVU58
- 275 0014 034B     		ldr	r3, .L21
- 276 0016 1B68     		ldr	r3, [r3]
+ 273              		.loc 1 171 17 is_stmt 0 view .LVU58
+ 274 0014 034B     		ldr	r3, .L21
+ 275 0016 1B68     		ldr	r3, [r3]
  171:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     {
- 277              		.loc 1 171 8 view .LVU59
- 278 0018 DB03     		lsls	r3, r3, #15
- 279 001a F9D5     		bpl	.L16
+ 276              		.loc 1 171 8 view .LVU59
+ 277 0018 DB03     		lsls	r3, r3, #15
+ 278 001a F9D5     		bpl	.L15
  173:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     }
- 280              		.loc 1 173 7 is_stmt 1 view .LVU60
+ 279              		.loc 1 173 7 is_stmt 1 view .LVU60
  173:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     }
- 281              		.loc 1 173 12 is_stmt 0 view .LVU61
- 282 001c 0138     		subs	r0, r0, #1
- 283              	.LVL18:
+ 280              		.loc 1 173 12 is_stmt 0 view .LVU61
+ 281 001c 0138     		subs	r0, r0, #1
+ 282              	.LVL18:
  173:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     }
- 284              		.loc 1 173 12 view .LVU62
- 285 001e F7E7     		b	.L16
+ 283              		.loc 1 173 12 view .LVU62
+ 284 001e F7E7     		b	.L15
+ 285              	.LVL19:
  286              	.L20:
  176:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
  287              		.loc 1 176 1 view .LVU63
@@ -2858,7 +2858,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  302              		.code	16
  303              		.thumb_func
  305              	LL_SetSystemCoreClock:
- 306              	.LVL19:
+ 306              	.LVL20:
  307              	.LFB175:
  214:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   /* HCLK clock frequency */
  308              		.loc 1 214 1 is_stmt 1 view -0
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  319 0004 7047     		bx	lr
  320              	.L25:
  321 0006 C046     		.align	2
-ARM GAS  /tmp/ccuybHdC.s 			page 49
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 49
 
 
  322              	.L24:
@@ -2892,7 +2892,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  331              		.code	16
  332              		.thumb_func
  334              	LL_SetFlashLatency:
- 335              	.LVL20:
+ 335              	.LVL21:
  336              	.LFB176:
  229:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   uint32_t timeout;
  337              		.loc 1 229 1 is_stmt 1 view -0
@@ -2925,7 +2925,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  355              		.loc 1 245 15 view .LVU77
  356 000a 0121     		movs	r1, #1
  357              	.L28:
- 358              	.LVL21:
+ 358              	.LVL22:
  252:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
  359              		.loc 1 252 5 is_stmt 1 view .LVU78
  360              	.LBB46:
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
    5:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @brief   Header file of SYSTEM LL module.
    6:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   @verbatim
    7:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   ==============================================================================
-ARM GAS  /tmp/ccuybHdC.s 			page 50
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 50
 
 
    8:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****                      ##### How to use this driver #####
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
   62:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   */
   63:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** 
   64:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** /* Private macros ------------------------------------------------------------*/
-ARM GAS  /tmp/ccuybHdC.s 			page 51
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 51
 
 
   65:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** 
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  119:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** 
  120:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #if defined (SYSCFG_CFGR1_SPI2_DMA_RMP)
  121:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** /** @defgroup SYSTEM_LL_EC_SPI2_RMP_DMA1 SYSCFG SPI2 DMA Remap
-ARM GAS  /tmp/ccuybHdC.s 			page 52
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 52
 
 
  122:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @{
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  176:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #define LL_SYSCFG_TIM17_RMP_DMA1_CH1       ((SYSCFG_CFGR1_TIM17_DMA_RMP >> 8U) | (uint32_t)0x000000
  177:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #define LL_SYSCFG_TIM17_RMP_DMA1_CH2       ((SYSCFG_CFGR1_TIM17_DMA_RMP >> 8U) | SYSCFG_CFGR1_TIM17
  178:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #endif /* SYSCFG_CFGR1_TIM17_DMA_RMP2 */
-ARM GAS  /tmp/ccuybHdC.s 			page 53
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 53
 
 
  179:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #endif /* SYSCFG_CFGR1_TIM17_DMA_RMP */
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  233:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #define LL_SYSCFG_EXTI_PORTF               (uint32_t)5U               /*!< EXTI PORT F */
  234:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** /**
  235:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @}
-ARM GAS  /tmp/ccuybHdC.s 			page 54
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 54
 
 
  236:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   */
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  290:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #define LL_DBGMCU_APB1_GRP1_TIM14_STOP     DBGMCU_APB1_FZ_DBG_TIM14_STOP       /*!< TIM14 counter s
  291:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #define LL_DBGMCU_APB1_GRP1_RTC_STOP       DBGMCU_APB1_FZ_DBG_RTC_STOP         /*!< RTC Calendar fr
  292:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #define LL_DBGMCU_APB1_GRP1_WWDG_STOP      DBGMCU_APB1_FZ_DBG_WWDG_STOP        /*!< Debug Window Wa
-ARM GAS  /tmp/ccuybHdC.s 			page 55
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 55
 
 
  293:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #define LL_DBGMCU_APB1_GRP1_IWDG_STOP      DBGMCU_APB1_FZ_DBG_IWDG_STOP        /*!< Debug Independe
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  347:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   */
  348:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** __STATIC_INLINE void LL_SYSCFG_SetRemapMemory(uint32_t Memory)
  349:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** {
-ARM GAS  /tmp/ccuybHdC.s 			page 56
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 56
 
 
  350:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   MODIFY_REG(SYSCFG->CFGR1, SYSCFG_CFGR1_MEM_MODE, Memory);
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  404:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   *         @arg @ref LL_SYSCFG_USART1TX_RMP_DMA1CH4 (*)
  405:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   *         @arg @ref LL_SYSCFG_USART1RX_RMP_DMA1CH3 (*)
  406:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   *         @arg @ref LL_SYSCFG_USART1RX_RMP_DMA1CH5 (*)
-ARM GAS  /tmp/ccuybHdC.s 			page 57
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 57
 
 
  407:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   *         @arg @ref LL_SYSCFG_USART2_RMP_DMA1CH54 (*)
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  461:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** {
  462:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   MODIFY_REG(SYSCFG->CFGR1, SYSCFG_CFGR1_ADC_DMA_RMP, Remap);
  463:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** }
-ARM GAS  /tmp/ccuybHdC.s 			page 58
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 58
 
 
  464:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #endif /* SYSCFG_CFGR1_ADC_DMA_RMP */
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  518:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** {
  519:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   CLEAR_BIT(SYSCFG->CFGR1, SYSCFG_CFGR1_PA11_PA12_RMP);
  520:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** }
-ARM GAS  /tmp/ccuybHdC.s 			page 59
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 59
 
 
  521:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #endif /* SYSCFG_CFGR1_PA11_PA12_RMP */
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  575:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** {
  576:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   CLEAR_BIT(SYSCFG->CFGR1, ConfigFastModePlus);
  577:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** }
-ARM GAS  /tmp/ccuybHdC.s 			page 60
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 60
 
 
  578:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** 
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  632:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @rmtoll SYSCFG_EXTICR1 EXTI0         LL_SYSCFG_SetEXTISource\n
  633:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   *         SYSCFG_EXTICR1 EXTI1         LL_SYSCFG_SetEXTISource\n
  634:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   *         SYSCFG_EXTICR1 EXTI2         LL_SYSCFG_SetEXTISource\n
-ARM GAS  /tmp/ccuybHdC.s 			page 61
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 61
 
 
  635:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   *         SYSCFG_EXTICR1 EXTI3         LL_SYSCFG_SetEXTISource\n
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  689:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** }
  690:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #endif /* SYSCFG_ITLINE0_SR_EWDG */
  691:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** 
-ARM GAS  /tmp/ccuybHdC.s 			page 62
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 62
 
 
  692:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #if defined(SYSCFG_ITLINE1_SR_PVDOUT)
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  746:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** __STATIC_INLINE uint32_t LL_SYSCFG_IsActiveFlag_RTC_ALRA(void)
  747:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** {
  748:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   return (READ_BIT(SYSCFG->IT_LINE_SR[2], SYSCFG_ITLINE2_SR_RTC_ALRA) == (SYSCFG_ITLINE2_SR_RTC_ALR
-ARM GAS  /tmp/ccuybHdC.s 			page 63
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 63
 
 
  749:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** }
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  803:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @rmtoll SYSCFG_ITLINE5 SR_EXTI1      LL_SYSCFG_IsActiveFlag_EXTI1
  804:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @retval State of bit (1 or 0).
  805:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   */
-ARM GAS  /tmp/ccuybHdC.s 			page 64
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 64
 
 
  806:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** __STATIC_INLINE uint32_t LL_SYSCFG_IsActiveFlag_EXTI1(void)
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  860:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #if defined(SYSCFG_ITLINE7_SR_EXTI6)
  861:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** /**
  862:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @brief  Check if EXTI line 6 interrupt occurred or not.
-ARM GAS  /tmp/ccuybHdC.s 			page 65
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 65
 
 
  863:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @rmtoll SYSCFG_ITLINE7 SR_EXTI6      LL_SYSCFG_IsActiveFlag_EXTI6
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  917:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** }
  918:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #endif /* SYSCFG_ITLINE7_SR_EXTI10 */
  919:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** 
-ARM GAS  /tmp/ccuybHdC.s 			page 66
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 66
 
 
  920:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #if defined(SYSCFG_ITLINE7_SR_EXTI11)
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  974:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** __STATIC_INLINE uint32_t LL_SYSCFG_IsActiveFlag_EXTI15(void)
  975:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** {
  976:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   return (READ_BIT(SYSCFG->IT_LINE_SR[7], SYSCFG_ITLINE7_SR_EXTI15) == (SYSCFG_ITLINE7_SR_EXTI15));
-ARM GAS  /tmp/ccuybHdC.s 			page 67
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 67
 
 
  977:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** }
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1031:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @rmtoll SYSCFG_ITLINE10 SR_DMA1_CH3   LL_SYSCFG_IsActiveFlag_DMA1_CH3
 1032:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @retval State of bit (1 or 0).
 1033:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   */
-ARM GAS  /tmp/ccuybHdC.s 			page 68
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 68
 
 
 1034:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** __STATIC_INLINE uint32_t LL_SYSCFG_IsActiveFlag_DMA1_CH3(void)
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1088:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #if defined(SYSCFG_ITLINE11_SR_DMA1_CH6)
 1089:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** /**
 1090:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @brief  Check if DMA1 channel 6 interrupt occurred or not.
-ARM GAS  /tmp/ccuybHdC.s 			page 69
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 69
 
 
 1091:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @rmtoll SYSCFG_ITLINE11 SR_DMA1_CH6   LL_SYSCFG_IsActiveFlag_DMA1_CH6
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1145:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** }
 1146:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #endif /* SYSCFG_ITLINE11_SR_DMA2_CH5 */
 1147:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** 
-ARM GAS  /tmp/ccuybHdC.s 			page 70
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 70
 
 
 1148:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #if defined(SYSCFG_ITLINE12_SR_ADC)
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1202:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** __STATIC_INLINE uint32_t LL_SYSCFG_IsActiveFlag_TIM1_UPD(void)
 1203:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** {
 1204:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   return (READ_BIT(SYSCFG->IT_LINE_SR[13], SYSCFG_ITLINE13_SR_TIM1_UPD) == (SYSCFG_ITLINE13_SR_TIM1
-ARM GAS  /tmp/ccuybHdC.s 			page 71
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 71
 
 
 1205:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** }
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1259:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @rmtoll SYSCFG_ITLINE16 SR_TIM3_GLB   LL_SYSCFG_IsActiveFlag_TIM3
 1260:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @retval State of bit (1 or 0).
 1261:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   */
-ARM GAS  /tmp/ccuybHdC.s 			page 72
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 72
 
 
 1262:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** __STATIC_INLINE uint32_t LL_SYSCFG_IsActiveFlag_TIM3(void)
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1316:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #if defined(SYSCFG_ITLINE20_SR_TIM15_GLB)
 1317:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** /**
 1318:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @brief  Check if Timer 15 interrupt occurred or not.
-ARM GAS  /tmp/ccuybHdC.s 			page 73
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 73
 
 
 1319:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @rmtoll SYSCFG_ITLINE20 SR_TIM15_GLB  LL_SYSCFG_IsActiveFlag_TIM15
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1373:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** }
 1374:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #endif /* SYSCFG_ITLINE24_SR_I2C2_GLB */
 1375:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** 
-ARM GAS  /tmp/ccuybHdC.s 			page 74
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 74
 
 
 1376:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** #if defined(SYSCFG_ITLINE25_SR_SPI1)
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1430:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** __STATIC_INLINE uint32_t LL_SYSCFG_IsActiveFlag_USART3(void)
 1431:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** {
 1432:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   return (READ_BIT(SYSCFG->IT_LINE_SR[29], SYSCFG_ITLINE29_SR_USART3_GLB) == (SYSCFG_ITLINE29_SR_US
-ARM GAS  /tmp/ccuybHdC.s 			page 75
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 75
 
 
 1433:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** }
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1487:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @rmtoll SYSCFG_ITLINE29 SR_USART8_GLB  LL_SYSCFG_IsActiveFlag_USART8
 1488:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @retval State of bit (1 or 0).
 1489:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   */
-ARM GAS  /tmp/ccuybHdC.s 			page 76
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 76
 
 
 1490:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** __STATIC_INLINE uint32_t LL_SYSCFG_IsActiveFlag_USART8(void)
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1544:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @rmtoll SYSCFG_CFGR2 LOCKUP_LOCK   LL_SYSCFG_GetTIMBreakInputs\n
 1545:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   *         SYSCFG_CFGR2 SRAM_PARITY_LOCK  LL_SYSCFG_GetTIMBreakInputs\n
 1546:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   *         SYSCFG_CFGR2 PVD_LOCK      LL_SYSCFG_GetTIMBreakInputs
-ARM GAS  /tmp/ccuybHdC.s 			page 77
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 77
 
 
 1547:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @retval Returned value can be can be a combination of the following values:
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1601:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   */
 1602:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** __STATIC_INLINE uint32_t LL_DBGMCU_GetDeviceID(void)
 1603:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** {
-ARM GAS  /tmp/ccuybHdC.s 			page 78
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 78
 
 
 1604:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   return (uint32_t)(READ_BIT(DBGMCU->IDCODE, DBGMCU_IDCODE_DEV_ID));
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1658:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** 
 1659:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** /**
 1660:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @brief  Freeze APB1 peripherals (group1 peripherals)
-ARM GAS  /tmp/ccuybHdC.s 			page 79
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 79
 
 
 1661:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @rmtoll DBGMCU_APB1FZ DBG_TIM2_STOP           LL_DBGMCU_APB1_GRP1_FreezePeriph\n
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1715:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   *         (*) value not defined in all devices
 1716:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @retval None
 1717:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   */
-ARM GAS  /tmp/ccuybHdC.s 			page 80
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 80
 
 
 1718:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h **** __STATIC_INLINE void LL_DBGMCU_APB1_GRP1_UnFreezePeriph(uint32_t Periphs)
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
 1772:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @rmtoll FLASH_ACR    LATENCY       LL_FLASH_SetLatency
 1773:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   * @param  Latency This parameter can be one of the following values:
 1774:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   *         @arg @ref LL_FLASH_LATENCY_0
-ARM GAS  /tmp/ccuybHdC.s 			page 81
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 81
 
 
 1775:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h ****   *         @arg @ref LL_FLASH_LATENCY_1
@@ -4813,12 +4813,12 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  366 000c 0D4A     		ldr	r2, .L35+4
  367 000e 1368     		ldr	r3, [r2]
  368 0010 0120     		movs	r0, #1
- 369              	.LVL22:
+ 369              	.LVL23:
  370              		.loc 4 1780 3 is_stmt 0 view .LVU81
  371 0012 8343     		bics	r3, r0
  372 0014 0B43     		orrs	r3, r1
  373 0016 1360     		str	r3, [r2]
- 374              	.LVL23:
+ 374              	.LVL24:
  375              		.loc 4 1780 3 view .LVU82
  376              	.LBE47:
  377              	.LBE46:
@@ -4827,7 +4827,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  256:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     do
  379              		.loc 1 256 13 is_stmt 0 view .LVU84
  380 0018 0222     		movs	r2, #2
- 381              	.LVL24:
+ 381              	.LVL25:
  382              	.L30:
  257:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     {
  383              		.loc 1 257 5 is_stmt 1 view .LVU85
@@ -4856,9 +4856,9 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  393              		.loc 4 1792 10 view .LVU90
  394 001e 0123     		movs	r3, #1
  395 0020 0340     		ands	r3, r0
- 396              	.LVL25:
+ 396              	.LVL26:
  397              		.loc 4 1792 10 view .LVU91
-ARM GAS  /tmp/ccuybHdC.s 			page 82
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 82
 
 
  398              	.LBE49:
@@ -4868,7 +4868,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  261:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     } while ((getlatency != latency) && (timeout > 0));
  401              		.loc 1 261 14 is_stmt 0 view .LVU93
  402 0022 013A     		subs	r2, r2, #1
- 403              	.LVL26:
+ 403              	.LVL27:
  262:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
  404              		.loc 1 262 38 is_stmt 1 discriminator 2 view .LVU94
  405 0024 9942     		cmp	r1, r3
@@ -4888,24 +4888,24 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  415              		.loc 1 266 14 view .LVU98
  416 0030 0120     		movs	r0, #1
  417 0032 04E0     		b	.L27
- 418              	.LVL27:
+ 418              	.LVL28:
  419              	.L32:
  250:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     }
  420              		.loc 1 250 15 view .LVU99
  421 0034 0021     		movs	r1, #0
  422 0036 E9E7     		b	.L28
- 423              	.LVL28:
+ 423              	.LVL29:
  424              	.L34:
  233:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
  425              		.loc 1 233 15 view .LVU100
  426 0038 0020     		movs	r0, #0
  427 003a 00E0     		b	.L27
- 428              	.LVL29:
+ 428              	.LVL30:
  429              	.L31:
  238:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
  430              		.loc 1 238 12 view .LVU101
  431 003c 0120     		movs	r0, #1
- 432              	.LVL30:
+ 432              	.LVL31:
  433              	.L27:
  271:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
  434              		.loc 1 271 5 is_stmt 1 view .LVU102
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  439              	.L36:
  440              		.align	2
  441              	.L35:
-ARM GAS  /tmp/ccuybHdC.s 			page 83
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 83
 
 
  442 0040 00366E01 		.word	24000000
@@ -4931,7 +4931,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  450              		.code	16
  451              		.thumb_func
  453              	UTILS_EnablePLLAndSwitchSystem:
- 454              	.LVL31:
+ 454              	.LVL32:
  455              	.LFB181:
  540:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
  541:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** /**
@@ -4963,7 +4963,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  471 0004 0D00     		movs	r5, r1
  552:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   ErrorStatus status = SUCCESS;
  472              		.loc 1 552 3 is_stmt 1 view .LVU107
- 473              	.LVL32:
+ 473              	.LVL33:
  553:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   uint32_t sysclk_frequency_current = 0U;
  474              		.loc 1 553 3 view .LVU108
  554:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  478              		.loc 1 559 47 is_stmt 0 view .LVU112
  479 0006 264B     		ldr	r3, .L49
  480 0008 1E68     		ldr	r6, [r3]
-ARM GAS  /tmp/ccuybHdC.s 			page 84
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 84
 
 
  481              	.LBB50:
@@ -5003,7 +5003,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  497 0016 D35C     		ldrb	r3, [r2, r3]
  498              		.loc 1 559 28 discriminator 1 view .LVU118
  499 0018 9E40     		lsls	r6, r6, r3
- 500              	.LVL33:
+ 500              	.LVL34:
  560:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
  561:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   /* Increasing the number of wait states because of higher CPU frequency */
  562:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   if (sysclk_frequency_current < SYSCLK_Frequency)
@@ -5014,7 +5014,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  552:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   uint32_t sysclk_frequency_current = 0U;
  505              		.loc 1 552 15 view .LVU121
  506 001e 0027     		movs	r7, #0
- 507              	.LVL34:
+ 507              	.LVL35:
  508              	.L38:
  563:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   {
  564:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     /* Set FLASH latency to highest latency */
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  516 0022 1168     		ldr	r1, [r2]
  517 0024 8023     		movs	r3, #128
  518 0026 5B04     		lsls	r3, r3, #17
-ARM GAS  /tmp/ccuybHdC.s 			page 85
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 85
 
 
  519 0028 0B43     		orrs	r3, r1
@@ -5076,7 +5076,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  579:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     LL_RCC_SetAHBPrescaler(UTILS_ClkInitStruct->AHBCLKDivider);
  540              		.loc 1 579 5 is_stmt 1 view .LVU132
  541 0034 2B68     		ldr	r3, [r5]
- 542              	.LVL35:
+ 542              	.LVL36:
  543              	.LBB56:
  544              	.LBI56:
 1134:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
@@ -5089,16 +5089,16 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  550 003a F020     		movs	r0, #240
  551 003c 8143     		bics	r1, r0
  552 003e 0B43     		orrs	r3, r1
- 553              	.LVL36:
+ 553              	.LVL37:
 1136:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
  554              		.loc 2 1136 3 is_stmt 0 view .LVU135
  555 0040 5360     		str	r3, [r2, #4]
- 556              	.LVL37:
+ 556              	.LVL38:
 1136:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
  557              		.loc 2 1136 3 view .LVU136
  558              	.LBE57:
  559              	.LBE56:
-ARM GAS  /tmp/ccuybHdC.s 			page 86
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 86
 
 
  580:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     LL_RCC_SetSysClkSource(LL_RCC_SYS_CLKSOURCE_PLL);
@@ -5116,7 +5116,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  569 0048 0139     		subs	r1, r1, #1
  570 004a 0B43     		orrs	r3, r1
  571 004c 5360     		str	r3, [r2, #4]
- 572              	.LVL38:
+ 572              	.LVL39:
 1100:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
  573              		.loc 2 1100 3 is_stmt 0 view .LVU140
  574              	.LBE59:
@@ -5156,9 +5156,9 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  587:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     LL_RCC_SetAPB1Prescaler(UTILS_ClkInitStruct->APB1CLKDivider);
  596              		.loc 1 587 5 is_stmt 1 view .LVU149
  597 005a 6B68     		ldr	r3, [r5, #4]
- 598              	.LVL39:
+ 598              	.LVL40:
  599              	.LBB62:
-ARM GAS  /tmp/ccuybHdC.s 			page 87
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 87
 
 
  600              	.LBI62:
@@ -5172,11 +5172,11 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  606 0060 1248     		ldr	r0, .L49+12
  607 0062 0240     		ands	r2, r0
  608 0064 1343     		orrs	r3, r2
- 609              	.LVL40:
+ 609              	.LVL41:
 1152:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
  610              		.loc 2 1152 3 is_stmt 0 view .LVU152
  611 0066 4B60     		str	r3, [r1, #4]
- 612              	.LVL41:
+ 612              	.LVL42:
  613              	.L39:
 1152:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
  614              		.loc 2 1152 3 view .LVU153
@@ -5191,7 +5191,7 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  619 0068 A642     		cmp	r6, r4
  620 006a 08D8     		bhi	.L47
  621              	.L42:
- 622              	.LVL42:
+ 622              	.LVL43:
  592:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   {
  593:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     /* Set FLASH latency to lowest latency */
  594:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     status = LL_SetFlashLatency(SYSCLK_Frequency);
@@ -5214,34 +5214,34 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  629              		.loc 1 604 1 is_stmt 0 view .LVU159
  630 0070 3800     		movs	r0, r7
  631              		@ sp needed
- 632              	.LVL43:
- 633              	.LVL44:
- 634              	.LVL45:
- 635              	.LVL46:
-ARM GAS  /tmp/ccuybHdC.s 			page 88
+ 632              	.LVL44:
+ 633              	.LVL45:
+ 634              	.LVL46:
+ 635              	.LVL47:
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 88
 
 
  636              		.loc 1 604 1 view .LVU160
  637 0072 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
- 638              	.LVL47:
+ 638              	.LVL48:
  639              	.L46:
  565:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
  640              		.loc 1 565 5 is_stmt 1 view .LVU161
  565:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
  641              		.loc 1 565 14 is_stmt 0 view .LVU162
  642 0074 FFF7FEFF 		bl	LL_SetFlashLatency
- 643              	.LVL48:
+ 643              	.LVL49:
  565:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
  644              		.loc 1 565 14 view .LVU163
  645 0078 071E     		subs	r7, r0, #0
- 646              	.LVL49:
+ 646              	.LVL50:
  569:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   {
  647              		.loc 1 569 3 is_stmt 1 view .LVU164
  569:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   {
  648              		.loc 1 569 6 is_stmt 0 view .LVU165
  649 007a F5D1     		bne	.L39
  650 007c D0E7     		b	.L38
- 651              	.LVL50:
+ 651              	.LVL51:
  652              	.L47:
  594:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
  653              		.loc 1 594 5 is_stmt 1 view .LVU166
@@ -5249,509 +5249,509 @@ ARM GAS  /tmp/ccuybHdC.s 			page 1
  654              		.loc 1 594 14 is_stmt 0 view .LVU167
  655 007e 2000     		movs	r0, r4
  656 0080 FFF7FEFF 		bl	LL_SetFlashLatency
- 657              	.LVL51:
+ 657              	.LVL52:
  658 0084 0700     		movs	r7, r0
- 659              	.LVL52:
- 594:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
- 660              		.loc 1 594 14 view .LVU168
- 661 0086 F1E7     		b	.L42
- 662              	.LVL53:
- 663              	.L48:
+ 659 0086 F1E7     		b	.L42
+ 660              	.LVL53:
+ 661              	.L48:
  600:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
- 664              		.loc 1 600 5 is_stmt 1 view .LVU169
+ 662              		.loc 1 600 5 is_stmt 1 view .LVU168
  600:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
- 665              		.loc 1 600 27 is_stmt 0 view .LVU170
- 666 0088 2A68     		ldr	r2, [r5]
- 667 008a 1209     		lsrs	r2, r2, #4
- 668 008c 0F23     		movs	r3, #15
- 669 008e 1340     		ands	r3, r2
- 670 0090 054A     		ldr	r2, .L49+8
- 671 0092 D35C     		ldrb	r3, [r2, r3]
+ 663              		.loc 1 600 27 is_stmt 0 view .LVU169
+ 664 0088 2A68     		ldr	r2, [r5]
+ 665 008a 1209     		lsrs	r2, r2, #4
+ 666 008c 0F23     		movs	r3, #15
+ 667 008e 1340     		ands	r3, r2
+ 668 0090 054A     		ldr	r2, .L49+8
+ 669 0092 D35C     		ldrb	r3, [r2, r3]
  600:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
- 672              		.loc 1 600 5 view .LVU171
- 673 0094 2000     		movs	r0, r4
- 674 0096 D840     		lsrs	r0, r0, r3
- 675 0098 FFF7FEFF 		bl	LL_SetSystemCoreClock
- 676              	.LVL54:
- 677 009c E8E7     		b	.L43
- 678              	.L50:
- 679 009e C046     		.align	2
- 680              	.L49:
- 681 00a0 00000000 		.word	SystemCoreClock
-ARM GAS  /tmp/ccuybHdC.s 			page 89
+ 670              		.loc 1 600 5 view .LVU170
+ 671 0094 2000     		movs	r0, r4
+ 672 0096 D840     		lsrs	r0, r0, r3
+ 673 0098 FFF7FEFF 		bl	LL_SetSystemCoreClock
+ 674              	.LVL54:
+ 675 009c E8E7     		b	.L43
+ 676              	.L50:
+ 677 009e C046     		.align	2
+ 678              	.L49:
+ 679 00a0 00000000 		.word	SystemCoreClock
+ 680 00a4 00100240 		.word	1073876992
+ 681 00a8 00000000 		.word	AHBPrescTable
+ 682 00ac FFF8FFFF 		.word	-1793
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 89
 
 
- 682 00a4 00100240 		.word	1073876992
- 683 00a8 00000000 		.word	AHBPrescTable
- 684 00ac FFF8FFFF 		.word	-1793
- 685              		.cfi_endproc
- 686              	.LFE181:
- 688              		.section	.text.LL_PLL_ConfigSystemClock_HSI,"ax",%progbits
- 689              		.align	1
- 690              		.global	LL_PLL_ConfigSystemClock_HSI
- 691              		.syntax unified
- 692              		.code	16
- 693              		.thumb_func
- 695              	LL_PLL_ConfigSystemClock_HSI:
- 696              	.LVL55:
- 697              	.LFB177:
+ 683              		.cfi_endproc
+ 684              	.LFE181:
+ 686              		.section	.text.LL_PLL_ConfigSystemClock_HSI,"ax",%progbits
+ 687              		.align	1
+ 688              		.global	LL_PLL_ConfigSystemClock_HSI
+ 689              		.syntax unified
+ 690              		.code	16
+ 691              		.thumb_func
+ 693              	LL_PLL_ConfigSystemClock_HSI:
+ 694              	.LVL55:
+ 695              	.LFB177:
  297:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   ErrorStatus status = SUCCESS;
- 698              		.loc 1 297 1 is_stmt 1 view -0
- 699              		.cfi_startproc
- 700              		@ args = 0, pretend = 0, frame = 0
- 701              		@ frame_needed = 0, uses_anonymous_args = 0
+ 696              		.loc 1 297 1 is_stmt 1 view -0
+ 697              		.cfi_startproc
+ 698              		@ args = 0, pretend = 0, frame = 0
+ 699              		@ frame_needed = 0, uses_anonymous_args = 0
  297:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   ErrorStatus status = SUCCESS;
- 702              		.loc 1 297 1 is_stmt 0 view .LVU173
- 703 0000 70B5     		push	{r4, r5, r6, lr}
- 704              	.LCFI5:
- 705              		.cfi_def_cfa_offset 16
- 706              		.cfi_offset 4, -16
- 707              		.cfi_offset 5, -12
- 708              		.cfi_offset 6, -8
- 709              		.cfi_offset 14, -4
- 710 0002 0500     		movs	r5, r0
- 711 0004 0C00     		movs	r4, r1
+ 700              		.loc 1 297 1 is_stmt 0 view .LVU172
+ 701 0000 70B5     		push	{r4, r5, r6, lr}
+ 702              	.LCFI5:
+ 703              		.cfi_def_cfa_offset 16
+ 704              		.cfi_offset 4, -16
+ 705              		.cfi_offset 5, -12
+ 706              		.cfi_offset 6, -8
+ 707              		.cfi_offset 14, -4
+ 708 0002 0500     		movs	r5, r0
+ 709 0004 0C00     		movs	r4, r1
  298:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   uint32_t pllfreq = 0U;
- 712              		.loc 1 298 3 is_stmt 1 view .LVU174
- 713              	.LVL56:
+ 710              		.loc 1 298 3 is_stmt 1 view .LVU173
+ 711              	.LVL56:
  299:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
- 714              		.loc 1 299 3 view .LVU175
+ 712              		.loc 1 299 3 view .LVU174
  302:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   {
- 715              		.loc 1 302 3 view .LVU176
+ 713              		.loc 1 302 3 view .LVU175
  302:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   {
- 716              		.loc 1 302 7 is_stmt 0 view .LVU177
- 717 0006 FFF7FEFF 		bl	UTILS_PLL_IsBusy
- 718              	.LVL57:
+ 714              		.loc 1 302 7 is_stmt 0 view .LVU176
+ 715 0006 FFF7FEFF 		bl	UTILS_PLL_IsBusy
+ 716              	.LVL57:
  302:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   {
- 719              		.loc 1 302 6 discriminator 1 view .LVU178
- 720 000a 0028     		cmp	r0, #0
- 721 000c 21D1     		bne	.L55
+ 717              		.loc 1 302 6 discriminator 1 view .LVU177
+ 718 000a 0028     		cmp	r0, #0
+ 719 000c 21D1     		bne	.L55
  309:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** #endif /*RCC_PLLSRC_PREDIV1_SUPPORT*/
- 722              		.loc 1 309 5 is_stmt 1 view .LVU179
+ 720              		.loc 1 309 5 is_stmt 1 view .LVU178
  309:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** #endif /*RCC_PLLSRC_PREDIV1_SUPPORT*/
- 723              		.loc 1 309 33 is_stmt 0 view .LVU180
- 724 000e 0123     		movs	r3, #1
- 725 0010 6B60     		str	r3, [r5, #4]
+ 721              		.loc 1 309 33 is_stmt 0 view .LVU179
+ 722 000e 0123     		movs	r3, #1
+ 723 0010 6B60     		str	r3, [r5, #4]
  312:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
- 726              		.loc 1 312 5 is_stmt 1 view .LVU181
+ 724              		.loc 1 312 5 is_stmt 1 view .LVU180
  312:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
- 727              		.loc 1 312 15 is_stmt 0 view .LVU182
- 728 0012 2900     		movs	r1, r5
- 729 0014 1048     		ldr	r0, .L58
-ARM GAS  /tmp/ccuybHdC.s 			page 90
-
-
- 730 0016 FFF7FEFF 		bl	UTILS_GetPLLOutputFrequency
- 731              	.LVL58:
+ 725              		.loc 1 312 15 is_stmt 0 view .LVU181
+ 726 0012 2900     		movs	r1, r5
+ 727 0014 1048     		ldr	r0, .L58
+ 728 0016 FFF7FEFF 		bl	UTILS_GetPLLOutputFrequency
+ 729              	.LVL58:
  315:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     {
- 732              		.loc 1 315 5 is_stmt 1 view .LVU183
- 733              	.LBB64:
- 734              	.LBI64:
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 90
+
+
+ 730              		.loc 1 315 5 is_stmt 1 view .LVU182
+ 731              	.LBB64:
+ 732              	.LBI64:
  766:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
- 735              		.loc 2 766 26 view .LVU184
- 736              	.LBB65:
+ 733              		.loc 2 766 26 view .LVU183
+ 734              	.LBB65:
  768:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
- 737              		.loc 2 768 3 view .LVU185
+ 735              		.loc 2 768 3 view .LVU184
  768:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
- 738              		.loc 2 768 11 is_stmt 0 view .LVU186
- 739 001a 104B     		ldr	r3, .L58+4
- 740 001c 1B68     		ldr	r3, [r3]
- 741              	.LBE65:
- 742              	.LBE64:
+ 736              		.loc 2 768 11 is_stmt 0 view .LVU185
+ 737 001a 104B     		ldr	r3, .L58+4
+ 738 001c 1B68     		ldr	r3, [r3]
+ 739              	.LBE65:
+ 740              	.LBE64:
  315:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     {
- 743              		.loc 1 315 8 discriminator 1 view .LVU187
- 744 001e 9B07     		lsls	r3, r3, #30
- 745 0020 08D4     		bmi	.L53
+ 741              		.loc 1 315 8 discriminator 1 view .LVU186
+ 742 001e 9B07     		lsls	r3, r3, #30
+ 743 0020 08D4     		bmi	.L53
  317:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       while (LL_RCC_HSI_IsReady() != 1U)
- 746              		.loc 1 317 7 is_stmt 1 view .LVU188
- 747              	.LBB66:
- 748              	.LBI66:
+ 744              		.loc 1 317 7 is_stmt 1 view .LVU187
+ 745              	.LBB66:
+ 746              	.LBI66:
  746:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
- 749              		.loc 2 746 22 view .LVU189
- 750              	.LBB67:
+ 747              		.loc 2 746 22 view .LVU188
+ 748              	.LBB67:
  748:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
- 751              		.loc 2 748 3 view .LVU190
- 752 0022 0E4A     		ldr	r2, .L58+4
- 753 0024 1368     		ldr	r3, [r2]
- 754 0026 0121     		movs	r1, #1
- 755 0028 0B43     		orrs	r3, r1
- 756 002a 1360     		str	r3, [r2]
- 757              	.LBE67:
- 758              	.LBE66:
+ 749              		.loc 2 748 3 view .LVU189
+ 750 0022 0E4A     		ldr	r2, .L58+4
+ 751 0024 1368     		ldr	r3, [r2]
+ 752 0026 0121     		movs	r1, #1
+ 753 0028 0B43     		orrs	r3, r1
+ 754 002a 1360     		str	r3, [r2]
+ 755              	.LBE67:
+ 756              	.LBE66:
  318:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       {
- 759              		.loc 1 318 7 view .LVU191
- 760              	.L54:
+ 757              		.loc 1 318 7 view .LVU190
+ 758              	.L54:
  321:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     }
- 761              		.loc 1 321 7 view .LVU192
+ 759              		.loc 1 321 7 view .LVU191
  318:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       {
- 762              		.loc 1 318 35 discriminator 1 view .LVU193
- 763              	.LBB68:
- 764              	.LBI68:
+ 760              		.loc 1 318 35 discriminator 1 view .LVU192
+ 761              	.LBB68:
+ 762              	.LBI68:
  766:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
- 765              		.loc 2 766 26 view .LVU194
- 766              	.LBB69:
+ 763              		.loc 2 766 26 view .LVU193
+ 764              	.LBB69:
  768:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
- 767              		.loc 2 768 3 view .LVU195
+ 765              		.loc 2 768 3 view .LVU194
  768:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
- 768              		.loc 2 768 11 is_stmt 0 view .LVU196
- 769 002c 0B4B     		ldr	r3, .L58+4
- 770 002e 1B68     		ldr	r3, [r3]
- 771              	.LBE69:
- 772              	.LBE68:
-ARM GAS  /tmp/ccuybHdC.s 			page 91
-
-
+ 766              		.loc 2 768 11 is_stmt 0 view .LVU195
+ 767 002c 0B4B     		ldr	r3, .L58+4
+ 768 002e 1B68     		ldr	r3, [r3]
+ 769              	.LBE69:
+ 770              	.LBE68:
  318:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       {
- 773              		.loc 1 318 35 discriminator 1 view .LVU197
- 774 0030 9B07     		lsls	r3, r3, #30
- 775 0032 FBD5     		bpl	.L54
- 776              	.L53:
+ 771              		.loc 1 318 35 discriminator 1 view .LVU196
+ 772 0030 9B07     		lsls	r3, r3, #30
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 91
+
+
+ 773 0032 FBD5     		bpl	.L54
+ 774              	.L53:
  328:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** #endif /*RCC_PLLSRC_PREDIV1_SUPPORT*/
- 777              		.loc 1 328 5 is_stmt 1 view .LVU198
- 778 0034 2A68     		ldr	r2, [r5]
- 779              	.LVL59:
- 780              	.LBB70:
- 781              	.LBI70:
+ 775              		.loc 1 328 5 is_stmt 1 view .LVU197
+ 776 0034 2A68     		ldr	r2, [r5]
+ 777              	.LVL59:
+ 778              	.LBB70:
+ 779              	.LBI70:
 1627:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
- 782              		.loc 2 1627 22 view .LVU199
- 783              	.LBB71:
+ 780              		.loc 2 1627 22 view .LVU198
+ 781              	.LBB71:
 1629:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   MODIFY_REG(RCC->CFGR2, RCC_CFGR2_PREDIV, (Source & RCC_CFGR2_PREDIV));
- 784              		.loc 2 1629 3 view .LVU200
- 785 0036 094B     		ldr	r3, .L58+4
- 786 0038 5968     		ldr	r1, [r3, #4]
- 787 003a 094D     		ldr	r5, .L58+8
- 788              	.LVL60:
+ 782              		.loc 2 1629 3 view .LVU199
+ 783 0036 094B     		ldr	r3, .L58+4
+ 784 0038 5968     		ldr	r1, [r3, #4]
+ 785 003a 094D     		ldr	r5, .L58+8
+ 786              	.LVL60:
 1629:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   MODIFY_REG(RCC->CFGR2, RCC_CFGR2_PREDIV, (Source & RCC_CFGR2_PREDIV));
- 789              		.loc 2 1629 3 is_stmt 0 view .LVU201
- 790 003c 2940     		ands	r1, r5
- 791 003e 0A43     		orrs	r2, r1
- 792              	.LVL61:
+ 787              		.loc 2 1629 3 is_stmt 0 view .LVU200
+ 788 003c 2940     		ands	r1, r5
+ 789 003e 0A43     		orrs	r2, r1
+ 790              	.LVL61:
 1629:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h ****   MODIFY_REG(RCC->CFGR2, RCC_CFGR2_PREDIV, (Source & RCC_CFGR2_PREDIV));
- 793              		.loc 2 1629 3 view .LVU202
- 794 0040 5A60     		str	r2, [r3, #4]
- 795              	.LVL62:
+ 791              		.loc 2 1629 3 view .LVU201
+ 792 0040 5A60     		str	r2, [r3, #4]
+ 793              	.LVL62:
 1630:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
- 796              		.loc 2 1630 3 is_stmt 1 view .LVU203
- 797 0042 DA6A     		ldr	r2, [r3, #44]
- 798 0044 0F21     		movs	r1, #15
- 799 0046 8A43     		bics	r2, r1
- 800 0048 DA62     		str	r2, [r3, #44]
- 801              	.LVL63:
+ 794              		.loc 2 1630 3 is_stmt 1 view .LVU202
+ 795 0042 DA6A     		ldr	r2, [r3, #44]
+ 796 0044 0F21     		movs	r1, #15
+ 797 0046 8A43     		bics	r2, r1
+ 798 0048 DA62     		str	r2, [r3, #44]
+ 799              	.LVL63:
 1630:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
- 802              		.loc 2 1630 3 is_stmt 0 view .LVU204
- 803              	.LBE71:
- 804              	.LBE70:
+ 800              		.loc 2 1630 3 is_stmt 0 view .LVU203
+ 801              	.LBE71:
+ 802              	.LBE70:
  332:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
- 805              		.loc 1 332 5 is_stmt 1 view .LVU205
+ 803              		.loc 1 332 5 is_stmt 1 view .LVU204
  332:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
- 806              		.loc 1 332 14 is_stmt 0 view .LVU206
- 807 004a 2100     		movs	r1, r4
- 808 004c FFF7FEFF 		bl	UTILS_EnablePLLAndSwitchSystem
- 809              	.LVL64:
- 810              	.L52:
+ 804              		.loc 1 332 14 is_stmt 0 view .LVU205
+ 805 004a 2100     		movs	r1, r4
+ 806 004c FFF7FEFF 		bl	UTILS_EnablePLLAndSwitchSystem
+ 807              	.LVL64:
+ 808              	.L52:
  340:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** }
- 811              		.loc 1 340 3 is_stmt 1 view .LVU207
+ 809              		.loc 1 340 3 is_stmt 1 view .LVU206
  341:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
- 812              		.loc 1 341 1 is_stmt 0 view .LVU208
- 813              		@ sp needed
- 814              	.LVL65:
+ 810              		.loc 1 341 1 is_stmt 0 view .LVU207
+ 811              		@ sp needed
+ 812              	.LVL65:
  341:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
- 815              		.loc 1 341 1 view .LVU209
- 816 0050 70BD     		pop	{r4, r5, r6, pc}
-ARM GAS  /tmp/ccuybHdC.s 			page 92
-
-
- 817              	.LVL66:
- 818              	.L55:
+ 813              		.loc 1 341 1 view .LVU208
+ 814 0050 70BD     		pop	{r4, r5, r6, pc}
+ 815              	.LVL66:
+ 816              	.L55:
  337:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
- 819              		.loc 1 337 12 view .LVU210
- 820 0052 0120     		movs	r0, #1
- 821 0054 FCE7     		b	.L52
- 822              	.L59:
- 823 0056 C046     		.align	2
- 824              	.L58:
- 825 0058 00127A00 		.word	8000000
- 826 005c 00100240 		.word	1073876992
- 827 0060 FFFFC2FF 		.word	-3997697
- 828              		.cfi_endproc
- 829              	.LFE177:
- 831              		.section	.text.LL_PLL_ConfigSystemClock_HSE,"ax",%progbits
- 832              		.align	1
- 833              		.global	LL_PLL_ConfigSystemClock_HSE
- 834              		.syntax unified
- 835              		.code	16
- 836              		.thumb_func
- 838              	LL_PLL_ConfigSystemClock_HSE:
- 839              	.LVL67:
- 840              	.LFB178:
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 92
+
+
+ 817              		.loc 1 337 12 view .LVU209
+ 818 0052 0120     		movs	r0, #1
+ 819 0054 FCE7     		b	.L52
+ 820              	.L59:
+ 821 0056 C046     		.align	2
+ 822              	.L58:
+ 823 0058 00127A00 		.word	8000000
+ 824 005c 00100240 		.word	1073876992
+ 825 0060 FFFFC2FF 		.word	-3997697
+ 826              		.cfi_endproc
+ 827              	.LFE177:
+ 829              		.section	.text.LL_PLL_ConfigSystemClock_HSE,"ax",%progbits
+ 830              		.align	1
+ 831              		.global	LL_PLL_ConfigSystemClock_HSE
+ 832              		.syntax unified
+ 833              		.code	16
+ 834              		.thumb_func
+ 836              	LL_PLL_ConfigSystemClock_HSE:
+ 837              	.LVL67:
+ 838              	.LFB178:
  422:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   ErrorStatus status = SUCCESS;
- 841              		.loc 1 422 1 is_stmt 1 view -0
- 842              		.cfi_startproc
- 843              		@ args = 0, pretend = 0, frame = 0
- 844              		@ frame_needed = 0, uses_anonymous_args = 0
+ 839              		.loc 1 422 1 is_stmt 1 view -0
+ 840              		.cfi_startproc
+ 841              		@ args = 0, pretend = 0, frame = 0
+ 842              		@ frame_needed = 0, uses_anonymous_args = 0
  422:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   ErrorStatus status = SUCCESS;
- 845              		.loc 1 422 1 is_stmt 0 view .LVU212
- 846 0000 F0B5     		push	{r4, r5, r6, r7, lr}
- 847              	.LCFI6:
- 848              		.cfi_def_cfa_offset 20
- 849              		.cfi_offset 4, -20
- 850              		.cfi_offset 5, -16
- 851              		.cfi_offset 6, -12
- 852              		.cfi_offset 7, -8
- 853              		.cfi_offset 14, -4
- 854 0002 C646     		mov	lr, r8
- 855 0004 00B5     		push	{lr}
- 856              	.LCFI7:
- 857              		.cfi_def_cfa_offset 24
- 858              		.cfi_offset 8, -24
- 859 0006 0400     		movs	r4, r0
- 860 0008 0F00     		movs	r7, r1
- 861 000a 1600     		movs	r6, r2
- 862 000c 1D00     		movs	r5, r3
+ 843              		.loc 1 422 1 is_stmt 0 view .LVU211
+ 844 0000 F0B5     		push	{r4, r5, r6, r7, lr}
+ 845              	.LCFI6:
+ 846              		.cfi_def_cfa_offset 20
+ 847              		.cfi_offset 4, -20
+ 848              		.cfi_offset 5, -16
+ 849              		.cfi_offset 6, -12
+ 850              		.cfi_offset 7, -8
+ 851              		.cfi_offset 14, -4
+ 852 0002 C646     		mov	lr, r8
+ 853 0004 00B5     		push	{lr}
+ 854              	.LCFI7:
+ 855              		.cfi_def_cfa_offset 24
+ 856              		.cfi_offset 8, -24
+ 857 0006 0400     		movs	r4, r0
+ 858 0008 0F00     		movs	r7, r1
+ 859 000a 1600     		movs	r6, r2
+ 860 000c 1D00     		movs	r5, r3
  423:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   uint32_t pllfreq = 0U;
- 863              		.loc 1 423 3 is_stmt 1 view .LVU213
- 864              	.LVL68:
+ 861              		.loc 1 423 3 is_stmt 1 view .LVU212
+ 862              	.LVL68:
  424:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
- 865              		.loc 1 424 3 view .LVU214
+ 863              		.loc 1 424 3 view .LVU213
  427:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   assert_param(IS_LL_UTILS_HSE_BYPASS(HSEBypass));
- 866              		.loc 1 427 3 view .LVU215
+ 864              		.loc 1 427 3 view .LVU214
  428:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
- 867              		.loc 1 428 3 view .LVU216
+ 865              		.loc 1 428 3 view .LVU215
  431:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   {
-ARM GAS  /tmp/ccuybHdC.s 			page 93
+ 866              		.loc 1 431 3 view .LVU216
+ 431:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   {
+ 867              		.loc 1 431 7 is_stmt 0 view .LVU217
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 93
 
 
- 868              		.loc 1 431 3 view .LVU217
+ 868 000e FFF7FEFF 		bl	UTILS_PLL_IsBusy
+ 869              	.LVL69:
  431:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   {
- 869              		.loc 1 431 7 is_stmt 0 view .LVU218
- 870 000e FFF7FEFF 		bl	UTILS_PLL_IsBusy
- 871              	.LVL69:
- 431:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   {
- 872              		.loc 1 431 6 discriminator 1 view .LVU219
- 873 0012 0028     		cmp	r0, #0
- 874 0014 2ED1     		bne	.L66
+ 870              		.loc 1 431 6 discriminator 1 view .LVU218
+ 871 0012 0028     		cmp	r0, #0
+ 872 0014 2ED1     		bne	.L66
  437:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** #endif /*RCC_PLLSRC_PREDIV1_SUPPORT*/
- 875              		.loc 1 437 5 is_stmt 1 view .LVU220
+ 873              		.loc 1 437 5 is_stmt 1 view .LVU219
  441:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
- 876              		.loc 1 441 5 view .LVU221
+ 874              		.loc 1 441 5 view .LVU220
  441:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
- 877              		.loc 1 441 15 is_stmt 0 view .LVU222
- 878 0016 3100     		movs	r1, r6
- 879 0018 2000     		movs	r0, r4
- 880 001a FFF7FEFF 		bl	UTILS_GetPLLOutputFrequency
- 881              	.LVL70:
- 882 001e 8046     		mov	r8, r0
- 883              	.LVL71:
+ 875              		.loc 1 441 15 is_stmt 0 view .LVU221
+ 876 0016 3100     		movs	r1, r6
+ 877 0018 2000     		movs	r0, r4
+ 878 001a FFF7FEFF 		bl	UTILS_GetPLLOutputFrequency
+ 879              	.LVL70:
+ 880 001e 8046     		mov	r8, r0
+ 881              	.LVL71:
  444:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     {
- 884              		.loc 1 444 5 is_stmt 1 view .LVU223
- 885              	.LBB72:
- 886              	.LBI72:
+ 882              		.loc 1 444 5 is_stmt 1 view .LVU222
+ 883              	.LBB72:
+ 884              	.LBI72:
  728:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
- 887              		.loc 2 728 26 view .LVU224
- 888              	.LBB73:
+ 885              		.loc 2 728 26 view .LVU223
+ 886              	.LBB73:
  730:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
- 889              		.loc 2 730 3 view .LVU225
+ 887              		.loc 2 730 3 view .LVU224
  730:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
- 890              		.loc 2 730 11 is_stmt 0 view .LVU226
- 891 0020 154B     		ldr	r3, .L70
- 892 0022 1B68     		ldr	r3, [r3]
- 893              	.LBE73:
- 894              	.LBE72:
+ 888              		.loc 2 730 11 is_stmt 0 view .LVU225
+ 889 0020 154B     		ldr	r3, .L70
+ 890 0022 1B68     		ldr	r3, [r3]
+ 891              	.LBE73:
+ 892              	.LBE72:
  444:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     {
- 895              		.loc 1 444 8 discriminator 1 view .LVU227
- 896 0024 9B03     		lsls	r3, r3, #14
- 897 0026 10D4     		bmi	.L62
+ 893              		.loc 1 444 8 discriminator 1 view .LVU226
+ 894 0024 9B03     		lsls	r3, r3, #14
+ 895 0026 10D4     		bmi	.L62
  447:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       {
- 898              		.loc 1 447 7 is_stmt 1 view .LVU228
+ 896              		.loc 1 447 7 is_stmt 1 view .LVU227
  447:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       {
- 899              		.loc 1 447 10 is_stmt 0 view .LVU229
- 900 0028 012F     		cmp	r7, #1
- 901 002a 1CD0     		beq	.L69
+ 897              		.loc 1 447 10 is_stmt 0 view .LVU228
+ 898 0028 012F     		cmp	r7, #1
+ 899 002a 1CD0     		beq	.L69
  453:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       }
- 902              		.loc 1 453 9 is_stmt 1 view .LVU230
- 903              	.LBB74:
- 904              	.LBI74:
+ 900              		.loc 1 453 9 is_stmt 1 view .LVU229
+ 901              	.LBB74:
+ 902              	.LBI74:
  698:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
- 905              		.loc 2 698 22 view .LVU231
- 906              	.LBB75:
+ 903              		.loc 2 698 22 view .LVU230
+ 904              	.LBB75:
  700:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
- 907              		.loc 2 700 3 view .LVU232
- 908 002c 124A     		ldr	r2, .L70
- 909 002e 1368     		ldr	r3, [r2]
-ARM GAS  /tmp/ccuybHdC.s 			page 94
+ 905              		.loc 2 700 3 view .LVU231
+ 906 002c 124A     		ldr	r2, .L70
+ 907 002e 1368     		ldr	r3, [r2]
+ 908 0030 1249     		ldr	r1, .L70+4
+ 909 0032 0B40     		ands	r3, r1
+ 910 0034 1360     		str	r3, [r2]
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 94
 
 
- 910 0030 1249     		ldr	r1, .L70+4
- 911 0032 0B40     		ands	r3, r1
- 912 0034 1360     		str	r3, [r2]
- 913              	.L64:
- 914              	.LBE75:
- 915              	.LBE74:
+ 911              	.L64:
+ 912              	.LBE75:
+ 913              	.LBE74:
  457:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       while (LL_RCC_HSE_IsReady() != 1U)
- 916              		.loc 1 457 7 view .LVU233
- 917              	.LBB76:
- 918              	.LBI76:
+ 914              		.loc 1 457 7 view .LVU232
+ 915              	.LBB76:
+ 916              	.LBI76:
  708:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
- 919              		.loc 2 708 22 view .LVU234
- 920              	.LBB77:
+ 917              		.loc 2 708 22 view .LVU233
+ 918              	.LBB77:
  710:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
- 921              		.loc 2 710 3 view .LVU235
- 922 0036 104A     		ldr	r2, .L70
- 923 0038 1168     		ldr	r1, [r2]
- 924 003a 8023     		movs	r3, #128
- 925 003c 5B02     		lsls	r3, r3, #9
- 926 003e 0B43     		orrs	r3, r1
- 927 0040 1360     		str	r3, [r2]
- 928              	.LBE77:
- 929              	.LBE76:
+ 919              		.loc 2 710 3 view .LVU234
+ 920 0036 104A     		ldr	r2, .L70
+ 921 0038 1168     		ldr	r1, [r2]
+ 922 003a 8023     		movs	r3, #128
+ 923 003c 5B02     		lsls	r3, r3, #9
+ 924 003e 0B43     		orrs	r3, r1
+ 925 0040 1360     		str	r3, [r2]
+ 926              	.LBE77:
+ 927              	.LBE76:
  458:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       {
- 930              		.loc 1 458 7 view .LVU236
- 931              	.LVL72:
- 932              	.L65:
+ 928              		.loc 1 458 7 view .LVU235
+ 929              	.LVL72:
+ 930              	.L65:
  461:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****     }
- 933              		.loc 1 461 7 view .LVU237
+ 931              		.loc 1 461 7 view .LVU236
  458:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       {
- 934              		.loc 1 458 35 discriminator 1 view .LVU238
- 935              	.LBB78:
- 936              	.LBI78:
+ 932              		.loc 1 458 35 discriminator 1 view .LVU237
+ 933              	.LBB78:
+ 934              	.LBI78:
  728:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
- 937              		.loc 2 728 26 view .LVU239
- 938              	.LBB79:
+ 935              		.loc 2 728 26 view .LVU238
+ 936              	.LBB79:
  730:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
- 939              		.loc 2 730 3 view .LVU240
+ 937              		.loc 2 730 3 view .LVU239
  730:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
- 940              		.loc 2 730 11 is_stmt 0 view .LVU241
- 941 0042 0D4C     		ldr	r4, .L70
- 942 0044 2468     		ldr	r4, [r4]
- 943              	.LBE79:
- 944              	.LBE78:
+ 938              		.loc 2 730 11 is_stmt 0 view .LVU240
+ 939 0042 0D4C     		ldr	r4, .L70
+ 940 0044 2468     		ldr	r4, [r4]
+ 941              	.LBE79:
+ 942              	.LBE78:
  458:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       {
- 945              		.loc 1 458 35 discriminator 1 view .LVU242
- 946 0046 A403     		lsls	r4, r4, #14
- 947 0048 FBD5     		bpl	.L65
- 948              	.L62:
+ 943              		.loc 1 458 35 discriminator 1 view .LVU241
+ 944 0046 A403     		lsls	r4, r4, #14
+ 945 0048 FBD5     		bpl	.L65
+ 946              	.L62:
  468:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** #endif /*RCC_PLLSRC_PREDIV1_SUPPORT*/
- 949              		.loc 1 468 5 is_stmt 1 view .LVU243
+ 947              		.loc 1 468 5 is_stmt 1 view .LVU242
  468:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** #endif /*RCC_PLLSRC_PREDIV1_SUPPORT*/
- 950              		.loc 1 468 82 is_stmt 0 view .LVU244
- 951 004a 7368     		ldr	r3, [r6, #4]
+ 948              		.loc 1 468 82 is_stmt 0 view .LVU243
+ 949 004a 7368     		ldr	r3, [r6, #4]
  468:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** #endif /*RCC_PLLSRC_PREDIV1_SUPPORT*/
- 952              		.loc 1 468 5 view .LVU245
- 953 004c 3168     		ldr	r1, [r6]
-ARM GAS  /tmp/ccuybHdC.s 			page 95
+ 950              		.loc 1 468 61 view .LVU244
+ 951 004c 8020     		movs	r0, #128
+ 952              	.LVL73:
+ 468:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** #endif /*RCC_PLLSRC_PREDIV1_SUPPORT*/
+ 953              		.loc 1 468 61 view .LVU245
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 95
 
 
- 954 004e 8020     		movs	r0, #128
- 955              	.LVL73:
+ 954 004e 4002     		lsls	r0, r0, #9
+ 955 0050 1843     		orrs	r0, r3
  468:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** #endif /*RCC_PLLSRC_PREDIV1_SUPPORT*/
  956              		.loc 1 468 5 view .LVU246
- 957 0050 4002     		lsls	r0, r0, #9
- 958 0052 1843     		orrs	r0, r3
- 959 0054 FFF7FEFF 		bl	LL_RCC_PLL_ConfigDomain_SYS
- 960              	.LVL74:
+ 957 0052 3168     		ldr	r1, [r6]
+ 958 0054 FFF7FEFF 		bl	LL_RCC_PLL_ConfigDomain_SYS
+ 959              	.LVL74:
  472:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
- 961              		.loc 1 472 5 is_stmt 1 view .LVU247
+ 960              		.loc 1 472 5 is_stmt 1 view .LVU247
  472:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
- 962              		.loc 1 472 14 is_stmt 0 view .LVU248
- 963 0058 2900     		movs	r1, r5
- 964 005a 4046     		mov	r0, r8
- 965 005c FFF7FEFF 		bl	UTILS_EnablePLLAndSwitchSystem
- 966              	.LVL75:
- 967              	.L61:
+ 961              		.loc 1 472 14 is_stmt 0 view .LVU248
+ 962 0058 2900     		movs	r1, r5
+ 963 005a 4046     		mov	r0, r8
+ 964 005c FFF7FEFF 		bl	UTILS_EnablePLLAndSwitchSystem
+ 965              	.LVL75:
+ 966              	.L61:
  480:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** }
- 968              		.loc 1 480 3 is_stmt 1 view .LVU249
+ 967              		.loc 1 480 3 is_stmt 1 view .LVU249
  481:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
- 969              		.loc 1 481 1 is_stmt 0 view .LVU250
- 970              		@ sp needed
- 971              	.LVL76:
- 972              	.LVL77:
- 973              	.LVL78:
+ 968              		.loc 1 481 1 is_stmt 0 view .LVU250
+ 969              		@ sp needed
+ 970              	.LVL76:
+ 971              	.LVL77:
+ 972              	.LVL78:
  481:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c **** 
- 974              		.loc 1 481 1 view .LVU251
- 975 0060 80BC     		pop	{r7}
- 976 0062 B846     		mov	r8, r7
- 977 0064 F0BD     		pop	{r4, r5, r6, r7, pc}
- 978              	.LVL79:
- 979              	.L69:
+ 973              		.loc 1 481 1 view .LVU251
+ 974 0060 80BC     		pop	{r7}
+ 975 0062 B846     		mov	r8, r7
+ 976 0064 F0BD     		pop	{r4, r5, r6, r7, pc}
+ 977              	.LVL79:
+ 978              	.L69:
  449:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****       }
- 980              		.loc 1 449 9 is_stmt 1 view .LVU252
- 981              	.LBB80:
- 982              	.LBI80:
+ 979              		.loc 1 449 9 is_stmt 1 view .LVU252
+ 980              	.LBB80:
+ 981              	.LBI80:
  688:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** {
- 983              		.loc 2 688 22 view .LVU253
- 984              	.LBB81:
+ 982              		.loc 2 688 22 view .LVU253
+ 983              	.LBB81:
  690:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** }
- 985              		.loc 2 690 3 view .LVU254
- 986 0066 044A     		ldr	r2, .L70
- 987 0068 1168     		ldr	r1, [r2]
- 988 006a 8023     		movs	r3, #128
- 989 006c DB02     		lsls	r3, r3, #11
- 990 006e 0B43     		orrs	r3, r1
- 991 0070 1360     		str	r3, [r2]
+ 984              		.loc 2 690 3 view .LVU254
+ 985 0066 044A     		ldr	r2, .L70
+ 986 0068 1168     		ldr	r1, [r2]
+ 987 006a 8023     		movs	r3, #128
+ 988 006c DB02     		lsls	r3, r3, #11
+ 989 006e 0B43     		orrs	r3, r1
+ 990 0070 1360     		str	r3, [r2]
  691:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** 
- 992              		.loc 2 691 1 is_stmt 0 view .LVU255
- 993 0072 E0E7     		b	.L64
- 994              	.LVL80:
- 995              	.L66:
+ 991              		.loc 2 691 1 is_stmt 0 view .LVU255
+ 992 0072 E0E7     		b	.L64
+ 993              	.LVL80:
+ 994              	.L66:
  691:Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_rcc.h **** 
- 996              		.loc 2 691 1 view .LVU256
- 997              	.LBE81:
- 998              	.LBE80:
+ 995              		.loc 2 691 1 view .LVU256
+ 996              	.LBE81:
+ 997              	.LBE80:
  477:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c ****   }
-ARM GAS  /tmp/ccuybHdC.s 			page 96
+ 998              		.loc 1 477 12 view .LVU257
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 96
 
 
- 999              		.loc 1 477 12 view .LVU257
- 1000 0074 0120     		movs	r0, #1
- 1001 0076 F3E7     		b	.L61
- 1002              	.L71:
- 1003              		.align	2
- 1004              	.L70:
- 1005 0078 00100240 		.word	1073876992
- 1006 007c FFFFFBFF 		.word	-262145
- 1007              		.cfi_endproc
- 1008              	.LFE178:
- 1010              		.text
- 1011              	.Letext0:
- 1012              		.file 5 "/usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h"
- 1013              		.file 6 "Drivers/CMSIS/Include/core_cm0.h"
- 1014              		.file 7 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h"
- 1015              		.file 8 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h"
- 1016              		.file 9 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h"
-ARM GAS  /tmp/ccuybHdC.s 			page 97
+ 999 0074 0120     		movs	r0, #1
+ 1000 0076 F3E7     		b	.L61
+ 1001              	.L71:
+ 1002              		.align	2
+ 1003              	.L70:
+ 1004 0078 00100240 		.word	1073876992
+ 1005 007c FFFFFBFF 		.word	-262145
+ 1006              		.cfi_endproc
+ 1007              	.LFE178:
+ 1009              		.text
+ 1010              	.Letext0:
+ 1011              		.file 5 "C:\\ST\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools
+ 1012              		.file 6 "C:\\ST\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools
+ 1013              		.file 7 "Drivers/CMSIS/Include/core_cm0.h"
+ 1014              		.file 8 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h"
+ 1015              		.file 9 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h"
+ 1016              		.file 10 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h"
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s 			page 97
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f0xx_ll_utils.c
-     /tmp/ccuybHdC.s:19     .text.LL_RCC_PLL_ConfigDomain_SYS:00000000 $t
-     /tmp/ccuybHdC.s:24     .text.LL_RCC_PLL_ConfigDomain_SYS:00000000 LL_RCC_PLL_ConfigDomain_SYS
-     /tmp/ccuybHdC.s:68     .text.LL_RCC_PLL_ConfigDomain_SYS:00000028 $d
-     /tmp/ccuybHdC.s:75     .text.UTILS_GetPLLOutputFrequency:00000000 $t
-     /tmp/ccuybHdC.s:80     .text.UTILS_GetPLLOutputFrequency:00000000 UTILS_GetPLLOutputFrequency
-     /tmp/ccuybHdC.s:125    .text.UTILS_PLL_IsBusy:00000000 $t
-     /tmp/ccuybHdC.s:130    .text.UTILS_PLL_IsBusy:00000000 UTILS_PLL_IsBusy
-     /tmp/ccuybHdC.s:169    .text.UTILS_PLL_IsBusy:00000010 $d
-     /tmp/ccuybHdC.s:174    .text.LL_Init1msTick:00000000 $t
-     /tmp/ccuybHdC.s:180    .text.LL_Init1msTick:00000000 LL_Init1msTick
-     /tmp/ccuybHdC.s:229    .text.LL_Init1msTick:0000001c $d
-     /tmp/ccuybHdC.s:234    .text.LL_mDelay:00000000 $t
-     /tmp/ccuybHdC.s:240    .text.LL_mDelay:00000000 LL_mDelay
-     /tmp/ccuybHdC.s:294    .text.LL_mDelay:00000024 $d
-     /tmp/ccuybHdC.s:299    .text.LL_SetSystemCoreClock:00000000 $t
-     /tmp/ccuybHdC.s:305    .text.LL_SetSystemCoreClock:00000000 LL_SetSystemCoreClock
-     /tmp/ccuybHdC.s:323    .text.LL_SetSystemCoreClock:00000008 $d
-     /tmp/ccuybHdC.s:328    .text.LL_SetFlashLatency:00000000 $t
-     /tmp/ccuybHdC.s:334    .text.LL_SetFlashLatency:00000000 LL_SetFlashLatency
-     /tmp/ccuybHdC.s:442    .text.LL_SetFlashLatency:00000040 $d
-     /tmp/ccuybHdC.s:448    .text.UTILS_EnablePLLAndSwitchSystem:00000000 $t
-     /tmp/ccuybHdC.s:453    .text.UTILS_EnablePLLAndSwitchSystem:00000000 UTILS_EnablePLLAndSwitchSystem
-     /tmp/ccuybHdC.s:681    .text.UTILS_EnablePLLAndSwitchSystem:000000a0 $d
-     /tmp/ccuybHdC.s:689    .text.LL_PLL_ConfigSystemClock_HSI:00000000 $t
-     /tmp/ccuybHdC.s:695    .text.LL_PLL_ConfigSystemClock_HSI:00000000 LL_PLL_ConfigSystemClock_HSI
-     /tmp/ccuybHdC.s:825    .text.LL_PLL_ConfigSystemClock_HSI:00000058 $d
-     /tmp/ccuybHdC.s:832    .text.LL_PLL_ConfigSystemClock_HSE:00000000 $t
-     /tmp/ccuybHdC.s:838    .text.LL_PLL_ConfigSystemClock_HSE:00000000 LL_PLL_ConfigSystemClock_HSE
-     /tmp/ccuybHdC.s:1005   .text.LL_PLL_ConfigSystemClock_HSE:00000078 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:19     .text.LL_RCC_PLL_ConfigDomain_SYS:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:24     .text.LL_RCC_PLL_ConfigDomain_SYS:00000000 LL_RCC_PLL_ConfigDomain_SYS
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:68     .text.LL_RCC_PLL_ConfigDomain_SYS:00000028 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:74     .text.UTILS_GetPLLOutputFrequency:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:79     .text.UTILS_GetPLLOutputFrequency:00000000 UTILS_GetPLLOutputFrequency
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:124    .text.UTILS_PLL_IsBusy:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:129    .text.UTILS_PLL_IsBusy:00000000 UTILS_PLL_IsBusy
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:168    .text.UTILS_PLL_IsBusy:00000010 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:173    .text.LL_Init1msTick:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:179    .text.LL_Init1msTick:00000000 LL_Init1msTick
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:228    .text.LL_Init1msTick:0000001c $d
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:233    .text.LL_mDelay:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:239    .text.LL_mDelay:00000000 LL_mDelay
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:294    .text.LL_mDelay:00000024 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:299    .text.LL_SetSystemCoreClock:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:305    .text.LL_SetSystemCoreClock:00000000 LL_SetSystemCoreClock
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:323    .text.LL_SetSystemCoreClock:00000008 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:328    .text.LL_SetFlashLatency:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:334    .text.LL_SetFlashLatency:00000000 LL_SetFlashLatency
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:442    .text.LL_SetFlashLatency:00000040 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:448    .text.UTILS_EnablePLLAndSwitchSystem:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:453    .text.UTILS_EnablePLLAndSwitchSystem:00000000 UTILS_EnablePLLAndSwitchSystem
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:679    .text.UTILS_EnablePLLAndSwitchSystem:000000a0 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:687    .text.LL_PLL_ConfigSystemClock_HSI:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:693    .text.LL_PLL_ConfigSystemClock_HSI:00000000 LL_PLL_ConfigSystemClock_HSI
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:823    .text.LL_PLL_ConfigSystemClock_HSI:00000058 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:830    .text.LL_PLL_ConfigSystemClock_HSE:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:836    .text.LL_PLL_ConfigSystemClock_HSE:00000000 LL_PLL_ConfigSystemClock_HSE
+C:\Users\Tebogo\AppData\Local\Temp\ccBgnTnf.s:1004   .text.LL_PLL_ConfigSystemClock_HSE:00000078 $d
 
 UNDEFINED SYMBOLS
 __aeabi_uidiv
