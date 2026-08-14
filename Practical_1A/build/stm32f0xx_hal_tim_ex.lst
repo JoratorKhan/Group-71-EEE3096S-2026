@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccgtb6ah.s 			page 1
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
   30:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     The Timer Extended features include:
   31:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     (#) Complementary outputs with programmable dead-time for :
   32:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****         (++) Output Compare
-ARM GAS  /tmp/ccgtb6ah.s 			page 2
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 2
 
 
   33:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****         (++) PWM generation (Edge and Center-aligned Mode)
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
   87:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
   88:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** /** @defgroup TIMEx TIMEx
   89:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   * @brief TIM Extended HAL module driver
-ARM GAS  /tmp/ccgtb6ah.s 			page 3
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 3
 
 
   90:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   * @{
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  144:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   if (htim == NULL)
  145:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  146:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     return HAL_ERROR;
-ARM GAS  /tmp/ccgtb6ah.s 			page 4
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 4
 
 
  147:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   }
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  201:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Use the TIM_TS_TI1F_ED signal to reset the TIM counter each edge detection */
  202:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   htim->Instance->SMCR &= ~TIM_SMCR_SMS;
  203:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   htim->Instance->SMCR |= TIM_SLAVEMODE_RESET;
-ARM GAS  /tmp/ccgtb6ah.s 			page 5
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 5
 
 
  204:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  258:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** #else
  259:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* DeInit the low level hardware: GPIO, CLOCK, NVIC */
  260:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   HAL_TIMEx_HallSensor_MspDeInit(htim);
-ARM GAS  /tmp/ccgtb6ah.s 			page 6
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 6
 
 
  261:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** #endif /* USE_HAL_TIM_REGISTER_CALLBACKS */
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  315:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   */
  316:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** HAL_StatusTypeDef HAL_TIMEx_HallSensor_Start(TIM_HandleTypeDef *htim)
  317:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** {
-ARM GAS  /tmp/ccgtb6ah.s 			page 7
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 7
 
 
  318:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   uint32_t tmpsmcr;
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  372:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Check the parameters */
  373:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   assert_param(IS_TIM_HALL_SENSOR_INTERFACE_INSTANCE(htim->Instance));
  374:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccgtb6ah.s 			page 8
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 8
 
 
  375:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Disable the Input Capture channels 1, 2 and 3
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  429:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   TIM_CHANNEL_2 and TIM_CHANNEL_3) */
  430:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   TIM_CCxChannelCmd(htim->Instance, TIM_CHANNEL_1, TIM_CCx_ENABLE);
  431:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccgtb6ah.s 			page 9
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 9
 
 
  432:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Enable the Peripheral, except in trigger mode where enable is automatically done with trigger 
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  486:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   * @retval HAL status
  487:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   */
  488:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** HAL_StatusTypeDef HAL_TIMEx_HallSensor_Start_DMA(TIM_HandleTypeDef *htim, uint32_t *pData, uint16_t
-ARM GAS  /tmp/ccgtb6ah.s 			page 10
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 10
 
 
  489:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** {
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  543:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  544:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     tmpsmcr = htim->Instance->SMCR & TIM_SMCR_SMS;
  545:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     if (!IS_TIM_SLAVEMODE_TRIGGER_ENABLED(tmpsmcr))
-ARM GAS  /tmp/ccgtb6ah.s 			page 11
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 11
 
 
  546:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  600:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****               ##### Timer Complementary Output Compare functions #####
  601:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   ==============================================================================
  602:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   [..]
-ARM GAS  /tmp/ccgtb6ah.s 			page 12
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 12
 
 
  603:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     This section provides functions allowing to:
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  657:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   else
  658:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  659:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     __HAL_TIM_ENABLE(htim);
-ARM GAS  /tmp/ccgtb6ah.s 			page 13
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 13
 
 
  660:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   }
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  714:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Check the parameters */
  715:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   assert_param(IS_TIM_CCXN_INSTANCE(htim->Instance, Channel));
  716:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccgtb6ah.s 			page 14
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 14
 
 
  717:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Check the TIM complementary channel state */
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  771:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       {
  772:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****         __HAL_TIM_ENABLE(htim);
  773:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       }
-ARM GAS  /tmp/ccgtb6ah.s 			page 15
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 15
 
 
  774:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     }
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  828:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       status = HAL_ERROR;
  829:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       break;
  830:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   }
-ARM GAS  /tmp/ccgtb6ah.s 			page 16
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 16
 
 
  831:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  885:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   else if (TIM_CHANNEL_N_STATE_GET(htim, Channel) == HAL_TIM_CHANNEL_STATE_READY)
  886:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  887:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     if ((pData == NULL) || (Length == 0U))
-ARM GAS  /tmp/ccgtb6ah.s 			page 17
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 17
 
 
  888:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  942:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       break;
  943:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     }
  944:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccgtb6ah.s 			page 18
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 18
 
 
  945:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     case TIM_CHANNEL_3:
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  999:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   * @brief  Stops the TIM Output Compare signal generation in DMA mode
 1000:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   *         on the complementary output.
 1001:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   * @param  htim TIM Output Compare handle
-ARM GAS  /tmp/ccgtb6ah.s 			page 19
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 19
 
 
 1002:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   * @param  Channel TIM Channel to be disabled
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1056:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     __HAL_TIM_DISABLE(htim);
 1057:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
 1058:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     /* Set the TIM complementary channel state */
-ARM GAS  /tmp/ccgtb6ah.s 			page 20
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 20
 
 
 1059:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     TIM_CHANNEL_N_STATE_SET(htim, Channel, HAL_TIM_CHANNEL_STATE_READY);
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1113:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, Channel, HAL_TIM_CHANNEL_STATE_BUSY);
 1114:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
 1115:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Enable the complementary PWM output  */
-ARM GAS  /tmp/ccgtb6ah.s 			page 21
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 21
 
 
 1116:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   TIM_CCxNChannelCmd(htim->Instance, Channel, TIM_CCxN_ENABLE);
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1170:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** /**
 1171:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   * @brief  Starts the PWM signal generation in interrupt mode on the
 1172:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   *         complementary output.
-ARM GAS  /tmp/ccgtb6ah.s 			page 22
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 22
 
 
 1173:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   * @param  htim TIM handle
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1227:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
 1228:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     /* Enable the TIM Break interrupt */
 1229:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     __HAL_TIM_ENABLE_IT(htim, TIM_IT_BREAK);
-ARM GAS  /tmp/ccgtb6ah.s 			page 23
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 23
 
 
 1230:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1284:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     case TIM_CHANNEL_2:
 1285:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
 1286:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       /* Disable the TIM Capture/Compare 2 interrupt */
-ARM GAS  /tmp/ccgtb6ah.s 			page 24
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 24
 
 
 1287:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       __HAL_TIM_DISABLE_IT(htim, TIM_IT_CC2);
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1341:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   */
 1342:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** HAL_StatusTypeDef HAL_TIMEx_PWMN_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, const uint32_
 1343:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****                                            uint16_t Length)
-ARM GAS  /tmp/ccgtb6ah.s 			page 25
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 25
 
 
 1344:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** {
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1398:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC2]->XferCpltCallback = TIM_DMADelayPulseNCplt;
 1399:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC2]->XferHalfCpltCallback = TIM_DMADelayPulseHalfCplt;
 1400:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccgtb6ah.s 			page 26
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 26
 
 
 1401:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       /* Set the DMA error callback */
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1455:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       {
 1456:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****         __HAL_TIM_ENABLE(htim);
 1457:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       }
-ARM GAS  /tmp/ccgtb6ah.s 			page 27
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 27
 
 
 1458:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     }
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1512:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
 1513:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     default:
 1514:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       status = HAL_ERROR;
-ARM GAS  /tmp/ccgtb6ah.s 			page 28
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 28
 
 
 1515:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       break;
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1569:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   * @retval HAL status
 1570:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   */
 1571:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Start(TIM_HandleTypeDef *htim, uint32_t OutputChannel)
-ARM GAS  /tmp/ccgtb6ah.s 			page 29
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 29
 
 
 1572:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** {
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1626:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
 1627:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Disable the complementary One Pulse output channel and the Input Capture channel */
 1628:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   TIM_CCxNChannelCmd(htim->Instance, OutputChannel, TIM_CCxN_DISABLE);
-ARM GAS  /tmp/ccgtb6ah.s 			page 30
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 30
 
 
 1629:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   TIM_CCxChannelCmd(htim->Instance, input_channel, TIM_CCx_DISABLE);
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1683:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_2, HAL_TIM_CHANNEL_STATE_BUSY);
 1684:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
 1685:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Enable the TIM Capture/Compare 1 interrupt */
-ARM GAS  /tmp/ccgtb6ah.s 			page 31
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 31
 
 
 1686:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   __HAL_TIM_ENABLE_IT(htim, TIM_IT_CC1);
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1740:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_1, HAL_TIM_CHANNEL_STATE_READY);
 1741:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_2, HAL_TIM_CHANNEL_STATE_READY);
 1742:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccgtb6ah.s 			page 32
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 32
 
 
 1743:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Return function status */
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1797:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   assert_param(IS_TIM_COMMUTATION_EVENT_INSTANCE(htim->Instance));
 1798:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   assert_param(IS_TIM_INTERNAL_TRIGGEREVENT_SELECTION(InputTrigger));
 1799:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccgtb6ah.s 			page 33
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 33
 
 
 1800:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   __HAL_LOCK(htim);
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1854:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   assert_param(IS_TIM_INTERNAL_TRIGGEREVENT_SELECTION(InputTrigger));
 1855:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
 1856:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   __HAL_LOCK(htim);
-ARM GAS  /tmp/ccgtb6ah.s 			page 34
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 34
 
 
 1857:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1911:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   assert_param(IS_TIM_INTERNAL_TRIGGEREVENT_SELECTION(InputTrigger));
 1912:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
 1913:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   __HAL_LOCK(htim);
-ARM GAS  /tmp/ccgtb6ah.s 			page 35
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 35
 
 
 1914:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1968:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
 1969:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Change the handler state */
 1970:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   htim->State = HAL_TIM_STATE_BUSY;
-ARM GAS  /tmp/ccgtb6ah.s 			page 36
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 36
 
 
 1971:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 2025:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   assert_param(IS_TIM_OSSI_STATE(sBreakDeadTimeConfig->OffStateIDLEMode));
 2026:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   assert_param(IS_TIM_LOCK_LEVEL(sBreakDeadTimeConfig->LockLevel));
 2027:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   assert_param(IS_TIM_DEADTIME(sBreakDeadTimeConfig->DeadTime));
-ARM GAS  /tmp/ccgtb6ah.s 			page 37
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 37
 
 
 2028:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   assert_param(IS_TIM_BREAK_STATE(sBreakDeadTimeConfig->BreakState));
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 2082:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** }
 2083:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
 2084:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** /**
-ARM GAS  /tmp/ccgtb6ah.s 			page 38
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 38
 
 
 2085:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   * @}
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 2139:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** {
 2140:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Prevent unused argument(s) compilation warning */
 2141:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   UNUSED(htim);
-ARM GAS  /tmp/ccgtb6ah.s 			page 39
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 39
 
 
 2142:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 2196:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** }
 2197:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** /**
 2198:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   * @}
-ARM GAS  /tmp/ccgtb6ah.s 			page 40
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 40
 
 
 2199:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   */
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 2253:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   */
 2254:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** static void TIM_DMADelayPulseNCplt(DMA_HandleTypeDef *hdma)
 2255:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** {
-ARM GAS  /tmp/ccgtb6ah.s 			page 41
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 41
 
 
 2256:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   TIM_HandleTypeDef *htim = (TIM_HandleTypeDef *)((DMA_HandleTypeDef *)hdma)->Parent;
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 2310:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     htim->Channel = HAL_TIM_ACTIVE_CHANNEL_1;
 2311:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_1, HAL_TIM_CHANNEL_STATE_READY);
 2312:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   }
-ARM GAS  /tmp/ccgtb6ah.s 			page 42
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 42
 
 
 2313:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   else if (hdma == htim->hdma[TIM_DMA_ID_CC2])
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
   40 0002 0F23     		movs	r3, #15
   41 0004 1940     		ands	r1, r3
   42              	.LVL1:
-ARM GAS  /tmp/ccgtb6ah.s 			page 43
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 43
 
 
   43              		.loc 1 2353 7 view .LVU5
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
   89              		.loc 1 2306 3 is_stmt 1 view .LVU17
 2306:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
   90              		.loc 1 2306 22 is_stmt 0 view .LVU18
-ARM GAS  /tmp/ccgtb6ah.s 			page 44
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 44
 
 
   91 0002 446A     		ldr	r4, [r0, #36]
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  129              	.L6:
 2310:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_1, HAL_TIM_CHANNEL_STATE_READY);
  130              		.loc 1 2310 5 is_stmt 1 view .LVU35
-ARM GAS  /tmp/ccgtb6ah.s 			page 45
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 45
 
 
 2310:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_1, HAL_TIM_CHANNEL_STATE_READY);
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  177              		.cfi_def_cfa_offset 8
  178              		.cfi_offset 4, -8
  179              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccgtb6ah.s 			page 46
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 46
 
 
 2256:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 2297:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  217              		.loc 1 2297 1 view .LVU63
  218 0020 10BD     		pop	{r4, pc}
-ARM GAS  /tmp/ccgtb6ah.s 			page 47
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 47
 
 
  219              	.LVL16:
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 2280:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
  258              		.loc 1 2280 19 is_stmt 0 view .LVU79
  259 004a 8369     		ldr	r3, [r0, #24]
-ARM GAS  /tmp/ccgtb6ah.s 			page 48
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 48
 
 
 2280:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  311              		.cfi_offset 4, -20
  312              		.cfi_offset 5, -16
  313              		.cfi_offset 6, -12
-ARM GAS  /tmp/ccgtb6ah.s 			page 49
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 49
 
 
  314              		.cfi_offset 7, -8
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  350 001a 2100     		movs	r1, r4
  184:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  351              		.loc 1 184 3 view .LVU105
-ARM GAS  /tmp/ccgtb6ah.s 			page 50
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 50
 
 
  352 001c 01C9     		ldmia	r1!, {r0}
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  389              		.loc 1 195 23 view .LVU122
  390 0046 8021     		movs	r1, #128
  391 0048 0B43     		orrs	r3, r1
-ARM GAS  /tmp/ccgtb6ah.s 			page 51
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 51
 
 
  392 004a 5360     		str	r3, [r2, #4]
@@ -3058,48 +3058,48 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  429              		.loc 1 206 3 is_stmt 1 view .LVU139
  206:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   OC_Config.OCIdleState = TIM_OCIDLESTATE_RESET;
  430              		.loc 1 206 24 is_stmt 0 view .LVU140
-ARM GAS  /tmp/ccgtb6ah.s 			page 52
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 52
 
 
- 431 0074 0023     		movs	r3, #0
- 432 0076 0593     		str	r3, [sp, #20]
+ 431 0074 01A9     		add	r1, sp, #4
+ 432 0076 0023     		movs	r3, #0
+ 433 0078 0B61     		str	r3, [r1, #16]
  207:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   OC_Config.OCMode = TIM_OCMODE_PWM2;
- 433              		.loc 1 207 3 is_stmt 1 view .LVU141
+ 434              		.loc 1 207 3 is_stmt 1 view .LVU141
  207:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   OC_Config.OCMode = TIM_OCMODE_PWM2;
- 434              		.loc 1 207 25 is_stmt 0 view .LVU142
- 435 0078 0693     		str	r3, [sp, #24]
+ 435              		.loc 1 207 25 is_stmt 0 view .LVU142
+ 436 007a 4B61     		str	r3, [r1, #20]
  208:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   OC_Config.OCNIdleState = TIM_OCNIDLESTATE_RESET;
- 436              		.loc 1 208 3 is_stmt 1 view .LVU143
+ 437              		.loc 1 208 3 is_stmt 1 view .LVU143
  208:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   OC_Config.OCNIdleState = TIM_OCNIDLESTATE_RESET;
- 437              		.loc 1 208 20 is_stmt 0 view .LVU144
- 438 007a 0197     		str	r7, [sp, #4]
+ 438              		.loc 1 208 20 is_stmt 0 view .LVU144
+ 439 007c 0197     		str	r7, [sp, #4]
  209:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   OC_Config.OCNPolarity = TIM_OCNPOLARITY_HIGH;
- 439              		.loc 1 209 3 is_stmt 1 view .LVU145
+ 440              		.loc 1 209 3 is_stmt 1 view .LVU145
  209:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   OC_Config.OCNPolarity = TIM_OCNPOLARITY_HIGH;
- 440              		.loc 1 209 26 is_stmt 0 view .LVU146
- 441 007c 0793     		str	r3, [sp, #28]
+ 441              		.loc 1 209 26 is_stmt 0 view .LVU146
+ 442 007e 8B61     		str	r3, [r1, #24]
  210:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   OC_Config.OCPolarity = TIM_OCPOLARITY_HIGH;
- 442              		.loc 1 210 3 is_stmt 1 view .LVU147
+ 443              		.loc 1 210 3 is_stmt 1 view .LVU147
  210:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   OC_Config.OCPolarity = TIM_OCPOLARITY_HIGH;
- 443              		.loc 1 210 25 is_stmt 0 view .LVU148
- 444 007e 0493     		str	r3, [sp, #16]
+ 444              		.loc 1 210 25 is_stmt 0 view .LVU148
+ 445 0080 CB60     		str	r3, [r1, #12]
  211:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   OC_Config.Pulse = sConfig->Commutation_Delay;
- 445              		.loc 1 211 3 is_stmt 1 view .LVU149
+ 446              		.loc 1 211 3 is_stmt 1 view .LVU149
  211:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   OC_Config.Pulse = sConfig->Commutation_Delay;
- 446              		.loc 1 211 24 is_stmt 0 view .LVU150
- 447 0080 0393     		str	r3, [sp, #12]
+ 447              		.loc 1 211 24 is_stmt 0 view .LVU150
+ 448 0082 8B60     		str	r3, [r1, #8]
  212:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 448              		.loc 1 212 3 is_stmt 1 view .LVU151
+ 449              		.loc 1 212 3 is_stmt 1 view .LVU151
  212:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 449              		.loc 1 212 28 is_stmt 0 view .LVU152
- 450 0082 EB68     		ldr	r3, [r5, #12]
+ 450              		.loc 1 212 28 is_stmt 0 view .LVU152
+ 451 0084 EB68     		ldr	r3, [r5, #12]
  212:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 451              		.loc 1 212 19 view .LVU153
- 452 0084 0293     		str	r3, [sp, #8]
+ 452              		.loc 1 212 19 view .LVU153
+ 453 0086 4B60     		str	r3, [r1, #4]
  214:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 453              		.loc 1 214 3 is_stmt 1 view .LVU154
- 454 0086 2068     		ldr	r0, [r4]
- 455 0088 01A9     		add	r1, sp, #4
+ 454              		.loc 1 214 3 is_stmt 1 view .LVU154
+ 455 0088 2068     		ldr	r0, [r4]
  456 008a FFF7FEFF 		bl	TIM_OC2_SetConfig
  457              	.LVL22:
  218:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   htim->Instance->CR2 |= TIM_TRGO_OC2REF;
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  466              		.loc 1 219 3 is_stmt 1 view .LVU159
  219:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  467              		.loc 1 219 7 is_stmt 0 view .LVU160
-ARM GAS  /tmp/ccgtb6ah.s 			page 53
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 53
 
 
  468 0096 2268     		ldr	r2, [r4]
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  162:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  508              		.loc 1 162 5 is_stmt 1 view .LVU175
  162:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccgtb6ah.s 			page 54
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 54
 
 
  509              		.loc 1 162 16 is_stmt 0 view .LVU176
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  242:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Check the parameters */
  560              		.loc 1 242 1 is_stmt 1 view -0
  561              		.cfi_startproc
-ARM GAS  /tmp/ccgtb6ah.s 			page 55
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 55
 
 
  562              		@ args = 0, pretend = 0, frame = 0
@@ -3276,14 +3276,14 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  587 0018 1142     		tst	r1, r2
  588 001a 03D1     		bne	.L24
  249:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 589              		.loc 1 249 3 discriminator 3 view .LVU192
+ 589              		.loc 1 249 3 discriminator 2 view .LVU192
  590 001c 1A68     		ldr	r2, [r3]
  591 001e 0121     		movs	r1, #1
  592 0020 8A43     		bics	r2, r1
  593 0022 1A60     		str	r2, [r3]
  594              	.L24:
  249:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 595              		.loc 1 249 3 discriminator 5 view .LVU193
+ 595              		.loc 1 249 3 view .LVU193
  260:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** #endif /* USE_HAL_TIM_REGISTER_CALLBACKS */
  596              		.loc 1 260 3 view .LVU194
  597 0024 2000     		movs	r0, r4
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  603              		.loc 1 264 23 is_stmt 0 view .LVU197
  604 002a 0023     		movs	r3, #0
  605 002c 4622     		movs	r2, #70
-ARM GAS  /tmp/ccgtb6ah.s 			page 56
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 56
 
 
  606 002e A354     		strb	r3, [r4, r2]
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  650              	HAL_TIMEx_HallSensor_Start:
  651              	.LVL34:
  652              	.LFB44:
-ARM GAS  /tmp/ccgtb6ah.s 			page 57
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 57
 
 
  317:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   uint32_t tmpsmcr;
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  693              		.loc 1 328 6 is_stmt 0 view .LVU223
  694 001c 012D     		cmp	r5, #1
  695 001e 34D1     		bne	.L31
-ARM GAS  /tmp/ccgtb6ah.s 			page 58
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 58
 
 
  329:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       || (complementary_channel_1_state != HAL_TIM_CHANNEL_STATE_READY)
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  735              		.loc 1 345 3 is_stmt 1 view .LVU238
  736 0042 2068     		ldr	r0, [r4]
  737              	.LVL46:
-ARM GAS  /tmp/ccgtb6ah.s 			page 59
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 59
 
 
  345:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  350:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     if (!IS_TIM_SLAVEMODE_TRIGGER_ENABLED(tmpsmcr))
  779              		.loc 1 350 13 view .LVU252
  780 0076 0722     		movs	r2, #7
-ARM GAS  /tmp/ccgtb6ah.s 			page 60
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 60
 
 
  781 0078 0A40     		ands	r2, r1
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  823              	.L37:
  824 0096 C046     		.align	2
  825              	.L36:
-ARM GAS  /tmp/ccgtb6ah.s 			page 61
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 61
 
 
  826 0098 002C0140 		.word	1073818624
@@ -3656,9 +3656,9 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  872 001c 1142     		tst	r1, r2
  873 001e 03D1     		bne	.L39
  381:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 874              		.loc 1 381 3 discriminator 3 view .LVU273
+ 874              		.loc 1 381 3 discriminator 2 view .LVU273
  875 0020 1A68     		ldr	r2, [r3]
-ARM GAS  /tmp/ccgtb6ah.s 			page 62
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 62
 
 
  876 0022 0121     		movs	r1, #1
@@ -3666,7 +3666,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  878 0026 1A60     		str	r2, [r3]
  879              	.L39:
  381:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 880              		.loc 1 381 3 discriminator 5 view .LVU274
+ 880              		.loc 1 381 3 view .LVU274
  384:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   TIM_CHANNEL_STATE_SET(htim, TIM_CHANNEL_2, HAL_TIM_CHANNEL_STATE_READY);
  881              		.loc 1 384 3 view .LVU275
  882 0028 0123     		movs	r3, #1
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  399:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   uint32_t tmpsmcr;
  923              		.loc 1 399 1 is_stmt 0 view .LVU283
  924 0000 70B5     		push	{r4, r5, r6, lr}
-ARM GAS  /tmp/ccgtb6ah.s 			page 63
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 63
 
 
  925              	.LCFI8:
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  965              		.loc 1 412 7 view .LVU297
  966 0024 012A     		cmp	r2, #1
  967 0026 36D1     		bne	.L47
-ARM GAS  /tmp/ccgtb6ah.s 			page 64
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 64
 
 
  413:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1007              		.loc 1 425 3 view .LVU312
  1008 0046 1343     		orrs	r3, r2
  1009              	.LVL78:
-ARM GAS  /tmp/ccgtb6ah.s 			page 65
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 65
 
 
  425:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1051 007c 9968     		ldr	r1, [r3, #8]
  435:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     if (!IS_TIM_SLAVEMODE_TRIGGER_ENABLED(tmpsmcr))
  1052              		.loc 1 435 13 view .LVU326
-ARM GAS  /tmp/ccgtb6ah.s 			page 66
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 66
 
 
  1053 007e 0722     		movs	r2, #7
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1095 009c FAE7     		b	.L43
  1096              	.L52:
  1097 009e C046     		.align	2
-ARM GAS  /tmp/ccgtb6ah.s 			page 67
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 67
 
 
  1098              	.L51:
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1146 001e 1142     		tst	r1, r2
  1147 0020 07D1     		bne	.L54
  469:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccgtb6ah.s 			page 68
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 68
 
 
  1148              		.loc 1 469 3 discriminator 1 view .LVU347
@@ -4027,14 +4027,14 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1151 0026 1142     		tst	r1, r2
  1152 0028 03D1     		bne	.L54
  469:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 1153              		.loc 1 469 3 discriminator 3 view .LVU348
+ 1153              		.loc 1 469 3 discriminator 2 view .LVU348
  1154 002a 1A68     		ldr	r2, [r3]
  1155 002c 0121     		movs	r1, #1
  1156 002e 8A43     		bics	r2, r1
  1157 0030 1A60     		str	r2, [r3]
  1158              	.L54:
  469:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 1159              		.loc 1 469 3 discriminator 5 view .LVU349
+ 1159              		.loc 1 469 3 view .LVU349
  472:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   TIM_CHANNEL_STATE_SET(htim, TIM_CHANNEL_2, HAL_TIM_CHANNEL_STATE_READY);
  1160              		.loc 1 472 3 view .LVU350
  1161 0032 0123     		movs	r3, #1
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1195              	HAL_TIMEx_HallSensor_Start_DMA:
  1196              	.LVL95:
  1197              	.LFB48:
-ARM GAS  /tmp/ccgtb6ah.s 			page 69
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 69
 
 
  489:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   uint32_t tmpsmcr;
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  503:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****            && (complementary_channel_1_state == HAL_TIM_CHANNEL_STATE_READY))
  1239              		.loc 1 503 11 is_stmt 0 view .LVU370
  1240 001c 0128     		cmp	r0, #1
-ARM GAS  /tmp/ccgtb6ah.s 			page 70
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 70
 
 
  1241 001e 48D1     		bne	.L62
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1281 0048 9A62     		str	r2, [r3, #40]
  528:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Set the DMA error callback */
  1282              		.loc 1 528 3 is_stmt 1 view .LVU385
-ARM GAS  /tmp/ccgtb6ah.s 			page 71
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 71
 
 
  528:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Set the DMA error callback */
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1322              		.loc 1 542 7 discriminator 1 view .LVU400
  1323 007c 8022     		movs	r2, #128
  1324 007e D205     		lsls	r2, r2, #23
-ARM GAS  /tmp/ccgtb6ah.s 			page 72
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 72
 
 
  1325 0080 9342     		cmp	r3, r2
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1367              	.LVL109:
  501:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   }
  1368              		.loc 1 501 12 view .LVU413
-ARM GAS  /tmp/ccgtb6ah.s 			page 73
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 73
 
 
  1369 00b0 00E0     		b	.L58
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1418              		.loc 1 565 1 is_stmt 1 view -0
  1419              		.cfi_startproc
  1420              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccgtb6ah.s 			page 74
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 74
 
 
  1421              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -4432,17 +4432,17 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1459 002c 1142     		tst	r1, r2
  1460 002e 03D1     		bne	.L70
  581:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 1461              		.loc 1 581 3 discriminator 3 view .LVU431
+ 1461              		.loc 1 581 3 discriminator 2 view .LVU431
  1462 0030 1A68     		ldr	r2, [r3]
  1463 0032 0121     		movs	r1, #1
  1464 0034 8A43     		bics	r2, r1
  1465 0036 1A60     		str	r2, [r3]
  1466              	.L70:
-ARM GAS  /tmp/ccgtb6ah.s 			page 75
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 75
 
 
  581:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 1467              		.loc 1 581 3 discriminator 5 view .LVU432
+ 1467              		.loc 1 581 3 view .LVU432
  584:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_1, HAL_TIM_CHANNEL_STATE_READY);
  1468              		.loc 1 584 3 view .LVU433
  1469 0038 0123     		movs	r3, #1
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1513              		.loc 1 631 3 view .LVU441
  634:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  1514              		.loc 1 634 3 view .LVU442
-ARM GAS  /tmp/ccgtb6ah.s 			page 76
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 76
 
 
  634:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1557 003a 9342     		cmp	r3, r2
  1558 003c 38D0     		beq	.L83
  649:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
-ARM GAS  /tmp/ccgtb6ah.s 			page 77
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 77
 
 
  1559              		.loc 1 649 7 discriminator 1 view .LVU455
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1603 007a 5A1E     		subs	r2, r3, #1
  1604 007c 9341     		sbcs	r3, r3, r2
  1605 007e DBB2     		uxtb	r3, r3
-ARM GAS  /tmp/ccgtb6ah.s 			page 78
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 78
 
 
  1606 0080 C8E7     		b	.L75
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  652:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
  1650              		.loc 1 652 5 is_stmt 1 view .LVU476
  652:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
-ARM GAS  /tmp/ccgtb6ah.s 			page 79
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 79
 
 
  1651              		.loc 1 652 8 is_stmt 0 view .LVU477
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1699              	.LVL136:
  1700              	.LFB51:
  678:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Check the parameters */
-ARM GAS  /tmp/ccgtb6ah.s 			page 80
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 80
 
 
  1701              		.loc 1 678 1 is_stmt 1 view -0
@@ -4783,14 +4783,14 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1733 001c 1142     		tst	r1, r2
  1734 001e 03D1     		bne	.L94
  686:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 1735              		.loc 1 686 3 discriminator 3 view .LVU494
+ 1735              		.loc 1 686 3 discriminator 2 view .LVU494
  1736 0020 5A6C     		ldr	r2, [r3, #68]
  1737 0022 1549     		ldr	r1, .L102+8
  1738 0024 0A40     		ands	r2, r1
  1739 0026 5A64     		str	r2, [r3, #68]
  1740              	.L94:
  686:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 1741              		.loc 1 686 3 discriminator 5 view .LVU495
+ 1741              		.loc 1 686 3 view .LVU495
  689:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  1742              		.loc 1 689 3 view .LVU496
  689:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1744 0028 2368     		ldr	r3, [r4]
  1745 002a 196A     		ldr	r1, [r3, #32]
  1746 002c 104A     		ldr	r2, .L102
-ARM GAS  /tmp/ccgtb6ah.s 			page 81
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 81
 
 
  1747 002e 1142     		tst	r1, r2
@@ -4810,14 +4810,14 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1752 0036 1142     		tst	r1, r2
  1753 0038 03D1     		bne	.L95
  689:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 1754              		.loc 1 689 3 discriminator 3 view .LVU499
+ 1754              		.loc 1 689 3 discriminator 2 view .LVU499
  1755 003a 1A68     		ldr	r2, [r3]
  1756 003c 0121     		movs	r1, #1
  1757 003e 8A43     		bics	r2, r1
  1758 0040 1A60     		str	r2, [r3]
  1759              	.L95:
  689:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 1760              		.loc 1 689 3 discriminator 5 view .LVU500
+ 1760              		.loc 1 689 3 view .LVU500
  692:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  1761              		.loc 1 692 3 view .LVU501
  1762 0042 002D     		cmp	r5, #0
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1790              	.L100:
  692:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  1791              		.loc 1 692 3 discriminator 3 view .LVU509
-ARM GAS  /tmp/ccgtb6ah.s 			page 82
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 82
 
 
  1792 0060 4323     		movs	r3, #67
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  718:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  1840              		.loc 1 718 7 discriminator 1 view .LVU518
  1841 0008 4223     		movs	r3, #66
-ARM GAS  /tmp/ccgtb6ah.s 			page 83
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 83
 
 
  1842 000a C35C     		ldrb	r3, [r0, r3]
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1884 003e 2268     		ldr	r2, [r4]
  1885 0040 516C     		ldr	r1, [r2, #68]
  1886 0042 8023     		movs	r3, #128
-ARM GAS  /tmp/ccgtb6ah.s 			page 84
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 84
 
 
  1887 0044 1B02     		lsls	r3, r3, #8
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  1930 0080 5A1E     		subs	r2, r3, #1
  1931 0082 9341     		sbcs	r3, r3, r2
  1932 0084 DBB2     		uxtb	r3, r3
-ARM GAS  /tmp/ccgtb6ah.s 			page 85
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 85
 
 
  1933 0086 C5E7     		b	.L106
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  724:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  1978              		.loc 1 724 3 discriminator 3 view .LVU551
  1979 00c2 4323     		movs	r3, #67
-ARM GAS  /tmp/ccgtb6ah.s 			page 86
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 86
 
 
  1980 00c4 0222     		movs	r2, #2
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2020 00e8 0722     		movs	r2, #7
  2021 00ea 0A40     		ands	r2, r1
  2022              	.LVL153:
-ARM GAS  /tmp/ccgtb6ah.s 			page 87
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 87
 
 
  770:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       {
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2070              	HAL_TIMEx_OCN_Stop_IT:
  2071              	.LVL160:
  2072              	.LFB53:
-ARM GAS  /tmp/ccgtb6ah.s 			page 88
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 88
 
 
  797:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   HAL_StatusTypeDef status = HAL_OK;
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2115 0022 FFF7FEFF 		bl	TIM_CCxNChannelCmd
  2116              	.LVL164:
  838:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     if ((tmpccer & TIM_CCER_CCxNE_MASK) == (uint32_t)RESET)
-ARM GAS  /tmp/ccgtb6ah.s 			page 89
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 89
 
 
  2117              		.loc 1 838 5 is_stmt 1 view .LVU587
@@ -5324,21 +5324,21 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2147 0046 1142     		tst	r1, r2
  2148 0048 03D1     		bne	.L134
  845:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 2149              		.loc 1 845 5 discriminator 3 view .LVU598
+ 2149              		.loc 1 845 5 discriminator 2 view .LVU598
  2150 004a 5A6C     		ldr	r2, [r3, #68]
  2151 004c 1D49     		ldr	r1, .L142+8
  2152 004e 0A40     		ands	r2, r1
  2153 0050 5A64     		str	r2, [r3, #68]
  2154              	.L134:
  845:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 2155              		.loc 1 845 5 discriminator 5 view .LVU599
+ 2155              		.loc 1 845 5 view .LVU599
  848:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  2156              		.loc 1 848 5 view .LVU600
  848:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  2157              		.loc 1 848 5 view .LVU601
  2158 0052 2368     		ldr	r3, [r4]
  2159 0054 196A     		ldr	r1, [r3, #32]
-ARM GAS  /tmp/ccgtb6ah.s 			page 90
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 90
 
 
  2160 0056 1A4A     		ldr	r2, .L142+4
@@ -5351,14 +5351,14 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2166 0060 1142     		tst	r1, r2
  2167 0062 03D1     		bne	.L135
  848:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 2168              		.loc 1 848 5 discriminator 3 view .LVU603
+ 2168              		.loc 1 848 5 discriminator 2 view .LVU603
  2169 0064 1A68     		ldr	r2, [r3]
  2170 0066 0121     		movs	r1, #1
  2171 0068 8A43     		bics	r2, r1
  2172 006a 1A60     		str	r2, [r3]
  2173              	.L135:
  848:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 2174              		.loc 1 848 5 discriminator 5 view .LVU604
+ 2174              		.loc 1 848 5 view .LVU604
  851:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   }
  2175              		.loc 1 851 5 view .LVU605
  2176 006c 002D     		cmp	r5, #0
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  832:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  2203              		.loc 1 832 3 view .LVU613
  2204 0084 CAE7     		b	.L132
-ARM GAS  /tmp/ccgtb6ah.s 			page 91
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 91
 
 
  2205              	.LVL172:
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2249 00b8 0120     		movs	r0, #1
  2250              	.LVL176:
  804:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
-ARM GAS  /tmp/ccgtb6ah.s 			page 92
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 92
 
 
  2251              		.loc 1 804 3 view .LVU624
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2298              		.loc 1 881 7 discriminator 1 view .LVU633
  2299 000e 845C     		ldrb	r4, [r0, r2]
  881:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
-ARM GAS  /tmp/ccgtb6ah.s 			page 93
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 93
 
 
  2300              		.loc 1 881 46 discriminator 1 view .LVU634
@@ -5530,9 +5530,9 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  881:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  2306              		.loc 1 881 6 discriminator 12 view .LVU635
  2307 0018 002C     		cmp	r4, #0
- 2308 001a 00D0     		beq	.LCB2099
+ 2308 001a 00D0     		beq	.LCB2098
  2309 001c CDE0     		b	.L163	@long jump
- 2310              	.LCB2099:
+ 2310              	.LCB2098:
  885:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  2311              		.loc 1 885 8 is_stmt 1 view .LVU636
  885:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
@@ -5556,29 +5556,29 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  885:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  2326              		.loc 1 885 11 discriminator 12 view .LVU641
  2327 002e 002A     		cmp	r2, #0
- 2328 0030 00D1     		bne	.LCB2113
+ 2328 0030 00D1     		bne	.LCB2112
  2329 0032 C4E0     		b	.L164	@long jump
- 2330              	.LCB2113:
+ 2330              	.LCB2112:
  887:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
  2331              		.loc 1 887 5 is_stmt 1 view .LVU642
  887:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
  2332              		.loc 1 887 8 is_stmt 0 view .LVU643
  2333 0034 0029     		cmp	r1, #0
- 2334 0036 00D1     		bne	.LCB2116
+ 2334 0036 00D1     		bne	.LCB2115
  2335 0038 C3E0     		b	.L165	@long jump
- 2336              	.LCB2116:
+ 2336              	.LCB2115:
  887:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
  2337              		.loc 1 887 25 discriminator 1 view .LVU644
  2338 003a 002B     		cmp	r3, #0
- 2339 003c 00D1     		bne	.LCB2118
+ 2339 003c 00D1     		bne	.LCB2117
  2340 003e C2E0     		b	.L166	@long jump
- 2341              	.LCB2118:
+ 2341              	.LCB2117:
  893:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     }
  2342              		.loc 1 893 7 is_stmt 1 view .LVU645
  2343 0040 002D     		cmp	r5, #0
  2344 0042 6CD1     		bne	.L154
  893:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     }
-ARM GAS  /tmp/ccgtb6ah.s 			page 94
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 94
 
 
  2345              		.loc 1 893 7 is_stmt 0 discriminator 1 view .LVU646
@@ -5631,14 +5631,14 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  913:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****                            Length) != HAL_OK)
  2378              		.loc 1 913 10 discriminator 1 view .LVU661
  2379 0066 0028     		cmp	r0, #0
- 2380 0068 00D0     		beq	.LCB2150
+ 2380 0068 00D0     		beq	.LCB2149
  2381 006a AEE0     		b	.L168	@long jump
- 2382              	.LCB2150:
+ 2382              	.LCB2149:
  920:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       break;
  2383              		.loc 1 920 7 is_stmt 1 view .LVU662
  2384 006c 3268     		ldr	r2, [r6]
  2385 006e D168     		ldr	r1, [r2, #12]
-ARM GAS  /tmp/ccgtb6ah.s 			page 95
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 95
 
 
  2386 0070 8023     		movs	r3, #128
@@ -5674,17 +5674,17 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2409              		.loc 1 980 8 view .LVU669
  2410 0090 554A     		ldr	r2, .L178+12
  2411 0092 9342     		cmp	r3, r2
- 2412 0094 00D1     		bne	.LCB2180
+ 2412 0094 00D1     		bne	.LCB2179
  2413 0096 85E0     		b	.L161	@long jump
- 2414              	.LCB2180:
+ 2414              	.LCB2179:
  980:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
  2415              		.loc 1 980 9 discriminator 1 view .LVU670
  2416 0098 8022     		movs	r2, #128
  2417 009a D205     		lsls	r2, r2, #23
  2418 009c 9342     		cmp	r3, r2
- 2419 009e 00D1     		bne	.LCB2184
+ 2419 009e 00D1     		bne	.LCB2183
  2420 00a0 80E0     		b	.L161	@long jump
- 2421              	.LCB2184:
+ 2421              	.LCB2183:
  980:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
  2422              		.loc 1 980 9 discriminator 2 view .LVU671
  2423 00a2 524A     		ldr	r2, .L178+16
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  990:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     }
  2430              		.loc 1 990 7 is_stmt 1 view .LVU673
  2431 00ae 1A68     		ldr	r2, [r3]
-ARM GAS  /tmp/ccgtb6ah.s 			page 96
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 96
 
 
  2432 00b0 0121     		movs	r1, #1
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2477 00ee 08D0     		beq	.L174
  885:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  2478              		.loc 1 885 51 discriminator 5 view .LVU683
-ARM GAS  /tmp/ccgtb6ah.s 			page 97
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 97
 
 
  2479 00f0 082D     		cmp	r5, #8
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2522              		.loc 1 893 7 discriminator 4 view .LVU694
  2523 0122 082D     		cmp	r5, #8
  2524 0124 24D0     		beq	.L177
-ARM GAS  /tmp/ccgtb6ah.s 			page 98
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 98
 
 
  893:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     }
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2564              		.loc 1 934 88 is_stmt 0 view .LVU709
  2565 0154 3268     		ldr	r2, [r6]
  934:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****                            Length) != HAL_OK)
-ARM GAS  /tmp/ccgtb6ah.s 			page 99
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 99
 
 
  2566              		.loc 1 934 83 view .LVU710
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  952:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  2606              		.loc 1 952 17 is_stmt 0 view .LVU725
  2607 0182 F26A     		ldr	r2, [r6, #44]
-ARM GAS  /tmp/ccgtb6ah.s 			page 100
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 100
 
 
  952:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2647              	.LVL193:
  985:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       }
  2648              		.loc 1 985 9 is_stmt 0 view .LVU741
-ARM GAS  /tmp/ccgtb6ah.s 			page 101
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 101
 
 
  2649 01b0 0121     		movs	r1, #1
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2693 01d2 0120     		movs	r0, #1
  2694 01d4 F4E7     		b	.L149
  2695              	.LVL202:
-ARM GAS  /tmp/ccgtb6ah.s 			page 102
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 102
 
 
  2696              	.L171:
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1021:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       (void)HAL_DMA_Abort_IT(htim->hdma[TIM_DMA_ID_CC1]);
  2746              		.loc 1 1021 7 view .LVU758
  2747 0012 0268     		ldr	r2, [r0]
-ARM GAS  /tmp/ccgtb6ah.s 			page 103
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 103
 
 
  2748 0014 D368     		ldr	r3, [r2, #12]
@@ -6166,19 +6166,19 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2780 003a 1142     		tst	r1, r2
  2781 003c 03D1     		bne	.L185
 1053:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 2782              		.loc 1 1053 5 discriminator 3 view .LVU769
+ 2782              		.loc 1 1053 5 discriminator 2 view .LVU769
  2783 003e 5A6C     		ldr	r2, [r3, #68]
  2784 0040 2149     		ldr	r1, .L193+12
  2785 0042 0A40     		ands	r2, r1
  2786 0044 5A64     		str	r2, [r3, #68]
  2787              	.L185:
 1053:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 2788              		.loc 1 1053 5 discriminator 5 view .LVU770
+ 2788              		.loc 1 1053 5 view .LVU770
 1056:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  2789              		.loc 1 1056 5 view .LVU771
 1056:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  2790              		.loc 1 1056 5 view .LVU772
-ARM GAS  /tmp/ccgtb6ah.s 			page 104
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 104
 
 
  2791 0046 2368     		ldr	r3, [r4]
@@ -6193,14 +6193,14 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2799 0054 1142     		tst	r1, r2
  2800 0056 03D1     		bne	.L186
 1056:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 2801              		.loc 1 1056 5 discriminator 3 view .LVU774
+ 2801              		.loc 1 1056 5 discriminator 2 view .LVU774
  2802 0058 1A68     		ldr	r2, [r3]
  2803 005a 0121     		movs	r1, #1
  2804 005c 8A43     		bics	r2, r1
  2805 005e 1A60     		str	r2, [r3]
  2806              	.L186:
 1056:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 2807              		.loc 1 1056 5 discriminator 5 view .LVU775
+ 2807              		.loc 1 1056 5 view .LVU775
 1059:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   }
  2808              		.loc 1 1059 5 view .LVU776
  2809 0060 002D     		cmp	r5, #0
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1030:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       break;
  2835              		.loc 1 1030 7 is_stmt 1 view .LVU783
 1030:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       break;
-ARM GAS  /tmp/ccgtb6ah.s 			page 105
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 105
 
 
  2836              		.loc 1 1030 13 is_stmt 0 view .LVU784
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2877 00a2 E3E7     		b	.L183
  2878              	.L191:
 1059:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   }
-ARM GAS  /tmp/ccgtb6ah.s 			page 106
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 106
 
 
  2879              		.loc 1 1059 5 discriminator 3 view .LVU798
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2930              		.cfi_offset 14, -4
  2931 0002 0400     		movs	r4, r0
 1101:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccgtb6ah.s 			page 107
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 107
 
 
  2932              		.loc 1 1101 3 is_stmt 1 view .LVU804
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  2973              		.loc 1 1122 7 is_stmt 0 view .LVU817
  2974 0036 2368     		ldr	r3, [r4]
 1122:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
-ARM GAS  /tmp/ccgtb6ah.s 			page 108
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 108
 
 
  2975              		.loc 1 1122 6 view .LVU818
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3019 0074 4323     		movs	r3, #67
  3020 0076 C35C     		ldrb	r3, [r0, r3]
 1107:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
-ARM GAS  /tmp/ccgtb6ah.s 			page 109
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 109
 
 
  3021              		.loc 1 1107 46 discriminator 4 view .LVU829
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1124:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     if (!IS_TIM_SLAVEMODE_TRIGGER_ENABLED(tmpsmcr))
  3066              		.loc 1 1124 13 view .LVU839
  3067 00b2 0722     		movs	r2, #7
-ARM GAS  /tmp/ccgtb6ah.s 			page 110
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 110
 
 
  3068 00b4 0A40     		ands	r2, r1
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3113              		.global	HAL_TIMEx_PWMN_Stop
  3114              		.syntax unified
  3115              		.code	16
-ARM GAS  /tmp/ccgtb6ah.s 			page 111
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 111
 
 
  3116              		.thumb_func
@@ -6648,17 +6648,17 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3153 001c 1142     		tst	r1, r2
  3154 001e 03D1     		bne	.L216
 1158:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 3155              		.loc 1 1158 3 discriminator 3 view .LVU858
+ 3155              		.loc 1 1158 3 discriminator 2 view .LVU858
  3156 0020 5A6C     		ldr	r2, [r3, #68]
  3157 0022 1549     		ldr	r1, .L224+8
  3158 0024 0A40     		ands	r2, r1
  3159 0026 5A64     		str	r2, [r3, #68]
  3160              	.L216:
 1158:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 3161              		.loc 1 1158 3 discriminator 5 view .LVU859
+ 3161              		.loc 1 1158 3 view .LVU859
 1161:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  3162              		.loc 1 1161 3 view .LVU860
-ARM GAS  /tmp/ccgtb6ah.s 			page 112
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 112
 
 
 1161:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -6675,14 +6675,14 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3172 0036 1142     		tst	r1, r2
  3173 0038 03D1     		bne	.L217
 1161:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 3174              		.loc 1 1161 3 discriminator 3 view .LVU863
+ 3174              		.loc 1 1161 3 discriminator 2 view .LVU863
  3175 003a 1A68     		ldr	r2, [r3]
  3176 003c 0121     		movs	r1, #1
  3177 003e 8A43     		bics	r2, r1
  3178 0040 1A60     		str	r2, [r3]
  3179              	.L217:
 1161:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 3180              		.loc 1 1161 3 discriminator 5 view .LVU864
+ 3180              		.loc 1 1161 3 view .LVU864
 1164:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  3181              		.loc 1 1164 3 view .LVU865
  3182 0042 002D     		cmp	r5, #0
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3205              		.loc 1 1164 3 discriminator 7 view .LVU872
  3206 0058 4523     		movs	r3, #69
  3207 005a 0122     		movs	r2, #1
-ARM GAS  /tmp/ccgtb6ah.s 			page 113
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 113
 
 
  3208 005c E254     		strb	r2, [r4, r3]
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3256              		.loc 1 1190 3 view .LVU880
 1190:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  3257              		.loc 1 1190 46 is_stmt 0 view .LVU881
-ARM GAS  /tmp/ccgtb6ah.s 			page 114
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 114
 
 
  3258 0004 0029     		cmp	r1, #0
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3300 0038 0422     		movs	r2, #4
  3301 003a FFF7FEFF 		bl	TIM_CCxNChannelCmd
  3302              	.LVL243:
-ARM GAS  /tmp/ccgtb6ah.s 			page 115
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 115
 
 
 1235:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3346 007a 4523     		movs	r3, #69
  3347 007c C35C     		ldrb	r3, [r0, r3]
 1190:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
-ARM GAS  /tmp/ccgtb6ah.s 			page 116
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 116
 
 
  3348              		.loc 1 1190 46 discriminator 8 view .LVU905
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1198:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  3394              		.loc 1 1198 3 is_stmt 0 view .LVU914
  3395 00c0 1DE0     		b	.L231
-ARM GAS  /tmp/ccgtb6ah.s 			page 117
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 117
 
 
  3396              	.LVL246:
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1240:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       if (!IS_TIM_SLAVEMODE_TRIGGER_ENABLED(tmpsmcr))
  3437              		.loc 1 1240 31 is_stmt 0 view .LVU928
  3438 00e6 9968     		ldr	r1, [r3, #8]
-ARM GAS  /tmp/ccgtb6ah.s 			page 118
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 118
 
 
 1240:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       if (!IS_TIM_SLAVEMODE_TRIGGER_ENABLED(tmpsmcr))
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3484              		.align	1
  3485              		.global	HAL_TIMEx_PWMN_Stop_IT
  3486              		.syntax unified
-ARM GAS  /tmp/ccgtb6ah.s 			page 119
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 119
 
 
  3487              		.code	16
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3531              	.LVL261:
 1306:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  3532              		.loc 1 1306 5 is_stmt 0 view .LVU950
-ARM GAS  /tmp/ccgtb6ah.s 			page 120
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 120
 
 
  3533 001e 0022     		movs	r2, #0
@@ -7189,16 +7189,16 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3567 0046 1142     		tst	r1, r2
  3568 0048 03D1     		bne	.L256
 1316:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 3569              		.loc 1 1316 5 discriminator 3 view .LVU962
+ 3569              		.loc 1 1316 5 discriminator 2 view .LVU962
  3570 004a 5A6C     		ldr	r2, [r3, #68]
  3571 004c 1D49     		ldr	r1, .L264+8
  3572 004e 0A40     		ands	r2, r1
  3573 0050 5A64     		str	r2, [r3, #68]
  3574              	.L256:
 1316:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 3575              		.loc 1 1316 5 discriminator 5 view .LVU963
+ 3575              		.loc 1 1316 5 view .LVU963
 1319:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccgtb6ah.s 			page 121
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 121
 
 
  3576              		.loc 1 1319 5 view .LVU964
@@ -7216,14 +7216,14 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3586 0060 1142     		tst	r1, r2
  3587 0062 03D1     		bne	.L257
 1319:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 3588              		.loc 1 1319 5 discriminator 3 view .LVU967
+ 3588              		.loc 1 1319 5 discriminator 2 view .LVU967
  3589 0064 1A68     		ldr	r2, [r3]
  3590 0066 0121     		movs	r1, #1
  3591 0068 8A43     		bics	r2, r1
  3592 006a 1A60     		str	r2, [r3]
  3593              	.L257:
 1319:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 3594              		.loc 1 1319 5 discriminator 5 view .LVU968
+ 3594              		.loc 1 1319 5 view .LVU968
 1322:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   }
  3595              		.loc 1 1322 5 view .LVU969
  3596 006c 002D     		cmp	r5, #0
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3619              		.loc 1 1287 7 is_stmt 0 view .LVU975
  3620 0080 8B43     		bics	r3, r1
  3621 0082 D360     		str	r3, [r2, #12]
-ARM GAS  /tmp/ccgtb6ah.s 			page 122
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 122
 
 
 1288:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     }
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3665 00b6 DFE7     		b	.L253
  3666              	.LVL273:
  3667              	.L261:
-ARM GAS  /tmp/ccgtb6ah.s 			page 123
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 123
 
 
 1275:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1352:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  3715              		.loc 1 1352 7 discriminator 1 view .LVU996
  3716 000c 4222     		movs	r2, #66
-ARM GAS  /tmp/ccgtb6ah.s 			page 124
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 124
 
 
  3717              	.LVL277:
@@ -7395,9 +7395,9 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1352:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  3726              		.loc 1 1352 6 discriminator 12 view .LVU999
  3727 0018 002C     		cmp	r4, #0
- 3728 001a 00D0     		beq	.LCB3510
+ 3728 001a 00D0     		beq	.LCB3509
  3729 001c CDE0     		b	.L285	@long jump
- 3730              	.LCB3510:
+ 3730              	.LCB3509:
 1356:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  3731              		.loc 1 1356 8 is_stmt 1 view .LVU1000
 1356:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
@@ -7421,24 +7421,24 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1356:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
  3746              		.loc 1 1356 11 discriminator 12 view .LVU1005
  3747 002e 002A     		cmp	r2, #0
- 3748 0030 00D1     		bne	.LCB3524
+ 3748 0030 00D1     		bne	.LCB3523
  3749 0032 C4E0     		b	.L286	@long jump
- 3750              	.LCB3524:
+ 3750              	.LCB3523:
 1358:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
  3751              		.loc 1 1358 5 is_stmt 1 view .LVU1006
 1358:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
  3752              		.loc 1 1358 8 is_stmt 0 view .LVU1007
  3753 0034 0029     		cmp	r1, #0
- 3754 0036 00D1     		bne	.LCB3527
+ 3754 0036 00D1     		bne	.LCB3526
  3755 0038 C3E0     		b	.L287	@long jump
- 3756              	.LCB3527:
+ 3756              	.LCB3526:
 1358:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
  3757              		.loc 1 1358 25 discriminator 1 view .LVU1008
  3758 003a 002B     		cmp	r3, #0
- 3759 003c 00D1     		bne	.LCB3529
+ 3759 003c 00D1     		bne	.LCB3528
  3760 003e C2E0     		b	.L288	@long jump
- 3761              	.LCB3529:
-ARM GAS  /tmp/ccgtb6ah.s 			page 125
+ 3761              	.LCB3528:
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 125
 
 
 1364:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     }
@@ -7496,12 +7496,12 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1384:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****                            Length) != HAL_OK)
  3798              		.loc 1 1384 10 discriminator 1 view .LVU1025
  3799 0066 0028     		cmp	r0, #0
- 3800 0068 00D0     		beq	.LCB3561
+ 3800 0068 00D0     		beq	.LCB3560
  3801 006a AEE0     		b	.L290	@long jump
-ARM GAS  /tmp/ccgtb6ah.s 			page 126
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 126
 
 
- 3802              	.LCB3561:
+ 3802              	.LCB3560:
 1391:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       break;
  3803              		.loc 1 1391 7 is_stmt 1 view .LVU1026
  3804 006c 3268     		ldr	r2, [r6]
@@ -7539,17 +7539,17 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3829              		.loc 1 1451 8 view .LVU1033
  3830 0090 554A     		ldr	r2, .L300+12
  3831 0092 9342     		cmp	r3, r2
- 3832 0094 00D1     		bne	.LCB3591
+ 3832 0094 00D1     		bne	.LCB3590
  3833 0096 85E0     		b	.L283	@long jump
- 3834              	.LCB3591:
+ 3834              	.LCB3590:
 1451:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
  3835              		.loc 1 1451 9 discriminator 1 view .LVU1034
  3836 0098 8022     		movs	r2, #128
  3837 009a D205     		lsls	r2, r2, #23
  3838 009c 9342     		cmp	r3, r2
- 3839 009e 00D1     		bne	.LCB3595
+ 3839 009e 00D1     		bne	.LCB3594
  3840 00a0 80E0     		b	.L283	@long jump
- 3841              	.LCB3595:
+ 3841              	.LCB3594:
 1451:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
  3842              		.loc 1 1451 9 discriminator 2 view .LVU1035
  3843 00a2 524A     		ldr	r2, .L300+16
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1451:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     {
  3846              		.loc 1 1451 9 discriminator 3 view .LVU1036
  3847 00a8 514A     		ldr	r2, .L300+20
-ARM GAS  /tmp/ccgtb6ah.s 			page 127
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 127
 
 
  3848 00aa 9342     		cmp	r3, r2
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3893 00ea 95E7     		b	.L268
  3894              	.L272:
 1356:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
-ARM GAS  /tmp/ccgtb6ah.s 			page 128
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 128
 
 
  3895              		.loc 1 1356 51 discriminator 2 view .LVU1046
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1364:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****     }
  3939              		.loc 1 1364 7 discriminator 2 view .LVU1057
  3940 011e 042D     		cmp	r5, #4
-ARM GAS  /tmp/ccgtb6ah.s 			page 129
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 129
 
 
  3941 0120 0CD0     		beq	.L298
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  3981 0150 2448     		ldr	r0, .L300+8
  3982 0152 1063     		str	r0, [r2, #48]
 1405:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****                            Length) != HAL_OK)
-ARM GAS  /tmp/ccgtb6ah.s 			page 130
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 130
 
 
  3983              		.loc 1 1405 7 is_stmt 1 view .LVU1072
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4022              		.loc 1 1420 56 view .LVU1087
  4023 017e 1848     		ldr	r0, .L300+4
  4024 0180 D062     		str	r0, [r2, #44]
-ARM GAS  /tmp/ccgtb6ah.s 			page 131
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 131
 
 
 1423:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4063 01aa 062A     		cmp	r2, #6
  4064 01ac 13D0     		beq	.L293
 1456:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       }
-ARM GAS  /tmp/ccgtb6ah.s 			page 132
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 132
 
 
  4065              		.loc 1 1456 9 is_stmt 1 view .LVU1104
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4109 01ce 0120     		movs	r0, #1
  4110 01d0 F6E7     		b	.L271
  4111              	.L292:
-ARM GAS  /tmp/ccgtb6ah.s 			page 133
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 133
 
 
 1430:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       }
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4161 0008 31D0     		beq	.L303
  4162 000a 0829     		cmp	r1, #8
  4163 000c 38D0     		beq	.L304
-ARM GAS  /tmp/ccgtb6ah.s 			page 134
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 134
 
 
  4164 000e 0029     		cmp	r1, #0
@@ -8031,17 +8031,17 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4200 003a 1142     		tst	r1, r2
  4201 003c 03D1     		bne	.L307
 1524:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 4202              		.loc 1 1524 5 discriminator 3 view .LVU1133
+ 4202              		.loc 1 1524 5 discriminator 2 view .LVU1133
  4203 003e 5A6C     		ldr	r2, [r3, #68]
  4204 0040 2149     		ldr	r1, .L315+12
  4205 0042 0A40     		ands	r2, r1
  4206 0044 5A64     		str	r2, [r3, #68]
  4207              	.L307:
 1524:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccgtb6ah.s 			page 135
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 135
 
 
- 4208              		.loc 1 1524 5 discriminator 5 view .LVU1134
+ 4208              		.loc 1 1524 5 view .LVU1134
 1527:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  4209              		.loc 1 1527 5 view .LVU1135
 1527:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -8058,14 +8058,14 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4219 0054 1142     		tst	r1, r2
  4220 0056 03D1     		bne	.L308
 1527:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 4221              		.loc 1 1527 5 discriminator 3 view .LVU1138
+ 4221              		.loc 1 1527 5 discriminator 2 view .LVU1138
  4222 0058 1A68     		ldr	r2, [r3]
  4223 005a 0121     		movs	r1, #1
  4224 005c 8A43     		bics	r2, r1
  4225 005e 1A60     		str	r2, [r3]
  4226              	.L308:
 1527:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 4227              		.loc 1 1527 5 discriminator 5 view .LVU1139
+ 4227              		.loc 1 1527 5 view .LVU1139
 1530:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   }
  4228              		.loc 1 1530 5 view .LVU1140
  4229 0060 002D     		cmp	r5, #0
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4251              	.LVL311:
 1500:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       (void)HAL_DMA_Abort_IT(htim->hdma[TIM_DMA_ID_CC2]);
  4252              		.loc 1 1500 7 is_stmt 0 view .LVU1146
-ARM GAS  /tmp/ccgtb6ah.s 			page 136
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 136
 
 
  4253 0074 0B40     		ands	r3, r1
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4292              		.loc 1 1530 5 discriminator 7 view .LVU1161
  4293 009a 4523     		movs	r3, #69
  4294 009c 0122     		movs	r2, #1
-ARM GAS  /tmp/ccgtb6ah.s 			page 137
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 137
 
 
  4295 009e E254     		strb	r2, [r4, r3]
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4345              		.loc 1 1572 1 is_stmt 0 view .LVU1167
  4346 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
  4347              	.LCFI24:
-ARM GAS  /tmp/ccgtb6ah.s 			page 138
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 138
 
 
  4348              		.cfi_def_cfa_offset 24
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4389              		.loc 1 1583 3 view .LVU1180
 1583:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       || (channel_2_state != HAL_TIM_CHANNEL_STATE_READY)
  4390              		.loc 1 1583 6 is_stmt 0 view .LVU1181
-ARM GAS  /tmp/ccgtb6ah.s 			page 139
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 139
 
 
  4391 0022 012F     		cmp	r7, #1
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1595:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  4432              		.loc 1 1595 3 is_stmt 1 view .LVU1195
  4433 0048 0132     		adds	r2, r2, #1
-ARM GAS  /tmp/ccgtb6ah.s 			page 140
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 140
 
 
  4434              	.LVL333:
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4477              	.LVL344:
  4478              	.L322:
 1588:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   }
-ARM GAS  /tmp/ccgtb6ah.s 			page 141
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 141
 
 
  4479              		.loc 1 1588 12 view .LVU1207
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1629:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  4526              		.loc 1 1629 3 is_stmt 1 view .LVU1217
  4527 0012 2068     		ldr	r0, [r4]
-ARM GAS  /tmp/ccgtb6ah.s 			page 142
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 142
 
 
  4528 0014 0022     		movs	r2, #0
@@ -8481,14 +8481,14 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4542 002a 1142     		tst	r1, r2
  4543 002c 03D1     		bne	.L327
 1632:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 4544              		.loc 1 1632 3 discriminator 3 view .LVU1221
+ 4544              		.loc 1 1632 3 discriminator 2 view .LVU1221
  4545 002e 5A6C     		ldr	r2, [r3, #68]
  4546 0030 1049     		ldr	r1, .L330+8
  4547 0032 0A40     		ands	r2, r1
  4548 0034 5A64     		str	r2, [r3, #68]
  4549              	.L327:
 1632:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 4550              		.loc 1 1632 3 discriminator 5 view .LVU1222
+ 4550              		.loc 1 1632 3 view .LVU1222
 1635:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  4551              		.loc 1 1635 3 view .LVU1223
 1635:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -8505,20 +8505,20 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4561 0044 1142     		tst	r1, r2
  4562 0046 03D1     		bne	.L328
 1635:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 4563              		.loc 1 1635 3 discriminator 3 view .LVU1226
+ 4563              		.loc 1 1635 3 discriminator 2 view .LVU1226
  4564 0048 1A68     		ldr	r2, [r3]
  4565 004a 0121     		movs	r1, #1
  4566 004c 8A43     		bics	r2, r1
  4567 004e 1A60     		str	r2, [r3]
  4568              	.L328:
 1635:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 4569              		.loc 1 1635 3 discriminator 5 view .LVU1227
+ 4569              		.loc 1 1635 3 view .LVU1227
 1638:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   TIM_CHANNEL_STATE_SET(htim, TIM_CHANNEL_2, HAL_TIM_CHANNEL_STATE_READY);
  4570              		.loc 1 1638 3 view .LVU1228
  4571 0050 0123     		movs	r3, #1
  4572 0052 3E22     		movs	r2, #62
  4573 0054 A354     		strb	r3, [r4, r2]
-ARM GAS  /tmp/ccgtb6ah.s 			page 143
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 143
 
 
 1639:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_1, HAL_TIM_CHANNEL_STATE_READY);
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4621              	.LCFI26:
  4622              		.cfi_def_cfa_offset 24
  4623              		.cfi_offset 3, -24
-ARM GAS  /tmp/ccgtb6ah.s 			page 144
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 144
 
 
  4624              		.cfi_offset 4, -20
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4664              		.loc 1 1671 6 is_stmt 0 view .LVU1251
  4665 0022 012F     		cmp	r7, #1
  4666 0024 2CD1     		bne	.L336
-ARM GAS  /tmp/ccgtb6ah.s 			page 145
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 145
 
 
 1672:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       || (complementary_channel_1_state != HAL_TIM_CHANNEL_STATE_READY)
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4707 0048 0132     		adds	r2, r2, #1
  4708              	.LVL367:
 1683:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccgtb6ah.s 			page 146
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 146
 
 
  4709              		.loc 1 1683 3 is_stmt 0 view .LVU1266
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4752              		.loc 1 1676 12 view .LVU1277
  4753 0080 0120     		movs	r0, #1
  4754              	.LVL374:
-ARM GAS  /tmp/ccgtb6ah.s 			page 147
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 147
 
 
  4755              	.L334:
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4802 0008 0425     		movs	r5, #4
  4803              	.L341:
  4804              	.LVL382:
-ARM GAS  /tmp/ccgtb6ah.s 			page 148
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 148
 
 
 1719:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -8869,16 +8869,16 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4841 003e 1142     		tst	r1, r2
  4842 0040 03D1     		bne	.L342
 1732:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 4843              		.loc 1 1732 3 discriminator 3 view .LVU1296
+ 4843              		.loc 1 1732 3 discriminator 2 view .LVU1296
  4844 0042 5A6C     		ldr	r2, [r3, #68]
  4845 0044 1049     		ldr	r1, .L345+8
  4846 0046 0A40     		ands	r2, r1
  4847 0048 5A64     		str	r2, [r3, #68]
  4848              	.L342:
 1732:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 4849              		.loc 1 1732 3 discriminator 5 view .LVU1297
+ 4849              		.loc 1 1732 3 view .LVU1297
 1735:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccgtb6ah.s 			page 149
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 149
 
 
  4850              		.loc 1 1735 3 view .LVU1298
@@ -8896,14 +8896,14 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4860 0058 1142     		tst	r1, r2
  4861 005a 03D1     		bne	.L343
 1735:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 4862              		.loc 1 1735 3 discriminator 3 view .LVU1301
+ 4862              		.loc 1 1735 3 discriminator 2 view .LVU1301
  4863 005c 1A68     		ldr	r2, [r3]
  4864 005e 0121     		movs	r1, #1
  4865 0060 8A43     		bics	r2, r1
  4866 0062 1A60     		str	r2, [r3]
  4867              	.L343:
 1735:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 4868              		.loc 1 1735 3 discriminator 5 view .LVU1302
+ 4868              		.loc 1 1735 3 view .LVU1302
 1738:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   TIM_CHANNEL_STATE_SET(htim, TIM_CHANNEL_2, HAL_TIM_CHANNEL_STATE_READY);
  4869              		.loc 1 1738 3 view .LVU1303
  4870 0064 0123     		movs	r3, #1
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4892              		.loc 1 1716 77 discriminator 2 view .LVU1310
  4893 007a 0025     		movs	r5, #0
  4894 007c C5E7     		b	.L341
-ARM GAS  /tmp/ccgtb6ah.s 			page 150
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 150
 
 
  4895              	.L346:
@@ -8989,7 +8989,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4935 000c 0124     		movs	r4, #1
  4936 000e C454     		strb	r4, [r0, r3]
 1800:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 4937              		.loc 1 1800 3 discriminator 2 view .LVU1318
+ 4937              		.loc 1 1800 3 view .LVU1318
 1802:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       (InputTrigger == TIM_TS_ITR2) || (InputTrigger == TIM_TS_ITR3))
  4938              		.loc 1 1802 3 view .LVU1319
 1802:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       (InputTrigger == TIM_TS_ITR2) || (InputTrigger == TIM_TS_ITR3))
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4941 0012 05D0     		beq	.L349
 1802:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       (InputTrigger == TIM_TS_ITR2) || (InputTrigger == TIM_TS_ITR3))
  4942              		.loc 1 1802 37 discriminator 1 view .LVU1321
-ARM GAS  /tmp/ccgtb6ah.s 			page 151
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 151
 
 
  4943 0014 1029     		cmp	r1, #16
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  4981              		.loc 1 1813 7 is_stmt 0 view .LVU1337
  4982 003c 0168     		ldr	r1, [r0]
 1813:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   htim->Instance->CR2 |= CommutationSource;
-ARM GAS  /tmp/ccgtb6ah.s 			page 152
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 152
 
 
  4983              		.loc 1 1813 17 view .LVU1338
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5023              		@ sp needed
  5024 006a 30BD     		pop	{r4, r5, pc}
  5025              	.LVL393:
-ARM GAS  /tmp/ccgtb6ah.s 			page 153
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 153
 
 
  5026              	.L351:
@@ -9175,10 +9175,10 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5070 000c 0124     		movs	r4, #1
  5071 000e C454     		strb	r4, [r0, r3]
 1856:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 5072              		.loc 1 1856 3 discriminator 2 view .LVU1362
+ 5072              		.loc 1 1856 3 view .LVU1362
 1858:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       (InputTrigger == TIM_TS_ITR2) || (InputTrigger == TIM_TS_ITR3))
  5073              		.loc 1 1858 3 view .LVU1363
-ARM GAS  /tmp/ccgtb6ah.s 			page 154
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 154
 
 
 1858:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       (InputTrigger == TIM_TS_ITR2) || (InputTrigger == TIM_TS_ITR3))
@@ -9238,7 +9238,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5112 0036 0124     		movs	r4, #1
  5113 0038 2343     		orrs	r3, r4
  5114 003a 4B60     		str	r3, [r1, #4]
-ARM GAS  /tmp/ccgtb6ah.s 			page 155
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 155
 
 
 1869:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   htim->Instance->CR2 |= CommutationSource;
@@ -9298,7 +9298,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5153              		.loc 1 1880 10 is_stmt 0 view .LVU1395
  5154 0068 0020     		movs	r0, #0
  5155              	.LVL398:
-ARM GAS  /tmp/ccgtb6ah.s 			page 156
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 156
 
 
  5156              	.L355:
@@ -9358,13 +9358,13 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1913:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  5203              		.loc 1 1913 3 discriminator 2 view .LVU1405
  5204 000a 3C23     		movs	r3, #60
-ARM GAS  /tmp/ccgtb6ah.s 			page 157
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 157
 
 
  5205 000c 0124     		movs	r4, #1
  5206 000e C454     		strb	r4, [r0, r3]
 1913:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 5207              		.loc 1 1913 3 discriminator 2 view .LVU1406
+ 5207              		.loc 1 1913 3 view .LVU1406
 1915:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       (InputTrigger == TIM_TS_ITR2) || (InputTrigger == TIM_TS_ITR3))
  5208              		.loc 1 1915 3 view .LVU1407
 1915:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****       (InputTrigger == TIM_TS_ITR2) || (InputTrigger == TIM_TS_ITR3))
@@ -9418,7 +9418,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5243              	.LVL402:
 1924:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Select the Commutation event source */
  5244              		.loc 1 1924 17 view .LVU1422
-ARM GAS  /tmp/ccgtb6ah.s 			page 158
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 158
 
 
  5245 0034 4B68     		ldr	r3, [r1, #4]
@@ -9478,7 +9478,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
 1934:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  5282              		.loc 1 1934 13 is_stmt 0 view .LVU1440
  5283 005a 436B     		ldr	r3, [r0, #52]
-ARM GAS  /tmp/ccgtb6ah.s 			page 159
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 159
 
 
 1934:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -9538,7 +9538,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5327              		.cfi_endproc
  5328              	.LFE68:
  5330              		.section	.text.HAL_TIMEx_MasterConfigSynchronization,"ax",%progbits
-ARM GAS  /tmp/ccgtb6ah.s 			page 160
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 160
 
 
  5331              		.align	1
@@ -9586,7 +9586,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5364 000c 0122     		movs	r2, #1
  5365 000e C254     		strb	r2, [r0, r3]
 1967:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 5366              		.loc 1 1967 3 discriminator 2 view .LVU1462
+ 5366              		.loc 1 1967 3 view .LVU1462
 1970:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  5367              		.loc 1 1970 3 view .LVU1463
 1970:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -9598,7 +9598,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5372              		.loc 1 1973 3 is_stmt 1 view .LVU1465
 1973:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  5373              		.loc 1 1973 16 is_stmt 0 view .LVU1466
-ARM GAS  /tmp/ccgtb6ah.s 			page 161
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 161
 
 
  5374 0016 0368     		ldr	r3, [r0]
@@ -9658,7 +9658,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5412 0038 9342     		cmp	r3, r2
  5413 003a 02D0     		beq	.L370
 1986:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   {
-ARM GAS  /tmp/ccgtb6ah.s 			page 162
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 162
 
 
  5414              		.loc 1 1986 7 discriminator 3 view .LVU1483
@@ -9718,7 +9718,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5453 005a 30BD     		pop	{r4, r5, pc}
  5454              	.LVL417:
  5455              	.L372:
-ARM GAS  /tmp/ccgtb6ah.s 			page 163
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 163
 
 
 1967:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -9778,7 +9778,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5499              		.loc 1 2030 3 view .LVU1511
 2033:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  5500              		.loc 1 2033 3 view .LVU1512
-ARM GAS  /tmp/ccgtb6ah.s 			page 164
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 164
 
 
 2033:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
@@ -9793,7 +9793,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5508 000c 0123     		movs	r3, #1
  5509 000e 8354     		strb	r3, [r0, r2]
 2033:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 5510              		.loc 1 2033 3 discriminator 2 view .LVU1515
+ 5510              		.loc 1 2033 3 view .LVU1515
 2039:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   MODIFY_REG(tmpbdtr, TIM_BDTR_LOCK, sBreakDeadTimeConfig->LockLevel);
  5511              		.loc 1 2039 3 view .LVU1516
  5512 0010 CB68     		ldr	r3, [r1, #12]
@@ -9838,7 +9838,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5543 002e 0C69     		ldr	r4, [r1, #16]
  5544 0030 2343     		orrs	r3, r4
  5545              	.LVL429:
-ARM GAS  /tmp/ccgtb6ah.s 			page 165
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 165
 
 
 2044:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   MODIFY_REG(tmpbdtr, TIM_BDTR_AOE, sBreakDeadTimeConfig->AutomaticOutput);
@@ -9898,7 +9898,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5585              	.LVL438:
  5586              	.L377:
 2033:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccgtb6ah.s 			page 166
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 166
 
 
  5587              		.loc 1 2033 3 discriminator 1 view .LVU1540
@@ -9949,7 +9949,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5628 000a 0122     		movs	r2, #1
  5629 000c C254     		strb	r2, [r0, r3]
 2074:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
- 5630              		.loc 1 2074 3 discriminator 2 view .LVU1547
+ 5630              		.loc 1 2074 3 view .LVU1547
 2077:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  5631              		.loc 1 2077 3 view .LVU1548
  5632 000e 0268     		ldr	r2, [r0]
@@ -9958,7 +9958,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5634              		.loc 1 2079 3 view .LVU1549
 2079:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c **** 
  5635              		.loc 1 2079 3 view .LVU1550
-ARM GAS  /tmp/ccgtb6ah.s 			page 167
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 167
 
 
  5636 0012 0022     		movs	r2, #0
@@ -10018,7 +10018,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5684              		.thumb_func
  5686              	TIMEx_DMACommutationCplt:
  5687              	.LVL445:
-ARM GAS  /tmp/ccgtb6ah.s 			page 168
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 168
 
 
  5688              	.LFB77:
@@ -10078,7 +10078,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5733              		.loc 1 2131 1 is_stmt 0 view .LVU1570
  5734              		@ sp needed
  5735 0000 7047     		bx	lr
-ARM GAS  /tmp/ccgtb6ah.s 			page 169
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 169
 
 
  5736              		.cfi_endproc
@@ -10138,7 +10138,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5786              	.LFB74:
 2139:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c ****   /* Prevent unused argument(s) compilation warning */
  5787              		.loc 1 2139 1 is_stmt 1 view -0
-ARM GAS  /tmp/ccgtb6ah.s 			page 170
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 170
 
 
  5788              		.cfi_startproc
@@ -10198,7 +10198,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5838              		.cfi_startproc
  5839              		@ args = 0, pretend = 0, frame = 0
  5840              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccgtb6ah.s 			page 171
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 171
 
 
  5841              		@ link register save eliminated.
@@ -10258,7 +10258,7 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5881              		.loc 1 2193 19 discriminator 4 view .LVU1601
  5882 0020 C0B2     		uxtb	r0, r0
  5883 0022 F2E7     		b	.L391
-ARM GAS  /tmp/ccgtb6ah.s 			page 172
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 172
 
 
  5884              	.LVL462:
@@ -10276,134 +10276,135 @@ ARM GAS  /tmp/ccgtb6ah.s 			page 1
  5894              	.LFE76:
  5896              		.text
  5897              	.Letext0:
- 5898              		.file 2 "/usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h"
- 5899              		.file 3 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h"
- 5900              		.file 4 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h"
- 5901              		.file 5 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h"
- 5902              		.file 6 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h"
- 5903              		.file 7 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h"
- 5904              		.file 8 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h"
-ARM GAS  /tmp/ccgtb6ah.s 			page 173
+ 5898              		.file 2 "C:\\ST\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools
+ 5899              		.file 3 "C:\\ST\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools
+ 5900              		.file 4 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h"
+ 5901              		.file 5 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h"
+ 5902              		.file 6 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h"
+ 5903              		.file 7 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h"
+ 5904              		.file 8 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h"
+ 5905              		.file 9 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h"
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 173
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f0xx_hal_tim_ex.c
-     /tmp/ccgtb6ah.s:19     .text.TIM_CCxNChannelCmd:00000000 $t
-     /tmp/ccgtb6ah.s:24     .text.TIM_CCxNChannelCmd:00000000 TIM_CCxNChannelCmd
-     /tmp/ccgtb6ah.s:71     .text.TIM_DMAErrorCCxN:00000000 $t
-     /tmp/ccgtb6ah.s:76     .text.TIM_DMAErrorCCxN:00000000 TIM_DMAErrorCCxN
-     /tmp/ccgtb6ah.s:162    .text.TIM_DMADelayPulseNCplt:00000000 $t
-     /tmp/ccgtb6ah.s:167    .text.TIM_DMADelayPulseNCplt:00000000 TIM_DMADelayPulseNCplt
-     /tmp/ccgtb6ah.s:272    .text.HAL_TIMEx_HallSensor_MspInit:00000000 $t
-     /tmp/ccgtb6ah.s:278    .text.HAL_TIMEx_HallSensor_MspInit:00000000 HAL_TIMEx_HallSensor_MspInit
-     /tmp/ccgtb6ah.s:294    .text.HAL_TIMEx_HallSensor_Init:00000000 $t
-     /tmp/ccgtb6ah.s:300    .text.HAL_TIMEx_HallSensor_Init:00000000 HAL_TIMEx_HallSensor_Init
-     /tmp/ccgtb6ah.s:529    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 $t
-     /tmp/ccgtb6ah.s:535    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 HAL_TIMEx_HallSensor_MspDeInit
-     /tmp/ccgtb6ah.s:551    .text.HAL_TIMEx_HallSensor_DeInit:00000000 $t
-     /tmp/ccgtb6ah.s:557    .text.HAL_TIMEx_HallSensor_DeInit:00000000 HAL_TIMEx_HallSensor_DeInit
-     /tmp/ccgtb6ah.s:638    .text.HAL_TIMEx_HallSensor_DeInit:0000004c $d
-     /tmp/ccgtb6ah.s:644    .text.HAL_TIMEx_HallSensor_Start:00000000 $t
-     /tmp/ccgtb6ah.s:650    .text.HAL_TIMEx_HallSensor_Start:00000000 HAL_TIMEx_HallSensor_Start
-     /tmp/ccgtb6ah.s:826    .text.HAL_TIMEx_HallSensor_Start:00000098 $d
-     /tmp/ccgtb6ah.s:833    .text.HAL_TIMEx_HallSensor_Stop:00000000 $t
-     /tmp/ccgtb6ah.s:839    .text.HAL_TIMEx_HallSensor_Stop:00000000 HAL_TIMEx_HallSensor_Stop
-     /tmp/ccgtb6ah.s:904    .text.HAL_TIMEx_HallSensor_Stop:00000040 $d
-     /tmp/ccgtb6ah.s:910    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 $t
-     /tmp/ccgtb6ah.s:916    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 HAL_TIMEx_HallSensor_Start_IT
-     /tmp/ccgtb6ah.s:1099   .text.HAL_TIMEx_HallSensor_Start_IT:000000a0 $d
-     /tmp/ccgtb6ah.s:1106   .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 $t
-     /tmp/ccgtb6ah.s:1112   .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 HAL_TIMEx_HallSensor_Stop_IT
-     /tmp/ccgtb6ah.s:1183   .text.HAL_TIMEx_HallSensor_Stop_IT:00000048 $d
-     /tmp/ccgtb6ah.s:1189   .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 $t
-     /tmp/ccgtb6ah.s:1195   .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 HAL_TIMEx_HallSensor_Start_DMA
-     /tmp/ccgtb6ah.s:1399   .text.HAL_TIMEx_HallSensor_Start_DMA:000000c0 $d
-     /tmp/ccgtb6ah.s:1409   .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 $t
-     /tmp/ccgtb6ah.s:1415   .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 HAL_TIMEx_HallSensor_Stop_DMA
-     /tmp/ccgtb6ah.s:1485   .text.HAL_TIMEx_HallSensor_Stop_DMA:00000048 $d
-     /tmp/ccgtb6ah.s:1492   .text.HAL_TIMEx_OCN_Start:00000000 $t
-     /tmp/ccgtb6ah.s:1498   .text.HAL_TIMEx_OCN_Start:00000000 HAL_TIMEx_OCN_Start
-     /tmp/ccgtb6ah.s:1685   .text.HAL_TIMEx_OCN_Start:000000d0 $d
-     /tmp/ccgtb6ah.s:1692   .text.HAL_TIMEx_OCN_Stop:00000000 $t
-     /tmp/ccgtb6ah.s:1698   .text.HAL_TIMEx_OCN_Stop:00000000 HAL_TIMEx_OCN_Stop
-     /tmp/ccgtb6ah.s:1805   .text.HAL_TIMEx_OCN_Stop:00000070 $d
-     /tmp/ccgtb6ah.s:1812   .text.HAL_TIMEx_OCN_Start_IT:00000000 $t
-     /tmp/ccgtb6ah.s:1818   .text.HAL_TIMEx_OCN_Start_IT:00000000 HAL_TIMEx_OCN_Start_IT
-     /tmp/ccgtb6ah.s:2057   .text.HAL_TIMEx_OCN_Start_IT:00000104 $d
-     /tmp/ccgtb6ah.s:2064   .text.HAL_TIMEx_OCN_Stop_IT:00000000 $t
-     /tmp/ccgtb6ah.s:2070   .text.HAL_TIMEx_OCN_Stop_IT:00000000 HAL_TIMEx_OCN_Stop_IT
-     /tmp/ccgtb6ah.s:2256   .text.HAL_TIMEx_OCN_Stop_IT:000000bc $d
-     /tmp/ccgtb6ah.s:2263   .text.HAL_TIMEx_OCN_Start_DMA:00000000 $t
-     /tmp/ccgtb6ah.s:2269   .text.HAL_TIMEx_OCN_Start_DMA:00000000 HAL_TIMEx_OCN_Start_DMA
-     /tmp/ccgtb6ah.s:2703   .text.HAL_TIMEx_OCN_Start_DMA:000001dc $d
-     /tmp/ccgtb6ah.s:2713   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 $t
-     /tmp/ccgtb6ah.s:2719   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 HAL_TIMEx_OCN_Stop_DMA
-     /tmp/ccgtb6ah.s:2902   .text.HAL_TIMEx_OCN_Stop_DMA:000000bc $d
-     /tmp/ccgtb6ah.s:2912   .text.HAL_TIMEx_PWMN_Start:00000000 $t
-     /tmp/ccgtb6ah.s:2918   .text.HAL_TIMEx_PWMN_Start:00000000 HAL_TIMEx_PWMN_Start
-     /tmp/ccgtb6ah.s:3105   .text.HAL_TIMEx_PWMN_Start:000000d0 $d
-     /tmp/ccgtb6ah.s:3112   .text.HAL_TIMEx_PWMN_Stop:00000000 $t
-ARM GAS  /tmp/ccgtb6ah.s 			page 174
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:19     .text.TIM_CCxNChannelCmd:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:24     .text.TIM_CCxNChannelCmd:00000000 TIM_CCxNChannelCmd
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:71     .text.TIM_DMAErrorCCxN:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:76     .text.TIM_DMAErrorCCxN:00000000 TIM_DMAErrorCCxN
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:162    .text.TIM_DMADelayPulseNCplt:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:167    .text.TIM_DMADelayPulseNCplt:00000000 TIM_DMADelayPulseNCplt
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:272    .text.HAL_TIMEx_HallSensor_MspInit:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:278    .text.HAL_TIMEx_HallSensor_MspInit:00000000 HAL_TIMEx_HallSensor_MspInit
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:294    .text.HAL_TIMEx_HallSensor_Init:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:300    .text.HAL_TIMEx_HallSensor_Init:00000000 HAL_TIMEx_HallSensor_Init
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:529    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:535    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 HAL_TIMEx_HallSensor_MspDeInit
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:551    .text.HAL_TIMEx_HallSensor_DeInit:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:557    .text.HAL_TIMEx_HallSensor_DeInit:00000000 HAL_TIMEx_HallSensor_DeInit
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:638    .text.HAL_TIMEx_HallSensor_DeInit:0000004c $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:644    .text.HAL_TIMEx_HallSensor_Start:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:650    .text.HAL_TIMEx_HallSensor_Start:00000000 HAL_TIMEx_HallSensor_Start
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:826    .text.HAL_TIMEx_HallSensor_Start:00000098 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:833    .text.HAL_TIMEx_HallSensor_Stop:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:839    .text.HAL_TIMEx_HallSensor_Stop:00000000 HAL_TIMEx_HallSensor_Stop
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:904    .text.HAL_TIMEx_HallSensor_Stop:00000040 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:910    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:916    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 HAL_TIMEx_HallSensor_Start_IT
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1099   .text.HAL_TIMEx_HallSensor_Start_IT:000000a0 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1106   .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1112   .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 HAL_TIMEx_HallSensor_Stop_IT
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1183   .text.HAL_TIMEx_HallSensor_Stop_IT:00000048 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1189   .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1195   .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 HAL_TIMEx_HallSensor_Start_DMA
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1399   .text.HAL_TIMEx_HallSensor_Start_DMA:000000c0 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1409   .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1415   .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 HAL_TIMEx_HallSensor_Stop_DMA
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1485   .text.HAL_TIMEx_HallSensor_Stop_DMA:00000048 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1492   .text.HAL_TIMEx_OCN_Start:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1498   .text.HAL_TIMEx_OCN_Start:00000000 HAL_TIMEx_OCN_Start
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1685   .text.HAL_TIMEx_OCN_Start:000000d0 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1692   .text.HAL_TIMEx_OCN_Stop:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1698   .text.HAL_TIMEx_OCN_Stop:00000000 HAL_TIMEx_OCN_Stop
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1805   .text.HAL_TIMEx_OCN_Stop:00000070 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1812   .text.HAL_TIMEx_OCN_Start_IT:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:1818   .text.HAL_TIMEx_OCN_Start_IT:00000000 HAL_TIMEx_OCN_Start_IT
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:2057   .text.HAL_TIMEx_OCN_Start_IT:00000104 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:2064   .text.HAL_TIMEx_OCN_Stop_IT:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:2070   .text.HAL_TIMEx_OCN_Stop_IT:00000000 HAL_TIMEx_OCN_Stop_IT
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:2256   .text.HAL_TIMEx_OCN_Stop_IT:000000bc $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:2263   .text.HAL_TIMEx_OCN_Start_DMA:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:2269   .text.HAL_TIMEx_OCN_Start_DMA:00000000 HAL_TIMEx_OCN_Start_DMA
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:2703   .text.HAL_TIMEx_OCN_Start_DMA:000001dc $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:2713   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:2719   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 HAL_TIMEx_OCN_Stop_DMA
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:2902   .text.HAL_TIMEx_OCN_Stop_DMA:000000bc $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:2912   .text.HAL_TIMEx_PWMN_Start:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:2918   .text.HAL_TIMEx_PWMN_Start:00000000 HAL_TIMEx_PWMN_Start
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:3105   .text.HAL_TIMEx_PWMN_Start:000000d0 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:3112   .text.HAL_TIMEx_PWMN_Stop:00000000 $t
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 174
 
 
-     /tmp/ccgtb6ah.s:3118   .text.HAL_TIMEx_PWMN_Stop:00000000 HAL_TIMEx_PWMN_Stop
-     /tmp/ccgtb6ah.s:3225   .text.HAL_TIMEx_PWMN_Stop:00000070 $d
-     /tmp/ccgtb6ah.s:3232   .text.HAL_TIMEx_PWMN_Start_IT:00000000 $t
-     /tmp/ccgtb6ah.s:3238   .text.HAL_TIMEx_PWMN_Start_IT:00000000 HAL_TIMEx_PWMN_Start_IT
-     /tmp/ccgtb6ah.s:3477   .text.HAL_TIMEx_PWMN_Start_IT:00000104 $d
-     /tmp/ccgtb6ah.s:3484   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 $t
-     /tmp/ccgtb6ah.s:3490   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 HAL_TIMEx_PWMN_Stop_IT
-     /tmp/ccgtb6ah.s:3676   .text.HAL_TIMEx_PWMN_Stop_IT:000000bc $d
-     /tmp/ccgtb6ah.s:3683   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 $t
-     /tmp/ccgtb6ah.s:3689   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 HAL_TIMEx_PWMN_Start_DMA
-     /tmp/ccgtb6ah.s:4123   .text.HAL_TIMEx_PWMN_Start_DMA:000001dc $d
-     /tmp/ccgtb6ah.s:4133   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 $t
-     /tmp/ccgtb6ah.s:4139   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 HAL_TIMEx_PWMN_Stop_DMA
-     /tmp/ccgtb6ah.s:4322   .text.HAL_TIMEx_PWMN_Stop_DMA:000000bc $d
-     /tmp/ccgtb6ah.s:4332   .text.HAL_TIMEx_OnePulseN_Start:00000000 $t
-     /tmp/ccgtb6ah.s:4338   .text.HAL_TIMEx_OnePulseN_Start:00000000 HAL_TIMEx_OnePulseN_Start
-     /tmp/ccgtb6ah.s:4488   .text.HAL_TIMEx_OnePulseN_Stop:00000000 $t
-     /tmp/ccgtb6ah.s:4494   .text.HAL_TIMEx_OnePulseN_Stop:00000000 HAL_TIMEx_OnePulseN_Stop
-     /tmp/ccgtb6ah.s:4599   .text.HAL_TIMEx_OnePulseN_Stop:0000006c $d
-     /tmp/ccgtb6ah.s:4606   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 $t
-     /tmp/ccgtb6ah.s:4612   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 HAL_TIMEx_OnePulseN_Start_IT
-     /tmp/ccgtb6ah.s:4775   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 $t
-     /tmp/ccgtb6ah.s:4781   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 HAL_TIMEx_OnePulseN_Stop_IT
-     /tmp/ccgtb6ah.s:4898   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000080 $d
-     /tmp/ccgtb6ah.s:4905   .text.HAL_TIMEx_ConfigCommutEvent:00000000 $t
-     /tmp/ccgtb6ah.s:4911   .text.HAL_TIMEx_ConfigCommutEvent:00000000 HAL_TIMEx_ConfigCommutEvent
-     /tmp/ccgtb6ah.s:5035   .text.HAL_TIMEx_ConfigCommutEvent:00000070 $d
-     /tmp/ccgtb6ah.s:5040   .text.HAL_TIMEx_ConfigCommutEvent_IT:00000000 $t
-     /tmp/ccgtb6ah.s:5046   .text.HAL_TIMEx_ConfigCommutEvent_IT:00000000 HAL_TIMEx_ConfigCommutEvent_IT
-     /tmp/ccgtb6ah.s:5170   .text.HAL_TIMEx_ConfigCommutEvent_IT:00000070 $d
-     /tmp/ccgtb6ah.s:5175   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000000 $t
-     /tmp/ccgtb6ah.s:5181   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000000 HAL_TIMEx_ConfigCommutEvent_DMA
-     /tmp/ccgtb6ah.s:5324   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000084 $d
-     /tmp/ccgtb6ah.s:5686   .text.TIMEx_DMACommutationCplt:00000000 TIMEx_DMACommutationCplt
-     /tmp/ccgtb6ah.s:5746   .text.TIMEx_DMACommutationHalfCplt:00000000 TIMEx_DMACommutationHalfCplt
-     /tmp/ccgtb6ah.s:5331   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 $t
-     /tmp/ccgtb6ah.s:5337   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 HAL_TIMEx_MasterConfigSynchronization
-     /tmp/ccgtb6ah.s:5464   .text.HAL_TIMEx_MasterConfigSynchronization:00000060 $d
-     /tmp/ccgtb6ah.s:5471   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 $t
-     /tmp/ccgtb6ah.s:5477   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 HAL_TIMEx_ConfigBreakDeadTime
-     /tmp/ccgtb6ah.s:5595   .text.HAL_TIMEx_ConfigBreakDeadTime:00000054 $d
-     /tmp/ccgtb6ah.s:5605   .text.HAL_TIMEx_RemapConfig:00000000 $t
-     /tmp/ccgtb6ah.s:5611   .text.HAL_TIMEx_RemapConfig:00000000 HAL_TIMEx_RemapConfig
-     /tmp/ccgtb6ah.s:5658   .text.HAL_TIMEx_CommutCallback:00000000 $t
-     /tmp/ccgtb6ah.s:5664   .text.HAL_TIMEx_CommutCallback:00000000 HAL_TIMEx_CommutCallback
-     /tmp/ccgtb6ah.s:5680   .text.TIMEx_DMACommutationCplt:00000000 $t
-     /tmp/ccgtb6ah.s:5718   .text.HAL_TIMEx_CommutHalfCpltCallback:00000000 $t
-     /tmp/ccgtb6ah.s:5724   .text.HAL_TIMEx_CommutHalfCpltCallback:00000000 HAL_TIMEx_CommutHalfCpltCallback
-     /tmp/ccgtb6ah.s:5740   .text.TIMEx_DMACommutationHalfCplt:00000000 $t
-     /tmp/ccgtb6ah.s:5778   .text.HAL_TIMEx_BreakCallback:00000000 $t
-     /tmp/ccgtb6ah.s:5784   .text.HAL_TIMEx_BreakCallback:00000000 HAL_TIMEx_BreakCallback
-     /tmp/ccgtb6ah.s:5800   .text.HAL_TIMEx_HallSensor_GetState:00000000 $t
-     /tmp/ccgtb6ah.s:5806   .text.HAL_TIMEx_HallSensor_GetState:00000000 HAL_TIMEx_HallSensor_GetState
-     /tmp/ccgtb6ah.s:5828   .text.HAL_TIMEx_GetChannelNState:00000000 $t
-     /tmp/ccgtb6ah.s:5834   .text.HAL_TIMEx_GetChannelNState:00000000 HAL_TIMEx_GetChannelNState
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:3118   .text.HAL_TIMEx_PWMN_Stop:00000000 HAL_TIMEx_PWMN_Stop
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:3225   .text.HAL_TIMEx_PWMN_Stop:00000070 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:3232   .text.HAL_TIMEx_PWMN_Start_IT:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:3238   .text.HAL_TIMEx_PWMN_Start_IT:00000000 HAL_TIMEx_PWMN_Start_IT
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:3477   .text.HAL_TIMEx_PWMN_Start_IT:00000104 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:3484   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:3490   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 HAL_TIMEx_PWMN_Stop_IT
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:3676   .text.HAL_TIMEx_PWMN_Stop_IT:000000bc $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:3683   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:3689   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 HAL_TIMEx_PWMN_Start_DMA
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:4123   .text.HAL_TIMEx_PWMN_Start_DMA:000001dc $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:4133   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:4139   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 HAL_TIMEx_PWMN_Stop_DMA
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:4322   .text.HAL_TIMEx_PWMN_Stop_DMA:000000bc $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:4332   .text.HAL_TIMEx_OnePulseN_Start:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:4338   .text.HAL_TIMEx_OnePulseN_Start:00000000 HAL_TIMEx_OnePulseN_Start
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:4488   .text.HAL_TIMEx_OnePulseN_Stop:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:4494   .text.HAL_TIMEx_OnePulseN_Stop:00000000 HAL_TIMEx_OnePulseN_Stop
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:4599   .text.HAL_TIMEx_OnePulseN_Stop:0000006c $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:4606   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:4612   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 HAL_TIMEx_OnePulseN_Start_IT
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:4775   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:4781   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 HAL_TIMEx_OnePulseN_Stop_IT
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:4898   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000080 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:4905   .text.HAL_TIMEx_ConfigCommutEvent:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:4911   .text.HAL_TIMEx_ConfigCommutEvent:00000000 HAL_TIMEx_ConfigCommutEvent
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5035   .text.HAL_TIMEx_ConfigCommutEvent:00000070 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5040   .text.HAL_TIMEx_ConfigCommutEvent_IT:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5046   .text.HAL_TIMEx_ConfigCommutEvent_IT:00000000 HAL_TIMEx_ConfigCommutEvent_IT
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5170   .text.HAL_TIMEx_ConfigCommutEvent_IT:00000070 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5175   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5181   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000000 HAL_TIMEx_ConfigCommutEvent_DMA
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5324   .text.HAL_TIMEx_ConfigCommutEvent_DMA:00000084 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5686   .text.TIMEx_DMACommutationCplt:00000000 TIMEx_DMACommutationCplt
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5746   .text.TIMEx_DMACommutationHalfCplt:00000000 TIMEx_DMACommutationHalfCplt
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5331   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5337   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 HAL_TIMEx_MasterConfigSynchronization
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5464   .text.HAL_TIMEx_MasterConfigSynchronization:00000060 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5471   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5477   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 HAL_TIMEx_ConfigBreakDeadTime
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5595   .text.HAL_TIMEx_ConfigBreakDeadTime:00000054 $d
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5605   .text.HAL_TIMEx_RemapConfig:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5611   .text.HAL_TIMEx_RemapConfig:00000000 HAL_TIMEx_RemapConfig
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5658   .text.HAL_TIMEx_CommutCallback:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5664   .text.HAL_TIMEx_CommutCallback:00000000 HAL_TIMEx_CommutCallback
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5680   .text.TIMEx_DMACommutationCplt:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5718   .text.HAL_TIMEx_CommutHalfCpltCallback:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5724   .text.HAL_TIMEx_CommutHalfCpltCallback:00000000 HAL_TIMEx_CommutHalfCpltCallback
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5740   .text.TIMEx_DMACommutationHalfCplt:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5778   .text.HAL_TIMEx_BreakCallback:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5784   .text.HAL_TIMEx_BreakCallback:00000000 HAL_TIMEx_BreakCallback
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5800   .text.HAL_TIMEx_HallSensor_GetState:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5806   .text.HAL_TIMEx_HallSensor_GetState:00000000 HAL_TIMEx_HallSensor_GetState
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5828   .text.HAL_TIMEx_GetChannelNState:00000000 $t
+C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s:5834   .text.HAL_TIMEx_GetChannelNState:00000000 HAL_TIMEx_GetChannelNState
 
 UNDEFINED SYMBOLS
-ARM GAS  /tmp/ccgtb6ah.s 			page 175
+ARM GAS  C:\Users\Tebogo\AppData\Local\Temp\ccJ5d0ej.s 			page 175
 
 
 HAL_TIM_ErrorCallback

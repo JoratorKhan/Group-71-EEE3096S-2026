@@ -2,7 +2,17 @@
 /**
   ******************************************************************************
   * @file           : main.c
-  * @brief          : Task 1 - 1 Hz interrupt toggling PB0
+  * @brief          : Main program body
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2023 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
   ******************************************************************************
   */
 /* USER CODE END Header */
@@ -14,13 +24,18 @@
 #include "stm32f0xx.h"
 #include <stdint.h>
 
+/* Private typedef -----------------------------------------------------------*/
+/* Private define ------------------------------------------------------------*/
+/* Private macro -------------------------------------------------------------*/
+
 /* Private variables ---------------------------------------------------------*/
 TIM_HandleTypeDef htim16;
 
 /* USER CODE BEGIN PV */
 // LED toggle pin (PB0 = LED0)
-#define LED_PORT GPIOB
-#define LED_PIN  GPIO_PIN_0
+
+/*Define the LED*/
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -32,6 +47,7 @@ static void MX_TIM16_Init(void);
 void TIM16_IRQHandler(void);
 /* USER CODE END PFP */
 
+/* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 /* USER CODE END 0 */
 
@@ -54,7 +70,7 @@ int main(void)
 
   while (1)
   {
-    // Main loop does nothing - all work is in the ISR
+    // Main loop does nothing – all work is in the ISR
   }
 }
 
@@ -64,16 +80,16 @@ int main(void)
 void SystemClock_Config(void)
 {
   LL_FLASH_SetLatency(LL_FLASH_LATENCY_0);
-  while (LL_FLASH_GetLatency() != LL_FLASH_LATENCY_0) {}
+  while(LL_FLASH_GetLatency() != LL_FLASH_LATENCY_0) {}
 
   LL_RCC_HSI_Enable();
-  while (LL_RCC_HSI_IsReady() != 1) {}
+  while(LL_RCC_HSI_IsReady() != 1) {}
 
   LL_RCC_HSI_SetCalibTrimming(16);
   LL_RCC_SetAHBPrescaler(LL_RCC_SYSCLK_DIV_1);
   LL_RCC_SetAPB1Prescaler(LL_RCC_APB1_DIV_1);
   LL_RCC_SetSysClkSource(LL_RCC_SYS_CLKSOURCE_HSI);
-  while (LL_RCC_GetSysClkSource() != LL_RCC_SYS_CLKSOURCE_STATUS_HSI) {}
+  while(LL_RCC_GetSysClkSource() != LL_RCC_SYS_CLKSOURCE_STATUS_HSI) {}
 
   LL_SetSystemCoreClock(8000000);
   if (HAL_InitTick(TICK_INT_PRIORITY) != HAL_OK) {
@@ -82,16 +98,15 @@ void SystemClock_Config(void)
 }
 
 /**
-  * @brief TIM16 Initialization
-  * 8 MHz / (7999+1) = 1000 Hz timer clock
-  * 1000 Hz / (999+1) = 1 Hz update event
+  * @brief TIM16 Initialization|
+  * Insert your calculated values
   */
 static void MX_TIM16_Init(void)
 {
   htim16.Instance = TIM16;
-  htim16.Init.Prescaler = 7999;
+  htim16.Init.Prescaler = 7999; //insert your psc value
   htim16.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim16.Init.Period = 999;
+  htim16.Init.Period = 999;          // insert your calculated period or ARR
   htim16.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim16.Init.RepetitionCounter = 0;
   htim16.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
@@ -102,27 +117,38 @@ static void MX_TIM16_Init(void)
 }
 
 /**
-  * @brief GPIO Initialization - PB0 as output (LED0)
+  * @brief GPIO Initialization – PB0 as output (LED0)
   */
 static void MX_GPIO_Init(void)
 {
-  __HAL_RCC_GPIOB_CLK_ENABLE();
 
-  GPIO_InitTypeDef GPIO_InitStruct = {0};
-  GPIO_InitStruct.Pin   = LED_PIN;
-  GPIO_InitStruct.Mode  = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull  = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(LED_PORT, &GPIO_InitStruct);
+	  GPIO_InitTypeDef GPIO_InitStruct = {0};
+
+	  __HAL_RCC_GPIOB_CLK_ENABLE();
+
+	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
+
+	  GPIO_InitStruct.Pin   = GPIO_PIN_0;
+	  GPIO_InitStruct.Mode  = GPIO_MODE_OUTPUT_PP;
+	  GPIO_InitStruct.Pull  = GPIO_NOPULL;
+	  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+	  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
 }
 
 /**
-  * @brief TIM16 interrupt handler - toggles PB0 each time
+  * @brief TIM16 interrupt handler – toggles PB0 each time
   */
 void TIM16_IRQHandler(void)
 {
-  __HAL_TIM_CLEAR_IT(&htim16, TIM_IT_UPDATE);
-  HAL_GPIO_TogglePin(LED_PORT, LED_PIN);
+  if (__HAL_TIM_GET_FLAG(&htim16, TIM_FLAG_UPDATE) != RESET)
+  {
+    if (__HAL_TIM_GET_IT_SOURCE(&htim16, TIM_IT_UPDATE) != RESET)
+    {
+      __HAL_TIM_CLEAR_IT(&htim16, TIM_IT_UPDATE);
+      HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);
+    }
+  }
 }
 
 /**
