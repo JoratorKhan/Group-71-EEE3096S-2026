@@ -12,9 +12,11 @@
 static void GPIO_Init(void);
 static void TIM16_Init(void);
 
-int main(void)
+int main(void)s
 {
     /* TODO: Initialize GPIO and TIM16 peripherals */
+    GPIO_Init();
+    TIM16_Init();
     
     while (1)
     {
@@ -24,38 +26,56 @@ int main(void)
 
 static void GPIO_Init(void)
 {
-    /* TODO: Enable GPIOB clock */
+
+    RCC->AHBENR |= RCC_AHBENR_GPIOBEN; // enable GPIOB clock
     
-    /* TODO: Configure PB5 as a general purpose output, push-pull, medium speed, no pull-up/pull-down */
+    GPIOB->MODER &= ~(GPIO_MODER_MODER4); // clear GPIOB moder
+    GPIOB->MODER |= (1U << (5*2)); // set PB5 to output mode
+    GPIOB->OTYPER &= ~(GPIO_OTYPER_OT_5); // set PB5 to push-pull mode
+    GPIOB->OSPEEDR |= (3U << (5*2)); // set PB5 to high-speed mode
     
-    /* TODO: Ensure PB5 starts low */
+    GPIOB->BSRR = GPIO_BSRR_BR_5; // set PB5 low
 }
 
 static void TIM16_Init(void)
 {
-    /* TODO: Enable TIM16 clock */
+    RCC->APB2ENR |= RCC_APB2ENR_TIM16EN; // enable TIM16 clock
     
-    /* TODO: Set Prescaler and ARR values for 10 kHz interrupt frequency */
+    TIM16->PSC = 47; // 48 mHz
+    TIM16->ARR = 99; // 10kHz frequency
     
-    /* TODO: Clear any pending update flag and enable the update interrupt (DIER) */
+    TIM16->SR &= ~TIM_SR_UIF; // clear pending update flag
+    TIM16->DIER |= TIM_DIER_UIE; // enable update interrupt
     
-    /* TODO: Configure NVIC priority and enable TIM16 interrupt */
+    NVIC_SetPriority(TIM16_IRQn, 1); // configure NVIC priority
+    NVIC_EnableIRQ(TIM16_IRQn); // enable TIM16 interrupt
     
-    /* TODO: Enable the counter to start the interrupt stream */
+    TIM16->CR1 |= TIM_CR1_CEN; // enable counter to start interrupt stream
 }
 
 void TIM16_IRQHandler(void)
 {
     static uint8_t counter = 0;
     
-    /* TODO: Check if the update interrupt flag (UIF) is set */
+    if((TIM16->SR & TIM_SR_UIF != 0) // check for interrupt flag
     
-        /* TODO: Clear the update interrupt flag */
-        
-        /* TODO: Implement 30% duty cycle logic: 
-         * If counter < 30, drive PB5 high using BSRR.
-         * If counter >= 30, drive PB5 low using BRR/BSRR. */
-        
-        /* TODO: Increment counter and reset to zero when counter reaches 100 */
-    
+       	 TIM16->SR &= ~TIM_SR_UIF; // clear interrupt flag
+       	 
+         
+	        	/* TODO: Implement 30% duty cycle logic: 
+   	      * If counter < 30, drive PB5 high using BSRR.
+   	      * If counter >= 30, drive PB5 low using BRR/BSRR. */
+   	      
+   	      if(counter<30){
+   	      	GPIOB->BSRR = GPIO_BSRR_BS_5; // set PB5 high
+   	      }
+   	      else{
+   	      	GPIOB->BSRR = GPIO_BSRR_BR_5; // set PB5 low
+   	      }
+   	     
+      	  counter++;
+      	  if (counter>=100){
+      	  	counter = 0; //reset counter every 100 ticks
+      	  }
+    }
 }
