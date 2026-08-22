@@ -10,9 +10,8 @@ int main(void)
     HAL_Init(); // still fine to call - only sets up SysTick/core clocks
     GPIO_Init();
     ADC_Init();
-    
-    /* TODO: Start continuous conversion using ADC1 control register [I think this is handled in ADC_Init, I'll have to run and see]*/
-    
+
+    ADC1->CR |= ADC_CR_ADSTART;
     while (1)
     {
         /* everything happens in the ISR */
@@ -24,10 +23,10 @@ static void GPIO_Init(void)
 {
     RCC->AHBENR|=RCC_AHBENR_GPIOAEN; // enable GPIOA clock
     RCC->AHBENR|=RCC_AHBENR_GPIOBEN; // enable GPIOB clock
-    
+
     GPIOA->MODER &= ~(3U << (5*2)); // clear PA5 bits
     GPIOA->MODER |= (3U << (5*2)); // set analogue mode
-    
+
     GPIOB->MODER &= ~(3U << (0*2)); // clear PB0-PB7 bits
     GPIOB->MODER &= ~(3U << (1*2));
     GPIOB->MODER &= ~(3U << (2*2));
@@ -44,7 +43,7 @@ static void GPIO_Init(void)
     GPIOB->MODER |= (1U << (5*2));
     GPIOB->MODER |= (1U << (6*2));
     GPIOB->MODER |= (1U << (7*2));
-    
+
     GPIOB->ODR = 0X0000; // clear ODR
 }
 
@@ -52,29 +51,29 @@ static void GPIO_Init(void)
 static void ADC_Init(void)
 {
     RCC->APB2ENR|=RCC_APB2ENR_ADCEN; // enable APB2 clock for ADC
-    
+
     if((ADC1->CR & ADC_CR_ADEN) != 0){
-    	ADC->CR |= (ADC_CR_ADDIS); // disable ADC
+    	ADC1->CR |= (ADC_CR_ADDIS); // disable ADC
     	while((ADC1->CR & ADC_CR_ADEN) != 0); // wait for ADC to be disabled
     	}
-    
+
     ADC1->CR |= ADC_CR_ADCAL; // begin calibration
     while ((ADC1->CR & ADC_CR_ADCAL) != 0); // wait for calibration to finish
-    
-    ADC1->CR = ADC_CR_CHSEL5; // select channel 5
+
+    ADC1->CHSELR = ADC_CHSELR_CHSEL5; // select channel 5
     ADC1->SMPR |= (ADC_SMPR_SMP_0 | ADC_SMPR_SMP_1 | ADC_SMPR_SMP_2); // set max sampling time
-    
-    ADC1->CFGR1 &= ~(ADCCFGR1_RES | ADC_CFGR1_ALIGN); // set max res and right-aligned
+
+    ADC1->CFGR1 &= ~(ADC_CFGR1_RES | ADC_CFGR1_ALIGN); // set max res and right-aligned
     ADC1->CFGR1 |= ADC_CFGR1_CONT; // set continuous mode
-    
+
     ADC1->IER |= ADC_IER_EOCIE; // enable ioc interrupt
     NVIC_SetPriority(ADC1_COMP_IRQn, 2); //configure NVIC priority
     NVIC_EnableIRQ(ADC1_COMP_IRQn); // enable interrupt
-    
+
     ADC1->ISR |= ADC_ISR_ADRDY; // cleary ADRDY flag
     ADC1->CR |= ADC_CR_ADEN; // enable ADC
-    while((ADC1->ISR & ADC_ISR_ADRDY)) == 0); // wait for ADRDY flag
-    
+    while((ADC1->ISR & ADC_ISR_ADRDY) == 0); // wait for ADRDY flag
+
 }
 
 /* ---------- Interrupt Service Routine ---------- */
@@ -83,17 +82,17 @@ void ADC1_COMP_IRQHandler(void)
     if (ADC1->ISR & ADC_ISR_EOC)
     {
         uint32_t adc_val = ADC1->DR; // read DR
-        
-        uint8_t leds_to_light = adc_val/512; // scaling calculation
-        if (leds_to_light>8){ // do not exceed 8 leds, just in case causes a problem
-        	num_leds=8};
-        
-        uint8_t output_pattern = (1U<<n)-1; // bit pattern logic
-        
+
+        uint8_t leds_to_light = adc_val/510; // scaling calculation
+//if (leds_to_light>8){ // do not exceed 8 leds, just in case causes a problem
+//        	num_leds=8};
+
+        uint8_t output_pattern = (1U<<leds_to_light)-1; // bit pattern logic
+
         write_led_byte(output_pattern); // write pattern to LEDs
     }
 }
-	
+
 /* ---------- Helper: write an 8-bit pattern to PB0-PB7 ---------- */
 static void write_led_byte(uint8_t pattern)
 {

@@ -12,12 +12,12 @@
 static void GPIO_Init(void);
 static void TIM16_Init(void);
 
-int main(void)s
+int main(void)
 {
     /* TODO: Initialize GPIO and TIM16 peripherals */
     GPIO_Init();
     TIM16_Init();
-    
+
     while (1)
     {
         /* All PWM generation happens in the ISR; main loop remains free */
@@ -28,51 +28,51 @@ static void GPIO_Init(void)
 {
 
     RCC->AHBENR |= RCC_AHBENR_GPIOBEN; // enable GPIOB clock
-    
+
     GPIOB->MODER &= ~(GPIO_MODER_MODER4); // clear GPIOB moder
-    GPIOB->MODER |= (1U << (5*2)); // set PB5 to output mode
-    GPIOB->OTYPER &= ~(GPIO_OTYPER_OT_5); // set PB5 to push-pull mode
-    GPIOB->OSPEEDR |= (3U << (5*2)); // set PB5 to high-speed mode
-    
-    GPIOB->BSRR = GPIO_BSRR_BR_5; // set PB5 low
+    GPIOB->MODER |= (1U << (4*2)); // set PB4 to output mode
+    GPIOB->OTYPER &= ~(GPIO_OTYPER_OT_4); // set PB4 to push-pull mode
+    GPIOB->OSPEEDR |= (3U << (4*2)); // set PB4 to high-speed mode
+
+    GPIOB->BSRR = GPIO_BSRR_BR_4; // set PB4 low
 }
 
 static void TIM16_Init(void)
 {
     RCC->APB2ENR |= RCC_APB2ENR_TIM16EN; // enable TIM16 clock
-    
-    TIM16->PSC = 47; // 48 mHz
+
+    TIM16->PSC = 7; // 8 mHz
     TIM16->ARR = 99; // 10kHz frequency
-    
+
     TIM16->SR &= ~TIM_SR_UIF; // clear pending update flag
     TIM16->DIER |= TIM_DIER_UIE; // enable update interrupt
-    
+
     NVIC_SetPriority(TIM16_IRQn, 1); // configure NVIC priority
     NVIC_EnableIRQ(TIM16_IRQn); // enable TIM16 interrupt
-    
+
     TIM16->CR1 |= TIM_CR1_CEN; // enable counter to start interrupt stream
 }
 
 void TIM16_IRQHandler(void)
 {
     static uint8_t counter = 0;
-    
-    if((TIM16->SR & TIM_SR_UIF != 0) // check for interrupt flag
-    
+
+    if((TIM16->SR & TIM_SR_UIF) != 0){ // check for interrupt flag
+
        	 TIM16->SR &= ~TIM_SR_UIF; // clear interrupt flag
-       	 
-         
-	        	/* TODO: Implement 30% duty cycle logic: 
-   	      * If counter < 30, drive PB5 high using BSRR.
-   	      * If counter >= 30, drive PB5 low using BRR/BSRR. */
-   	      
+
+
+	        	/* TODO: Implement 30% duty cycle logic:
+   	      * If counter < 30, drive PB4 high using BSRR.
+   	      * If counter >= 30, drive PB4 low using BRR/BSRR. */
+
    	      if(counter<30){
-   	      	GPIOB->BSRR = GPIO_BSRR_BS_5; // set PB5 high
+   	      	GPIOB->BSRR = GPIO_BSRR_BS_4; // set PB4 high
    	      }
    	      else{
-   	      	GPIOB->BSRR = GPIO_BSRR_BR_5; // set PB5 low
+   	      	GPIOB->BSRR = GPIO_BSRR_BR_4; // set PB4 low
    	      }
-   	     
+
       	  counter++;
       	  if (counter>=100){
       	  	counter = 0; //reset counter every 100 ticks
