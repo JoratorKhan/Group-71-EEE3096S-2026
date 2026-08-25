@@ -3,8 +3,8 @@
  * EEE3096S 2026 - Practical 1B, Task 5
  * 4-bit bit-banged HD44780 driver, and the level shifter timing fault
  *
- * Student 1 : <name>  <student number>
- * Student 2 : <name>  <student number>
+ * Student 1 : Joshua Handyside  HNDJOS012
+ * Student 2 : Tebogo Teffo  TFFTEB003
  */
 
     .syntax unified
@@ -22,7 +22,7 @@
     .equ GPIOB_BSRR, 0x48000418
     .equ GPIOC_BSRR, 0x48000818
 
-@ ---------------------------------------------------------------------------
+@ ------------------------------------------------------------------------a---
 @ PIN MAP
 @   PC15  Enable (E)     -> PC15_S on the 5 V side
 @   PC14  Register Select (RS)
@@ -38,11 +38,16 @@
 LCD_Run:
     PUSH {LR}
 
-    @ TODO 1: Wait for the LCD power rail to settle (consult datasheet).
+    @ wait for the LCD power rail to settle
+    MOVS R0, #50
+    BL LCD_DelayLong
     
-    @ TODO 2: Call the 4-bit initialization sequence.
+    @ call the 4-bit initialization sequence.
+    BL LCD_Init
     
-    @ TODO 3: Write the character 'A' (0x41) to the display.
+    @ write the character 'A' (0x41) to the display.
+    MOVS R0, #0x41
+    BL LCD_WriteData
 
 hang:
     B    hang
@@ -57,9 +62,49 @@ hang:
 LCD_Init:
     PUSH {LR}
 
-    @ TODO 4: Send the 4-bit initialization sequence.
-    @ Reference the HD44780 datasheet flowchart. 
-    @ Send commands with RS low using LCD_WriteCmd.
+    @ send the 4-bit initialization sequence.
+    @ referenced from the HD44780 datasheet flowchart
+    @ send commands with RS low using LCD_WriteCmd
+
+	LDR R0 =GPIOC_BSRR
+	LDR R1, = 0x40000000 @ reset RS
+	STR R1, [R0]
+
+	MOVS R0, 0x03
+	BL LCD_SendNibble @ first wakeup command
+	MOVS R0, #5
+	BL LCD_DelayLong @ wait for more than 4.1ms
+
+	MOVS R0, #0x03
+	BL LCD_SendNubble @ second wakeup command
+	BL LCD_Pulse
+	MOVS R0, #150
+	BL LCD_DelayShort @ wait for more than 100us
+
+	MOVS R0, #0x03
+	BL LCD_SendNubble @ third wakeup command
+	BL LCD_Pulse
+	MOVS R0, #100
+	BL LCD_DelayShort
+
+	MOVS R0, #0x02
+	BL LCD_SendNibble @ switching to 4 bit mode
+	BL LCD_Pulse
+	MOVS R0, #100
+	BL LCD_DelayShort
+
+	MOVS R0, #0x28
+	BL LCD_WriteCmd
+	MOVS R0, #0x08 @ turn off display
+	BL LCD_WriteCmd
+	MOVS R0, #0x01 @ clear display
+	BL LCD_WriteCmd
+	MOVS R0, #2 @ wait more than 1.52ms for clear
+	BL LCD_DelayLong
+	MOVS R0, #0x06 @ set entry mode to increment cursor
+	BL LCD_WriteCmd
+	MOVS R0, #0x0C @ turn on display and turn off cursor
+	BL LCD_WriteCmd
 
     POP {PC}
 
@@ -71,16 +116,35 @@ LCD_Init:
     .type LCD_WriteCmd, %function
 LCD_WriteCmd:
     PUSH {R0, LR}
-    @ TODO 5: Drive RS (PC14) LOW, then fall through to the shared sender.
+    @ drive RS (PC14) LOW, then fall through to the shared sender
+    LDR R1, =GPIOC_BSRR
+    LDR R2, =0x44000000 @ set RS low
+    STR R2, [R1]
+    B LCD_Send8
 
     .type LCD_WriteData, %function
 LCD_WriteData:
     PUSH {R0, LR}
-    @ TODO 6: Drive RS (PC14) HIGH, then fall through.
+    @ drive RS (PC14) HIGH, then fall through.
+    LDR R1, =GPIOC_BSRR
+    LDR R2, [R1] @ set RS high
+    STR R2, [R1]
 
 LCD_Send8:
-    @ TODO 7: Send the upper nibble of R0, pulse Enable,
-    @         then the lower nibble of R0, pulse Enable again.
+    @ send the upper nibble of R0, pulse Enable,
+    @ then the lower nibble of R0, pulse Enable again
+    MOV R4, R0 @ save the original byte
+
+	LSRS R0, R4, #4 @shift bits down
+	BL LCD_SendNibble
+	BL LCD_Pulse
+
+	MOV R0, R4 @ put back original byte
+	BL LCD_SendNibble
+	BL LCD_Pulse
+
+	MOVS R0, #50 @ standard time delay
+	BL LCD_DelayShort
 
     POP {R0, PC}
 
@@ -91,11 +155,49 @@ LCD_Send8:
 LCD_SendNibble:
     PUSH {R1, R2, R3, LR}
 
-    @ TODO 8: Map the four bits of R0 onto the four data pins (across 3 ports).
+    @ map the four bits of R0 onto the four data pins (across 3 ports)
+    LDR R2, =GPIOA_BSRR
+    LDR R3, =GPIOB_BSRR
+
     @   R0 bit 0 -> PB8   (D4)
+    LSRS R4, R0, #1 @ send bit 0 to carry flag
+    BCC clr_d4
+    LDR R1, =0x00000100 @ set PB8
+    B wr_d4
+clr_d4:
+	LDR R1, =0x01000000 @ restet PB8
+wr_d4:
+	STR R1, [R3]
+
     @   R0 bit 1 -> PB9   (D5)
+    LSRS R4, R0, #2 @ send bit 1 to carry flag
+    BCC clr_d5
+    LDR R1, =0x00000200 @ set PB9
+    B wr_d5
+clr_d5:
+	LDR R1, =0x02000000 @ reset PB9
+wr_d5:
+	STR R1, [R3]
+
     @   R0 bit 2 -> PA12  (D6)
+    LSRS R4, R0, #3 @ send bit 2 to carry flag
+    BCC clr_d6
+    LDR R1, =0x00001000 @ set PA12
+    B wr_d6
+clr_d6:
+	LDR R1, =0x10000000 @ reset PA12
+wr_d6:
+	STR R1, [R2]
+
     @   R0 bit 3 -> PA15  (D7)
+    LSRS R4, R0, #4 @ send bit 3 to carry flag
+    BCC clr_d7
+    LDR R1, =0x00008000 @ set PA15
+    B wr_d7
+clr_d7:
+	LDR R1, =0x80000000 @ reset PA15
+wr_d7:
+	STR R1, [R2]
 
     POP {R1, R2, R3, PC}
 
@@ -108,18 +210,47 @@ LCD_Pulse:
 
     LDR  R0, =GPIOC_BSRR
 
-    @ TODO 9: Set PC15 HIGH.
+    @ set PC15 HIGH.
+    LDR R1, =0x00008000
+    STR R1, [R0] @ 2 cycles
 
     @ -----------------------------------------------------------------
-    @ TODO 10: THE TIMING FIX
-    @ Implement a calculated pad delay here to overcome the RC time 
-    @ constant of the level shifter and meet the HD44780 hold time requirements.
+    @ TIMING FIX:
+    @ implement a calculated pad delay here to overcome the RC time
+    @ constant of the level shifter and meet the HD44780 hold time requirements
     @ Show your cycle arithmetic in the comments.
+    @
+    @ Currently has 20 NOP commands for testing, will replace with calculated value
     @ -----------------------------------------------------------------
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
 
-    @ TODO 11: Set PC15 LOW.
 
-    @ TODO 12: Hold Enable low long enough to meet the LCD cycle time.
+    @ set PC15 LOW
+    LDR R1, =0x80000000
+    STR R1, [R0] @ 2 cycles
+
+    @ hold Enable low long enough to meet the LCD cycle time
+	MOVS R0, #10
+	BL LCD_DelayShort
 
     POP {R0, R1, R2, PC}
 
@@ -128,10 +259,22 @@ LCD_Pulse:
 @ ===========================================================================
     .type LCD_DelayLong, %function
 LCD_DelayLong:
-    @ TODO 13: Implement a millisecond-scale delay. Show cycle arithmetic.
+	@ 1ms = 8000 cycles
+	@ each lööp takes 4 cycles, therefore 2000 lööps per ms
+	LDR R1, =2000
+	MULS R1, R0, R1
+DelayLongLoop:
+	SUBS R1, #1 @ 1 cycle
+	BNE DelayLongLoop @ 3 cycles
     BX   LR
 
     .type LCD_DelayShort, %function
 LCD_DelayShort:
-    @ TODO 14: Implement a microsecond-scale delay. Show cycle arithmetic.
+	@ 1us = 8 cycles
+    @ each lööp takes 4 cycles, therefore 2 lööps per us
+    LDR R1, =2
+    MULS R1, R0, R1
+DelayShortLoop:
+	SUBS R1, #1 @ 1 cycle
+	BNE DelayShortLoop @ 3 cycles
     BX   LR
