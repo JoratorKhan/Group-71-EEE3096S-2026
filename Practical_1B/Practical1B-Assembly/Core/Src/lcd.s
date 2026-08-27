@@ -38,11 +38,11 @@
 LCD_Run:
     PUSH {LR}
 
-    @ wait for the LCD power rail to settle
+    @ wait for the LCD power rail to settle (usually 40ms, wait for 50ms)
     MOVS R0, #50
     BL LCD_DelayLong
     
-    @ call the 4-bit initialization sequence.
+    @ call the 4-bit initialization sequence
     BL LCD_Init
     
     @ write the character 'A' (0x41) to the display.
@@ -62,27 +62,29 @@ hang:
 LCD_Init:
     PUSH {LR}
 
-    @ send the 4-bit initialization sequence.
+    @ send the 4-bit initialization sequence
     @ referenced from the HD44780 datasheet flowchart
     @ send commands with RS low using LCD_WriteCmd
 
-	LDR R0 =GPIOC_BSRR
-	LDR R1, = 0x40000000 @ reset RS
+
+	LDR R0, =GPIOC_BSRR
+	LDR R1, =0x40000000 @ reset RS
 	STR R1, [R0]
 
-	MOVS R0, 0x03
+	MOVS R0, #0x03
 	BL LCD_SendNibble @ first wakeup command
+	BL LCD_Pulse
 	MOVS R0, #5
 	BL LCD_DelayLong @ wait for more than 4.1ms
 
 	MOVS R0, #0x03
-	BL LCD_SendNubble @ second wakeup command
+	BL LCD_SendNibble @ second wakeup command
 	BL LCD_Pulse
 	MOVS R0, #150
 	BL LCD_DelayShort @ wait for more than 100us
 
 	MOVS R0, #0x03
-	BL LCD_SendNubble @ third wakeup command
+	BL LCD_SendNibble @ third wakeup command
 	BL LCD_Pulse
 	MOVS R0, #100
 	BL LCD_DelayShort
@@ -116,18 +118,18 @@ LCD_Init:
     .type LCD_WriteCmd, %function
 LCD_WriteCmd:
     PUSH {R0, LR}
-    @ drive RS (PC14) LOW, then fall through to the shared sender
+    @ drive RS (PC15) LOW, then fall through to the shared sender
     LDR R1, =GPIOC_BSRR
-    LDR R2, =0x44000000 @ set RS low
+    LDR R2, =0x40000000 @ set RS low
     STR R2, [R1]
     B LCD_Send8
 
     .type LCD_WriteData, %function
 LCD_WriteData:
     PUSH {R0, LR}
-    @ drive RS (PC14) HIGH, then fall through.
+    @ drive RS (PC15) HIGH, then fall through.
     LDR R1, =GPIOC_BSRR
-    LDR R2, [R1] @ set RS high
+    LDR R2, =0x00004000 @ set RS high
     STR R2, [R1]
 
 LCD_Send8:
@@ -153,7 +155,7 @@ LCD_Send8:
 @ ===========================================================================
     .type LCD_SendNibble, %function
 LCD_SendNibble:
-    PUSH {R1, R2, R3, LR}
+    PUSH {R1, R2, R3, R4, LR}
 
     @ map the four bits of R0 onto the four data pins (across 3 ports)
     LDR R2, =GPIOA_BSRR
@@ -199,7 +201,7 @@ clr_d7:
 wr_d7:
 	STR R1, [R2]
 
-    POP {R1, R2, R3, PC}
+    POP {R1, R2, R3, R4, PC}
 
 @ ===========================================================================
 @ LCD_Pulse
@@ -208,11 +210,11 @@ wr_d7:
 LCD_Pulse:
     PUSH {R0, R1, R2, LR}
 
-    LDR  R0, =GPIOC_BSRR
+    LDR  R1, =GPIOC_BSRR
 
-    @ set PC15 HIGH.
-    LDR R1, =0x00008000
-    STR R1, [R0] @ 2 cycles
+    @ set PC15 HIGH
+    LDR R2, =0x00008000
+    STR R2, [R1] @ 2 cycles
 
     @ -----------------------------------------------------------------
     @ TIMING FIX:
@@ -220,33 +222,17 @@ LCD_Pulse:
     @ constant of the level shifter and meet the HD44780 hold time requirements
     @ Show your cycle arithmetic in the comments.
     @
-    @ Currently has 20 NOP commands for testing, will replace with calculated value
+    @ Currently has 25us for testing, will replace with calculated value
+    @ No buffer required at all? LCD initializes just fine without delay
     @ -----------------------------------------------------------------
-    NOP
-    NOP
-    NOP
-    NOP
-    NOP
-    NOP
-    NOP
-    NOP
-    NOP
-    NOP
-    NOP
-    NOP
-    NOP
-    NOP
-    NOP
-    NOP
-    NOP
-    NOP
-    NOP
-    NOP
+    @MOVS R0, #25
+    @BL LCD_DelayShort
 
+	LDR R1, =GPIOC_BSRR
 
     @ set PC15 LOW
-    LDR R1, =0x80000000
-    STR R1, [R0] @ 2 cycles
+    LDR R2, =0x80000000
+    STR R2, [R1] @ 2 cycles
 
     @ hold Enable low long enough to meet the LCD cycle time
 	MOVS R0, #10

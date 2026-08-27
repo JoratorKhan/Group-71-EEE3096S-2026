@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
   28              		@ args = 0, pretend = 0, frame = 0
   29              		@ frame_needed = 0, uses_anonymous_args = 0
   30              		@ link register save eliminated.
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 2
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 2
 
 
   29:Core/Src/main.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
   38:Core/Src/main.c **** }
   76              		.loc 1 38 1 view .LVU18
   77              		@ sp needed
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 3
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 3
 
 
   78 0038 7047     		bx	lr
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
  125              		.loc 1 47 10 is_stmt 0 view .LVU28
  126 0018 1A69     		ldr	r2, [r3, #16]
  127              		.loc 1 47 15 view .LVU29
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 4
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 4
 
 
  128 001a 0121     		movs	r1, #1
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
   38:Drivers/CMSIS/Include/core_cm0.h **** #endif
   39:Drivers/CMSIS/Include/core_cm0.h **** 
   40:Drivers/CMSIS/Include/core_cm0.h **** /**
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 5
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 5
 
 
   41:Drivers/CMSIS/Include/core_cm0.h ****   \page CMSIS_MISRA_Exceptions  MISRA-C:2004 Compliance Exceptions
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
   95:Drivers/CMSIS/Include/core_cm0.h ****     #error "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"
   96:Drivers/CMSIS/Include/core_cm0.h ****   #endif
   97:Drivers/CMSIS/Include/core_cm0.h **** 
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 6
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 6
 
 
   98:Drivers/CMSIS/Include/core_cm0.h **** #elif defined ( __TI_ARM__ )
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
  152:Drivers/CMSIS/Include/core_cm0.h **** /**
  153:Drivers/CMSIS/Include/core_cm0.h ****     \defgroup CMSIS_glob_defs CMSIS Global Defines
  154:Drivers/CMSIS/Include/core_cm0.h **** 
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 7
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 7
 
 
  155:Drivers/CMSIS/Include/core_cm0.h ****     <strong>IO Type Qualifiers</strong> are used
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
  209:Drivers/CMSIS/Include/core_cm0.h ****   uint32_t w;                            /*!< Type      used for word access */
  210:Drivers/CMSIS/Include/core_cm0.h **** } APSR_Type;
  211:Drivers/CMSIS/Include/core_cm0.h **** 
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 8
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 8
 
 
  212:Drivers/CMSIS/Include/core_cm0.h **** /* APSR Register Definitions */
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
  266:Drivers/CMSIS/Include/core_cm0.h **** 
  267:Drivers/CMSIS/Include/core_cm0.h **** #define xPSR_Z_Pos                         30U                                            /*!< xPSR
  268:Drivers/CMSIS/Include/core_cm0.h **** #define xPSR_Z_Msk                         (1UL << xPSR_Z_Pos)                            /*!< xPSR
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 9
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 9
 
 
  269:Drivers/CMSIS/Include/core_cm0.h **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
  323:Drivers/CMSIS/Include/core_cm0.h ****         uint32_t RESERVED3[31U];
  324:Drivers/CMSIS/Include/core_cm0.h ****         uint32_t RESERVED4[64U];
  325:Drivers/CMSIS/Include/core_cm0.h ****   __IOM uint32_t IP[8U];                 /*!< Offset: 0x300 (R/W)  Interrupt Priority Register */
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 10
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 10
 
 
  326:Drivers/CMSIS/Include/core_cm0.h **** }  NVIC_Type;
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
  380:Drivers/CMSIS/Include/core_cm0.h **** #define SCB_ICSR_PENDSTSET_Pos             26U                                            /*!< SCB 
  381:Drivers/CMSIS/Include/core_cm0.h **** #define SCB_ICSR_PENDSTSET_Msk             (1UL << SCB_ICSR_PENDSTSET_Pos)                /*!< SCB 
  382:Drivers/CMSIS/Include/core_cm0.h **** 
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 11
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 11
 
 
  383:Drivers/CMSIS/Include/core_cm0.h **** #define SCB_ICSR_PENDSTCLR_Pos             25U                                            /*!< SCB 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
  437:Drivers/CMSIS/Include/core_cm0.h **** 
  438:Drivers/CMSIS/Include/core_cm0.h **** /**
  439:Drivers/CMSIS/Include/core_cm0.h ****   \ingroup  CMSIS_core_register
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 12
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 12
 
 
  440:Drivers/CMSIS/Include/core_cm0.h ****   \defgroup CMSIS_SysTick     System Tick Timer (SysTick)
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
  494:Drivers/CMSIS/Include/core_cm0.h ****             Therefore they are not covered by the Cortex-M0 header file.
  495:Drivers/CMSIS/Include/core_cm0.h ****   @{
  496:Drivers/CMSIS/Include/core_cm0.h ****  */
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 13
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 13
 
 
  497:Drivers/CMSIS/Include/core_cm0.h **** /*@} end of group CMSIS_CoreDebug */
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
  551:Drivers/CMSIS/Include/core_cm0.h ****   - Core NVIC Functions
  552:Drivers/CMSIS/Include/core_cm0.h ****   - Core SysTick Functions
  553:Drivers/CMSIS/Include/core_cm0.h ****   - Core Register Access Functions
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 14
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 14
 
 
  554:Drivers/CMSIS/Include/core_cm0.h ****  ******************************************************************************/
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
  608:Drivers/CMSIS/Include/core_cm0.h **** /* Interrupt Priorities are WORD accessible only under Armv6-M                  */
  609:Drivers/CMSIS/Include/core_cm0.h **** /* The following MACROS handle generation of the register offset and byte masks */
  610:Drivers/CMSIS/Include/core_cm0.h **** #define _BIT_SHIFT(IRQn)         (  ((((uint32_t)(int32_t)(IRQn))         )      &  0x03UL) * 8UL)
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 15
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 15
 
 
  611:Drivers/CMSIS/Include/core_cm0.h **** #define _SHP_IDX(IRQn)           ( (((((uint32_t)(int32_t)(IRQn)) & 0x0FUL)-8UL) >>    2UL)      )
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
  665:Drivers/CMSIS/Include/core_cm0.h ****     __ISB();
  666:Drivers/CMSIS/Include/core_cm0.h ****   }
  667:Drivers/CMSIS/Include/core_cm0.h **** }
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 16
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 16
 
 
  668:Drivers/CMSIS/Include/core_cm0.h **** 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
  722:Drivers/CMSIS/Include/core_cm0.h ****   \brief   Set Interrupt Priority
  723:Drivers/CMSIS/Include/core_cm0.h ****   \details Sets the priority of a device specific interrupt or a processor exception.
  724:Drivers/CMSIS/Include/core_cm0.h ****            The interrupt number can be positive to specify a device specific interrupt,
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 17
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 17
 
 
  725:Drivers/CMSIS/Include/core_cm0.h ****            or negative to specify a processor exception.
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
   53:Core/Src/main.c ****     TIM16->CR1 |= TIM_CR1_CEN; // enable counter to start interrupt stream
  179              		.loc 1 53 5 is_stmt 1 view .LVU48
  180              		.loc 1 53 10 is_stmt 0 view .LVU49
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 18
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 18
 
 
  181 0040 1A68     		ldr	r2, [r3]
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
  231              		.section	.text.TIM16_IRQHandler,"ax",%progbits
  232              		.align	1
  233              		.global	TIM16_IRQHandler
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 19
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 19
 
 
  234              		.syntax unified
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
  273              	.L12:
   71:Core/Src/main.c ****    	      }
   72:Core/Src/main.c ****    	      else{
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 20
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 20
 
 
   73:Core/Src/main.c ****    	      	GPIOB->BSRR = GPIO_BSRR_BR_4; // set PB4 low
@@ -1195,23 +1195,23 @@ ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 1
  317              		.file 3 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h"
  318              		.file 4 "C:\\ST\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools
  319              		.file 5 "C:\\ST\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools
-ARM GAS  C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s 			page 21
+ARM GAS  C:\Users\handy\AppData\Local\Temp\cc28YCj5.s 			page 21
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s:19     .text.GPIO_Init:00000000 $t
-C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s:24     .text.GPIO_Init:00000000 GPIO_Init
-C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s:82     .text.GPIO_Init:0000003c $d
-C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s:89     .text.TIM16_Init:00000000 $t
-C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s:94     .text.TIM16_Init:00000000 TIM16_Init
-C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s:191    .text.TIM16_Init:00000048 $d
-C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s:199    .text.main:00000000 $t
-C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s:205    .text.main:00000000 main
-C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s:232    .text.TIM16_IRQHandler:00000000 $t
-C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s:238    .text.TIM16_IRQHandler:00000000 TIM16_IRQHandler
-C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s:304    .text.TIM16_IRQHandler:00000040 $d
-C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s:313    .bss.counter.0:00000000 counter.0
-C:\Users\handy\AppData\Local\Temp\ccF0CzXG.s:314    .bss.counter.0:00000000 $d
+C:\Users\handy\AppData\Local\Temp\cc28YCj5.s:19     .text.GPIO_Init:00000000 $t
+C:\Users\handy\AppData\Local\Temp\cc28YCj5.s:24     .text.GPIO_Init:00000000 GPIO_Init
+C:\Users\handy\AppData\Local\Temp\cc28YCj5.s:82     .text.GPIO_Init:0000003c $d
+C:\Users\handy\AppData\Local\Temp\cc28YCj5.s:89     .text.TIM16_Init:00000000 $t
+C:\Users\handy\AppData\Local\Temp\cc28YCj5.s:94     .text.TIM16_Init:00000000 TIM16_Init
+C:\Users\handy\AppData\Local\Temp\cc28YCj5.s:191    .text.TIM16_Init:00000048 $d
+C:\Users\handy\AppData\Local\Temp\cc28YCj5.s:199    .text.main:00000000 $t
+C:\Users\handy\AppData\Local\Temp\cc28YCj5.s:205    .text.main:00000000 main
+C:\Users\handy\AppData\Local\Temp\cc28YCj5.s:232    .text.TIM16_IRQHandler:00000000 $t
+C:\Users\handy\AppData\Local\Temp\cc28YCj5.s:238    .text.TIM16_IRQHandler:00000000 TIM16_IRQHandler
+C:\Users\handy\AppData\Local\Temp\cc28YCj5.s:304    .text.TIM16_IRQHandler:00000040 $d
+C:\Users\handy\AppData\Local\Temp\cc28YCj5.s:313    .bss.counter.0:00000000 counter.0
+C:\Users\handy\AppData\Local\Temp\cc28YCj5.s:314    .bss.counter.0:00000000 $d
 
 NO UNDEFINED SYMBOLS

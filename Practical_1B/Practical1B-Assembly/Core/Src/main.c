@@ -32,7 +32,7 @@
 /* USER CODE BEGIN PD */
 
 /* Pick the task to run: 4 for the phase delay, 5 for the LCD. */
-#define ACTIVE_TASK   4
+#define ACTIVE_TASK   5
 
 /*
  * ADC channel for Task 4.
@@ -100,9 +100,9 @@ int main(void)
   /*
    * TODO 2
    * Hand over to the LCD routine.
-   *
-   * LCD_Run();
-   *
+   */
+   LCD_Run();
+   /*
    * The LCD needs its power rail settled before the initialisation
    * sequence starts. Add the wait inside lcd.s, not here.
    */
