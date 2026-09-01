@@ -182,7 +182,7 @@ Your work sits in `lcd.s`. Build the driver with no delay in `LCD_Pulse` first. 
 
 Then measure the rise from 0 V to 3.5 V, calculate the capacitance, size the pad, and capture the fixed case.
 
-Leave the GPIO output speed on High in the `.ioc`. Dropping it to Low masks the fault.
+Leave the GPIO output speed on High in the `.ioc`. Dropping     it to Low masks the fault.
 
 ---
 

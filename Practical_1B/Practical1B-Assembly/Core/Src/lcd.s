@@ -218,15 +218,16 @@ LCD_Pulse:
 
     @ -----------------------------------------------------------------
     @ TIMING FIX:
-    @ implement a calculated pad delay here to overcome the RC time
-    @ constant of the level shifter and meet the HD44780 hold time requirements
-    @ Show your cycle arithmetic in the comments.
-    @
-    @ Currently has 25us for testing, will replace with calculated value
-    @ No buffer required at all? LCD initializes just fine without delay
+    @ to overcome the rise time and meet 450ns hold requirement:
+   	@ rise time = 80ns = 1 cycle
+   	@ hold requirement = 450/125 = 4 cycles
+   	@ NOP count = 5
     @ -----------------------------------------------------------------
-    @MOVS R0, #25
-    @BL LCD_DelayShort
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
 
 	LDR R1, =GPIOC_BSRR
 
@@ -235,8 +236,8 @@ LCD_Pulse:
     STR R2, [R1] @ 2 cycles
 
     @ hold Enable low long enough to meet the LCD cycle time
-	MOVS R0, #10
-	BL LCD_DelayShort
+	@MOVS R0, #10
+	@BL LCD_DelayShort
 
     POP {R0, R1, R2, PC}
 
