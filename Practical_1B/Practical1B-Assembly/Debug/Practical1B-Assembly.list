@@ -529,10 +529,10 @@ LCD_Pulse:
  800030e:	4a15      	ldr	r2, [pc, #84]	@ (8000364 <DelayShortLoop+0x32>)
     STR R2, [R1] @ 2 cycles
  8000310:	600a      	str	r2, [r1, #0]
-    @ constant of the level shifter and meet the HD44780 hold time requirements
-    @ Show your cycle arithmetic in the comments.
-    @
-    @ No buffer required at all? LCD initializes just fine without delay
+    @ to overcome the rise time and meet 450ns hold requirement:
+   	@ rise time = 80ns = 1 cycle
+   	@ hold requirement = 450/125 = 4 cycles
+   	@ NOP count = 5
     @ -----------------------------------------------------------------
     NOP
  8000312:	46c0      	nop			@ (mov r8, r8)
