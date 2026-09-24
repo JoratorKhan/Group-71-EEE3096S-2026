@@ -23,6 +23,7 @@ void eeprom_cs_high(void)
      *           last bits have left the shift register. RM0091 lists the
      *           status flags to wait for (see its procedure for disabling the
      *           SPI). Raising CS early cuts the end off a command. */
+
 }
 
 /* ==========================================================================
