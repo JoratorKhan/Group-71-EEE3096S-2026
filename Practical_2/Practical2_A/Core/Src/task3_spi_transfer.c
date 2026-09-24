@@ -24,6 +24,12 @@ void eeprom_cs_high(void)
      *           status flags to wait for (see its procedure for disabling the
      *           SPI). Raising CS early cuts the end off a command. */
 
+	while(EE_SPI->SR & SPI_SR_BSY) // waits while the SPI busy flag is up
+	{}
+
+	EE_SPI_GPIO->BSRR = EE_CS_MASK; // sets the CS pin high
+
+
 }
 
 /* ==========================================================================
@@ -34,18 +40,25 @@ uint8_t spi_transfer(uint8_t tx)
 {
     /* TODO 3.4  Wait until the transmit buffer has room (SPI_SR). */
 
+	while(!(EE_SPI->SR & SPI_SR_TXE))
+	{} // wait for the transmit buffer empty flag to go up
+
     /* TODO 3.5  Write tx to the data register.
      *           HINT: SPI_DR is declared 16 bits wide in the CMSIS header,
      *           and on the STM32F0 the WIDTH of the write matters. Count the
      *           clock pulses per call on your scope: 16 instead of 8 means
      *           this is the problem. */
 
+	*(volatile uint8_t *)&EE_SPI->DR = tx; // force an 8-bit write of tx to the data register
+
     /* TODO 3.6  Wait for the received byte (SPI_SR), then read it from the
      *           data register and return it. Read it every time, even when
      *           you do not need the value. */
 
-    (void)tx;
-    return 0u;
+	while(!(EE_SPI->SR & SPI_SR_RXNE))
+	{} // wait for receive buffer not empty flag to go up
+
+	return *(volatile uint8_t *)&EE_SPI->DR;
 }
 
 /* ==========================================================================
