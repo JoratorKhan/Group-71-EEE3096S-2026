@@ -39,10 +39,9 @@ volatile uint8_t run_task = RUN_TASK;
 _Static_assert(TEST_BYTE_B   == 0x4Cu, "group test byte B mismatch");
 _Static_assert(EEPROM_ADDR_A == 0x15u, "group address A mismatch");
 
-/* TODO 2.11  Once TODO 2.1 and 2.3 are done, uncomment this. It proves your
- *            divider really gives 250 kHz from the clock this build uses. */
-/* _Static_assert(EE_SCK_HZ_PREDICTED == 250000UL,
-                  "SPI divider does not give 250 kHz from this PCLK1"); */
+/* TODO 2.11  Proves the divider gives 250 kHz from the clock this build uses. */
+_Static_assert(EE_SCK_HZ_PREDICTED == 250000UL,
+               "SPI divider does not give 250 kHz from this PCLK1");
 
 _Static_assert(EEPROM_ADDR_A < EEPROM_SIZE_BYTES, "address A is outside the EEPROM");
 _Static_assert((RUN_TASK >= 1) && (RUN_TASK <= 6), "RUN_TASK must be 1 to 6");

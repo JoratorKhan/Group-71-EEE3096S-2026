@@ -29,11 +29,12 @@
  * 1. CLOCK
  * ========================================================================== */
 
-/* TODO 2.1  The kernel clock frequency of the SPI peripheral in THIS build.
- *           Read SystemClock_Config() in main.c, then follow the clock tree in
- *           the RCC chapter of RM0091 to the bus the SPI peripheral sits on.
- *           Do not assume it. */
-#define PCLK1_HZ                0UL         /* <- TODO */
+/* TODO 2.1  DONE.
+ *   main.c SystemClock_Config(): SYSCLK = HSI, no PLL, AHB /1, APB1 /1.
+ *   RM0091 7.2.2 (HSI clock): HSI is an internal 8 MHz RC oscillator.
+ *   RM0091 7.2, Figure 11 (clock tree): SPI2 is clocked by PCLK.
+ *   PCLK = 8 MHz / 1 / 1 = 8 MHz. */
+#define PCLK1_HZ                8000000UL
 
 /* ==========================================================================
  * 2. SPI PINS - GIVEN (see README section 5, and verify by continuity)
@@ -45,22 +46,24 @@
 #define EE_PIN_MOSI             15u         /* EEPROM pin 5 (SI)            */
 #define EE_CS_MASK              (1UL << EE_PIN_CS)
 
-/* TODO 2.2  Which SPI peripheral do these pins belong to, and which
- *           alternate-function NUMBER connects it to them? Use the STM32F051
- *           datasheet's alternate-function table for port B, and name that
- *           table in your report. */
-#define EE_SPI                  ((SPI_TypeDef *)0x00000000UL) /* <- TODO    */
-#define EE_SPI_AF               0xFFu       /* <- TODO                      */
+/* TODO 2.2  DONE.
+ *   STM32F051 datasheet Table 15 (Alternate functions selected through
+ *   GPIOB_AFR registers for port B):
+ *     PB13 AF0 = SPI2_SCK, PB14 AF0 = SPI2_MISO, PB15 AF0 = SPI2_MOSI.
+ *   RM0091 Table 1 (peripheral register boundary addresses):
+ *     SPI2 = 0x4000 3800 - 0x4000 3BFF. */
+#define EE_SPI                  ((SPI_TypeDef *)0x40003800UL) /* SPI2       */
+#define EE_SPI_AF               0u          /* AF0                          */
 
 /* ==========================================================================
  * 3. SPI BAUD RATE
  * ========================================================================== */
 
-/* TODO 2.3  Choose BR[2:0] for an SCK of approximately 250 kHz from
- *           PCLK1_HZ, using the BR field description of SPI_CR1 in RM0091.
- *           Show the arithmetic in your report. Do not tune it until the
- *           waveform "looks right". */
-#define EE_SPI_BR               0UL         /* <- TODO                      */
+/* TODO 2.3  DONE.
+ *   RM0091 27.7.1 SPIx_CR1 BR[2:0]: fSCK = fPCLK / 2^(BR+1).
+ *   8 000 000 / 250 000 = 32 = 2^5  ->  BR = 4 (100b).
+ *   Predicted fSCK = 8 000 000 >> 5 = 250 000 Hz. */
+#define EE_SPI_BR               4UL         /* BR[2:0] = 100 -> fPCLK/32    */
 #define EE_SCK_HZ_PREDICTED     (PCLK1_HZ >> (EE_SPI_BR + 1U))
 
 /* ==========================================================================
@@ -114,8 +117,8 @@
  *           Write them WITHOUT leading zeros: in C, 010 is octal, i.e. 8.
  *           Then work out B and A by hand for your report, and check them
  *           against the build (TODO 3.2 in main.c). */
-#define STUDENT_N1              12u          /* <- TODO */
-#define STUDENT_N2              3u          /* <- TODO */
+#define STUDENT_N1              12u         /* HNDJOS012 */
+#define STUDENT_N2              3u          /* TFFTEB003 */
 
 /* The formulas from the handout. */
 #define TEST_BYTE_B_RAW         ((((STUDENT_N1 ^ STUDENT_N2) + 0x3Du)) % 256u)
