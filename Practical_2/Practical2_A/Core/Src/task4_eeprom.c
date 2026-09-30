@@ -40,7 +40,7 @@ uint8_t eeprom_read_status(void)
     eeprom_cs_low();
     spi_transfer(EEPROM_CMD_RDSR);
     status = spi_transfer(0x00u);
-    eeeprom_cs_high();
+    eeprom_cs_high();
 
     return status;
 }
@@ -108,11 +108,11 @@ uint8_t eeprom_read_byte(uint16_t address)
     spi_transfer(EEPROM_CMD_READ);
     spi_transfer((uint8_t)(address >> 8));
     spi_transfer((uint8_t)(address & 0xFF));
-    data = spi_transfer(0x00u);
+    uint8_t data = spi_transfer(0x00u);
     eeprom_cs_high();
 
     return data;
-
+}
 /* ==========================================================================
  * LEDs
  * ========================================================================== */
