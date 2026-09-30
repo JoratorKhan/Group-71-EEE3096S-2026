@@ -70,6 +70,8 @@ void eeprom_write_byte(uint16_t address, uint8_t value)
      *           (EEPROM_ADDR_BYTES bytes, most significant byte first) and the
      *           data byte, and deselect. From the datasheet: at what moment
      *           does the EEPROM actually start writing? */
+    eeprom_write_enable();
+
     eeprom_cs_low();
     spi_transfer(EEPROM_CMD_WRITE);
     spi_transfer((uint8_t)(address>>8));
